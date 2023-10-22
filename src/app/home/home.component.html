@@ -1,17 +1,26 @@
-Hello, I'm Miriam!
+<div class="jumbotron">
+  <div class="p-5 text-center bg-image rounded-3" style="
+    background-image: url('../../assets/images/project-covers/Cover Main.jpg');
+    height: 500px;
+  ">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3">Hello, I'm Miriam!</h1>
+        <h4 class="mb-3">Currently XR Software Engineer @<a href="https://www.txtgroup.com/">TXT E-Tech</a>, in Milan (Italy)</h4>
+        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Check out some of my work!</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-<img src="assets/images/project-covers/Cover Main.jpg">
-
-<br>
-Check out some of my work!
-
-<i class="bi bi-search"></i>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-
-<br>
-
-<div *ngFor="let cover of coverProjects; index as i">
-    <app-project-card [index]="i"></app-project-card>
+<div class="container flex-container">
+  <div class="row row-cols-3">
+    <div *ngFor="let cover of coverProjects; index as i">
+      <div class="col-4">
+        <app-project-card [index]="i"></app-project-card>
+      </div>
+    </div>
+  </div>
 </div>
