@@ -1,24 +1,18 @@
-<div class="jumbotron">
-  <div class="p-5 text-center bg-image rounded-3" style="
-    background-image: url('../../assets/images/project-covers/Cover Main.jpg');
-    height: 500px;
-  ">
-  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-    <div class="d-flex justify-content-center align-items-center h-100">
-      <div class="text-white">
-        <h1 class="mb-3">Hello, I'm Miriam!</h1>
-        <h4 class="mb-3">Currently XR Software Engineer @<a href="https://www.txtgroup.com/">TXT E-Tech</a>, in Milan (Italy)</h4>
-        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Check out some of my work!</a>
-      </div>
-    </div>
+<!-- Header-->
+<header class="maincover text-center text-white">
+  <div>
+    <h1>Hello, I'm Miriam!</h1>
+    <h2>
+      Currently XR Software Engineer @<a href="https://www.txtgroup.com/" target="_blank">TXT E-Tech</a>, in Milan (Italy)
+    </h2>
+    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Check out some of my work!</a>
   </div>
-</div>
-</div>
+</header>
 
-<div class="container flex-container">
-  <div class="row row-cols-3">
+<div class="container fluid" id="scroll">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
     <div *ngFor="let cover of coverProjects; index as i">
-      <div class="col-4">
+      <div class="col">
         <app-project-card [index]="i"></app-project-card>
       </div>
     </div>

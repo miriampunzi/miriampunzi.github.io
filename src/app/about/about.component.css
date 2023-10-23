@@ -1,0 +1,40 @@
+header.maincover {
+    position: relative;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: calc(7rem + 72px);
+    background: linear-gradient(0deg, #002fff 0%, #ee0979 100%);    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  header.maincover .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  }
+  header.maincover .bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
+  }
+  header.maincover .bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
+  }
+  header.maincover .bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+  }
+  header.maincover .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+  }
