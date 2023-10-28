@@ -1,9 +1,148 @@
 <header class="maincover text-center text-white">
     <div>
       <h1>About me</h1>
+      <p>
+        Born and raised in Mantova (Italy), I have been interested in technology since I was a child.
+        For deepening my knowledge in that area, I chose a <a href="https://www.fermimn.edu.it/" target="_blank">High School in Computer Science</a>, where I learned how to develop software.
+        I really enjoyed that, so I continued my studies in Computer Science at the <a href="https://offertaformativa.unitn.it/it/l/informatica" target="_blank">University of Trento</a>.
+        
+        <br>
+        
+        At the same time, I like to challenge myself with creative activities.
+        So, I applied to a master's in Human-Computer Interaction and Design, in which I learned how to design interactive systems placing the user at the center of the process.
+        Specifically, I applied to the <a href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design" target="_blank">EIT Digital Master School</a>, a double-degree program performed in two different cities in Europe.
+        I did my first year in Madrid (<a href="https://www.fi.upm.es/?pagina=2235" target="_blank">Politécnica de Madrid</a>) and my second in Paris (<a href="https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction" target="_blank">Université Paris-Saclay</a>).
+        
+        <br>
+        
+        I chose to study abroad because I wanted to expand my horizons and test myself in different contexts, with different languages.
+        This experience has inspired me to always be curious and enthusiastic about meeting new people and exploring new cultures.
+        
+        <br>
+        
+        In the last few years, I've been interested in immersive environments.
+        Thanks to the internship for my master thesis, in which I designed, developed, and tested the usability of a VR game, I realized that I want to continue in this field.
+      </p>
     </div>
-    <div class="bg-circle-1 bg-circle"></div>
-            <div class="bg-circle-2 bg-circle"></div>
-            <div class="bg-circle-3 bg-circle"></div>
-            <div class="bg-circle-4 bg-circle"></div>
-  </header>
+</header>
+
+<!--education -->
+<section id="education">
+  <div class="text-center">
+    <h2>Education</h2>
+  </div>
+
+  <div class="container">
+    <div>
+        <div>
+          <ul *ngFor="let e of education; index as i">
+            <app-education-card [index]="i"></app-education-card>
+          </ul>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!--skills start -->
+<section id="skills">
+  <div>
+    <div class="text-center">
+      <h2>skills</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <div *ngFor="let s of skills; index as i">
+                <app-skill-card [index]="i"></app-skill-card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>	
+  </div>
+</section>
+
+<!--experience -->
+<section id="experience">
+  <div class="text-center">
+    <h2>Experience</h2>
+  </div>
+
+  <div class="container">
+    <div>
+        <div>
+          <ul *ngFor="let e of experience; index as i">
+            <app-experience-card [index]="i"></app-experience-card>
+          </ul>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!--language-->
+<section id="language">
+  <div class="text-center">
+    <h2>Language</h2>
+  </div>
+
+  <div class="text-center">
+    <h5>My mother tongue is</h5>
+      <span><strong>Italian:</strong></span>
+      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+  </div>
+
+  <div class="text-center">
+    <h5>While I was studying around Europe, I had the occasion to</h5>
+    <ul class="list-unstyled">
+      <li>
+          <span><strong>Improve my English communication skills!</strong></span>
+          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </li>
+      <li>
+          <span><strong>¡Aprender a hablar fluidamente español!</strong></span>
+          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </li>
+      <li>
+          <span><strong>Commencer à parler un peu de français !</strong></span>
+          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </li>
+  </ul>
+  </div>
+</section>
+
+<!--hobby -->
+<section id="hobby">
+  <div class="section-heading text-center">
+    <h2>When I'm not in front of a computer, I</h2>
+  </div>
+
+  <div class="container">
+    <div class="section-heading text-center">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/hobbies/piano.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Play piano</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-heading text-center">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/hobbies/cooking.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Cook</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-heading text-center">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/images/hobbies/travel.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Travel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

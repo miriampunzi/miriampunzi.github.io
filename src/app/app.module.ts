@@ -11,6 +11,9 @@ import { ImmersivePageComponent } from './immersive-page/immersive-page.componen
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ResumeComponent } from './resume/resume.component';
+import { EducationCardComponent } from './education-card/education-card.component';
+import { ExperienceCardComponent } from './experience-card/experience-card.component';
+import { SkillCardComponent } from './skill-card/skill-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ResumeComponent } from './resume/resume.component';
     ImmersivePageComponent,
     NavbarComponent,
     ProjectCardComponent,
-    ResumeComponent
+    ResumeComponent,
+    EducationCardComponent,
+    ExperienceCardComponent,
+    SkillCardComponent
   ],
   imports: [
     BrowserModule,
