@@ -10,7 +10,6 @@ import { HomeComponent } from './home/home.component';
 import { ImmersivePageComponent } from './immersive-page/immersive-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
-import { ResumeComponent } from './resume/resume.component';
 import { EducationCardComponent } from './education-card/education-card.component';
 import { ExperienceCardComponent } from './experience-card/experience-card.component';
 import { SkillCardComponent } from './skill-card/skill-card.component';
@@ -24,7 +23,6 @@ import { SkillCardComponent } from './skill-card/skill-card.component';
     ImmersivePageComponent,
     NavbarComponent,
     ProjectCardComponent,
-    ResumeComponent,
     EducationCardComponent,
     ExperienceCardComponent,
     SkillCardComponent

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { SkillsService } from '../services/skills.service';
 
 @Component({
   selector: 'app-skill-card',
@@ -8,22 +9,7 @@ import { Component, Input } from '@angular/core';
 export class SkillCardComponent {
   @Input() index : any
 
-  skills = [
-    {
-      name: "C#",
-      percentage: "90%",
-    },
-    {
-      name: "Java",
-      percentage: "80%",
-    },
-    {
-      name: "Unity",
-      percentage: "90%",
-    },
-    {
-      name: "Figma",
-      percentage: "90%",
-    },
-  ]
+  constructor(private service: SkillsService) { }
+
+  skills = this.service.skills
 }
