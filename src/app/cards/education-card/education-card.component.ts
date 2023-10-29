@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { EducationService } from '../services/education.service';
+import { EducationService } from '../../layout/services/education.service';
 
 @Component({
   selector: 'app-education-card',

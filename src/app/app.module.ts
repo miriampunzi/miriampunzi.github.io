@@ -8,11 +8,11 @@ import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ImmersivePageComponent } from './immersive-page/immersive-page.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { ProjectCardComponent } from './project-card/project-card.component';
-import { EducationCardComponent } from './education-card/education-card.component';
-import { ExperienceCardComponent } from './experience-card/experience-card.component';
-import { SkillCardComponent } from './skill-card/skill-card.component';
+import { NavbarComponent } from './layout/navbar/navbar.component';
+import { ProjectCardComponent } from './cards/project-card/project-card.component';
+import { EducationCardComponent } from './cards/education-card/education-card.component';
+import { ExperienceCardComponent } from './cards/experience-card/experience-card.component';
+import { SkillCardComponent } from './cards/skill-card/skill-card.component';
 
 @NgModule({
   declarations: [

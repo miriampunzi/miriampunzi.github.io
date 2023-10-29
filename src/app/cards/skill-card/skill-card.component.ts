@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SkillsService } from '../services/skills.service';
+import { SkillsService } from '../../layout/services/skills.service';
 
 @Component({
   selector: 'app-skill-card',
