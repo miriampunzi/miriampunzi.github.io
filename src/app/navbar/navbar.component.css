@@ -1,0 +1,13 @@
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-invisible {
+    background: #023e73;
+}
+
+.navbar-visible {
+    background: #011126;
+}

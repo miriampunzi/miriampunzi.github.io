@@ -1,7 +1,5 @@
-header.maincover {
+.header-maincover {
   position: relative;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: calc(7rem + 72px);
   background-image: url('../../assets/images/project-covers/Cover Main.jpg');
   background-position: center center;
   background-attachment: scroll;

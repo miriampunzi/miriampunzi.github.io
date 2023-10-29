@@ -1,12 +1,24 @@
-header.maincover {
+.about-cover {
+  background: rgb(20,83,114);
+  background: linear-gradient(287deg, rgba(20,83,114,1) 0%, rgba(10,27,78,1) 52%, rgba(0,15,38,1) 100%);
+  background-size: cover;
     position: relative;
-    padding-top: calc(7rem + 72px);
-    padding-bottom: calc(7rem + 72px);
-    background: linear-gradient(0deg, #002fff 0%, #ee0979 100%);    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
     height: 100vh;
   }
+
+.about-cover-image {
+  background-size: cover;
+  background-image: url(/assets/images/graduation-photos/master-social-distance.jpg);
+}
+
+.about-cover-title {
+  background-color: #abcdef;
+}
+
+.about-language-image {
+  width: 35px;
+  height: 25px;
+}
 
   header.maincover .bg-circle {
     z-index: 0;
