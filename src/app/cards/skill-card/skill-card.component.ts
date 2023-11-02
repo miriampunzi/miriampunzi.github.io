@@ -7,7 +7,7 @@ import { SkillsService } from '../../layout/services/skills.service';
   styleUrls: ['./skill-card.component.css']
 })
 export class SkillCardComponent {
-  @Input() index : any
+  @Input() i : any
 
   constructor(private service: SkillsService) { }
 
