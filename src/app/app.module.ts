@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ImmersivePageComponent } from './immersive-page/immersive-page.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';

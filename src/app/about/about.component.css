@@ -7,8 +7,9 @@
   }
 
 .about-cover-image {
-  background-size: cover;
-  background-image: url(/assets/images/graduation-photos/master-social-distance.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .about-cover-title {

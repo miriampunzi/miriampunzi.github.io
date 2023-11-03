@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
 .section-title {
     background: #eaf3ff;
     color: #023e73;

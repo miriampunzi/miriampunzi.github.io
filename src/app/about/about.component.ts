@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ExperienceService } from '../layout/services/experience.service';
-import { EducationService } from '../layout/services/education.service';
-import { SkillsService } from '../layout/services/skills.service';
+import { ExperienceService } from '../services/experience.service';
+import { EducationService } from '../services/education.service';
+import { SkillsService } from '../services/skills.service';
 
 @Component({
   selector: 'app-about',
