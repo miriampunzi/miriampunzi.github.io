@@ -1,12 +1,12 @@
 <li>
-  <div class="card" style="border: none;">
+  <div class="card education-card">
     <div class="row">
       <div class="col-md-2">
         <img [src]="education[index].graduationPhoto" class="graduation-picture" alt="...">
       </div>
       <div class="col-md-10">
         <div class="card-body">
-          <p class="card-text"><small class="text-body-secondary">{{education[index].years}}</small></p>
+          <h6 class="card-subtitle mb-2 text-muted">{{education[index].years}}</h6>
           <h5 class="card-title">{{education[index].studyTitle}}</h5>
           <p class="card-text"><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
         </div>

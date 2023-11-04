@@ -13,6 +13,7 @@ import { ProjectCardComponent } from './cards/project-card/project-card.componen
 import { EducationCardComponent } from './cards/education-card/education-card.component';
 import { ExperienceCardComponent } from './cards/experience-card/experience-card.component';
 import { SkillCardComponent } from './cards/skill-card/skill-card.component';
+import { PageSectionComponent } from './layout/page-section/page-section.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SkillCardComponent } from './cards/skill-card/skill-card.component';
     ProjectCardComponent,
     EducationCardComponent,
     ExperienceCardComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    PageSectionComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,8 @@
+.education-card {
+    border: none;
+    background-color: transparent;
+}
+
 .graduation-picture {
     width: 150px;
     height: 150px;
