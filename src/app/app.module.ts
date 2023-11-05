@@ -14,6 +14,7 @@ import { EducationCardComponent } from './cards/education-card/education-card.co
 import { ExperienceCardComponent } from './cards/experience-card/experience-card.component';
 import { SkillCardComponent } from './cards/skill-card/skill-card.component';
 import { PageSectionComponent } from './layout/page-section/page-section.component';
+import { HobbyCardComponent } from './cards/hobby-card/hobby-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PageSectionComponent } from './layout/page-section/page-section.compone
     EducationCardComponent,
     ExperienceCardComponent,
     SkillCardComponent,
-    PageSectionComponent
+    PageSectionComponent,
+    HobbyCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,14 +1,16 @@
 <li>
   <div class="card education-card">
-    <div class="row">
-      <div class="col-md-2">
-        <img [src]="education[index].graduationPhoto" class="graduation-picture" alt="...">
+    <div class="row education-card-row">
+      <div class="about-timeline col-4 col-md-3 col-xxl-2">
+        <div class="about-education-timeline" style="padding-bottom: 20px;">
+          <img class="img-fluid graduation-picture" [src]="education[index].graduationPhoto" alt="...">
+        </div>
       </div>
-      <div class="col-md-10">
-        <div class="card-body">
-          <h6 class="card-subtitle mb-2 text-muted">{{education[index].years}}</h6>
-          <h5 class="card-title">{{education[index].studyTitle}}</h5>
-          <p class="card-text"><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
+      <div class="col">
+        <div class="education-card-body">
+          <h5><span class="badge education-card-year">{{education[index].years}}</span></h5>
+          <h5>{{education[index].studyTitle}}</h5>
+          <p><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
         </div>
       </div>
     </div>

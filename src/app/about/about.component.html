@@ -36,10 +36,11 @@
 </header>
 
 <div class="container-fluid" id="aboutContainer">
+  
   <!--education -->
   <section>
   <app-page-section sectionTitle="Education">
-    <ul class="list-unstyled" *ngFor="let e of education; index as i">
+    <ul class="list-unstyled" *ngFor="let e of education; index as i" style="margin-bottom: 0px;">
       <app-education-card [index]="i"></app-education-card>
     </ul>
   </app-page-section>
@@ -98,32 +99,11 @@
     <app-page-section sectionTitle="Hobbies"></app-page-section>
 
     <app-page-section sectionSubsubtitle="When I'm not in front of a computer, I...">
-      <div class="col-3 section-heading text-center">
-        <div class="card">
-          <img src="assets/images/hobbies/piano.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Play piano</p>
-          </div>
-        </div>
+      <div class="row">      
+        <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Play piano"></app-hobby-card>
+        <app-hobby-card imagePath="assets/images/hobbies/cooking.jpg" description="Cook"></app-hobby-card>
+        <app-hobby-card imagePath="assets/images/hobbies/travel.jpg" description="Travel"></app-hobby-card>
       </div>
-
-      <div class="col-3 section-heading text-center">
-        <div class="card">
-          <img src="assets/images/hobbies/cooking.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Cook</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-3 section-heading text-center">
-        <div class="card">
-          <img src="assets/images/hobbies/travel.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Travel</p>
-          </div>
-        </div>
-      </div>
-    </app-page-section>
+      </app-page-section>
   </section>
 </div>
