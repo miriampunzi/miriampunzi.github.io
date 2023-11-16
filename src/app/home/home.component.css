@@ -1,8 +1,34 @@
 .header-maincover {
-  position: relative;
   background-image: url('../../assets/images/project-covers/Cover Main.jpg');
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  height: 100vh;
+
+  position: relative;
+  height: 55vh;
+  /* justify-content: center; */
+  padding: 5% 15% 5% 15%;
+  /* align-items: center; */
+  /* align-content: space-between; */
+}
+
+.header-content {
+  
+}
+
+.header-name {
+  text-align: left;
+  font-size: 70px;
+}
+
+.header-name-div {
+  margin-bottom: 100px;
+}
+
+.header-position {
+  text-align: right;
+}
+
+.header-position-div {
+  display: block;
 }

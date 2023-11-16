@@ -8,6 +8,7 @@ export class ExperienceService {
   experience = [
     {
       company: "TXT e-Tech",
+      icon: "assets/images/experience-logos/txt.png",
       jobTitle: "Software Engineer",
       url: "https://www.txtgroup.com/",
       period: "Oct 2022 - current",
@@ -17,6 +18,7 @@ export class ExperienceService {
 
     {
       company: "EventLab",
+      icon: "assets/images/experience-logos/eventlab.png",
       jobTitle: "Research Assistant in VR",
       url: "https://www.event-lab.org/",
       period: "Apr 2022 - Sept 2022",
@@ -26,6 +28,7 @@ export class ExperienceService {
 
     {
       company: "LISN",
+      icon: "assets/images/experience-logos/lisn.png",
       jobTitle: "UX Researcher & VR Programmer",
       url: "https://www.lisn.upsaclay.fr/",
       period: "Apr 2021 - Sept 2021",
@@ -35,6 +38,7 @@ export class ExperienceService {
 
     {
       company: "MadHCILab",
+      icon: "assets/images/experience-logos/madhcilab.png",
       jobTitle: "VR Programmer",
       url: "https://madhcilab.es/",
       period: "Feb 2020 - Mar 2020",
@@ -44,6 +48,7 @@ export class ExperienceService {
 
     {
       company: "ENI Versalis",
+      icon: "assets/images/experience-logos/versalis.png",
       jobTitle: "Web Developer",
       url: "https://versalis.eni.com/it-IT/home.html",
       period: "Jun 2015",
