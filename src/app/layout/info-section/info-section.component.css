@@ -1,0 +1,19 @@
+.page-info-row {
+    padding: 30px 0px 30px 0px;
+}
+
+.page-info-card {
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+label {
+    font-weight: 800;
+}

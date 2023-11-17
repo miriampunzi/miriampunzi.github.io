@@ -15,6 +15,15 @@ import { ExperienceCardComponent } from './cards/experience-card/experience-card
 import { SkillCardComponent } from './cards/skill-card/skill-card.component';
 import { PageSectionComponent } from './layout/page-section/page-section.component';
 import { HobbyCardComponent } from './cards/hobby-card/hobby-card.component';
+import { ConcertRandomizationComponent } from './projects/concert-randomization/concert-randomization.component';
+import { NonverbalBehaviourComponent } from './projects/nonverbal-behaviour/nonverbal-behaviour.component';
+import { SituatedMemoriesComponent } from './projects/situated-memories/situated-memories.component';
+import { PopupBreakComponent } from './projects/popup-break/popup-break.component';
+import { InsignumComponent } from './projects/insignum/insignum.component';
+import { PearlyComponent } from './projects/pearly/pearly.component';
+import { BookflixComponent } from './projects/bookflix/bookflix.component';
+import { ProjectCoverComponent } from './layout/project-cover/project-cover.component';
+import { InfoSectionComponent } from './layout/info-section/info-section.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +38,16 @@ import { HobbyCardComponent } from './cards/hobby-card/hobby-card.component';
     ExperienceCardComponent,
     SkillCardComponent,
     PageSectionComponent,
-    HobbyCardComponent
+    HobbyCardComponent,
+    ConcertRandomizationComponent,
+    NonverbalBehaviourComponent,
+    SituatedMemoriesComponent,
+    PopupBreakComponent,
+    InsignumComponent,
+    PearlyComponent,
+    BookflixComponent,
+    ProjectCoverComponent,
+    InfoSectionComponent,
   ],
   imports: [
     BrowserModule,

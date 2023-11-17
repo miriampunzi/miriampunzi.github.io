@@ -1,0 +1,15 @@
+.project-cover {
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 55vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.project-name {
+    text-align: center;
+    font-size: 70px;
+}
