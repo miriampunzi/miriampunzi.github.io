@@ -5,3 +5,13 @@
 .navbar-visible {
     background: #011126;
 }
+
+ul {
+    padding-top: 0px;
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+li {
+    padding-bottom: 0px;
+}

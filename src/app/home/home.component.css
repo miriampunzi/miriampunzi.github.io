@@ -3,13 +3,8 @@
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-
   position: relative;
-  height: 55vh;
-  /* justify-content: center; */
-  padding: 5% 15% 5% 15%;
-  /* align-items: center; */
-  /* align-content: space-between; */
+  padding: 50px 0px 50px 0px;
 }
 
 .header-content {
@@ -18,7 +13,6 @@
 
 .header-name {
   text-align: left;
-  font-size: 70px;
 }
 
 .header-name-div {
@@ -31,4 +25,44 @@
 
 .header-position-div {
   display: block;
+}
+
+.header-icon {
+  margin-right: 10px;;
+}
+
+@media (min-width: 0px) { 
+  .header-name {
+      font-size: 10vw;
+  }
+}
+
+@media (min-width: 576px) { 
+  .header-name {
+      font-size: 8vw;
+  }
+}
+
+@media (min-width: 768px) { 
+  .header-name {
+      font-size: 7vw;
+  }
+}
+
+@media (min-width: 992px) { 
+  .header-name {
+      font-size: 6vw;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .header-name {
+      font-size: 5vw;
+  }
+}
+
+@media (min-width: 1400px) { 
+  .header-name {
+      font-size: 4vw;
+  }
 }

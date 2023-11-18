@@ -1,6 +1,5 @@
 .project-cover {
     background-position: center center;
-    background-attachment: scroll;
     background-size: cover;
     height: 55vh;
 
@@ -11,5 +10,40 @@
   
 .project-name {
     text-align: center;
-    font-size: 70px;
 }
+
+@media (min-width: 0px) { 
+    .project-name {
+        font-size: 10vw;
+    }
+ }
+
+@media (min-width: 576px) { 
+    .project-name {
+        font-size: 8vw;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .project-name {
+        font-size: 7vw;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .project-name {
+        font-size: 6vw;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .project-name {
+        font-size: 5vw;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .project-name {
+        font-size: 4vw;
+    }
+ }

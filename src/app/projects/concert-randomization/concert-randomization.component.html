@@ -4,3 +4,280 @@
 </app-project-cover>
 
 <app-info-section projectName="concertrandomization"></app-info-section>
+
+<div class="container-fluid containerSections">
+    <!-- Problem -->
+    <section>
+    <app-page-section sectionTitle="Problem">
+        We want to train a neural network that applies <label class="label-strong">semantic segmentation</label> to concert photos to classify: musicians, musical instruments, stage decorations, etc.
+    </app-page-section>
+
+    <app-page-section>
+        METTERE FOTO
+    </app-page-section>
+
+    <app-page-section>
+        Thousands of images (original and labeled ones) are needed (<label class="label-strong">Supervised Learning</label>)
+But: the images are labeled by hand using a lot of patience!!
+    </app-page-section>
+    </section>
+
+    <!-- Idea -->
+    <section>
+        <app-page-section sectionTitle="Idea">
+            <label class="label-strong">Automate the process!</label> The program:
+
+            <ul>
+                <li>
+                    Generates random concert scenarios (random locations, musicians, musical instruments, ... with random shapes, textures and animations)
+                </li>
+                <li>
+                    Takes N snapshots of the generated scenario from random viewpoints
+                </li>
+                <li>
+                    Annotates the photos automatically.
+                </li>
+            </ul>
+            To improve the network accuracy and avoid over-fitting, the concert scenarios to generate have to be as varied as possible:
+            <ul>
+                <li>
+                    random places, people, musical instruments, objects
+                </li>
+                <li>
+                    random positions, textures, shapes
+                </li>
+                <li>
+                    random special effects, lights
+                </li>
+            </ul>
+        </app-page-section>
+    </section>
+
+    <!-- Elements to randomize-->
+    <section>
+        <app-page-section sectionTitle="Elements to Randomize"></app-page-section>
+    
+        <app-page-section sectionSubtitle="Places">
+            METTERE IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="People">
+            METTERE IMMAGINI
+            mettere HOW
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Musical instruments">
+            METTERE IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Objects">
+            METTERE IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Smoke">
+            METTERE IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Lights">
+            METTERE IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Sky">
+            METTERE IMMAGINI
+        </app-page-section>
+    </section>
+
+    <!-- Implementation-->
+    <section>
+        <app-page-section sectionTitle="Implementation"></app-page-section>
+    
+        <app-page-section sectionSubsubtitle="Labelling of all the elements of the scene">
+            IMMAGINE
+
+            We used this classification:
+
+            IMMAGINE
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Placement of spawning points inside the scene">
+            <div class="col-6 col-page-section">
+                Musician Spawn Point<br>
+                Select type of musician (singer, guitar, piano, drums, cello, violin, ...)
+            </div>
+            <div class="col-6 col-page-section">
+                Dancer Spawn Point
+                Select dance modality (sitted on a chair, sitted on the ground, standing)
+            </div>
+
+            <div class="col-12 col-page-section">
+                Object Spawn Point
+                Select type of object
+            </div>
+            <div class="col-12 col-page-section">
+                Smoke Spawn Point
+            </div>
+
+            IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Crowd setup">
+            Place a crowd in the scene, which will contain random people (with random textures and body shapes), with random separation and density between them.
+
+            IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Light setup">
+            Decide with lights are going to have: random colors, intensity, orientation and spot angles.
+
+            IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Timeline setup">
+            METTERE USED
+
+            IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Postprocessing">
+            IMMAGINI
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Algorithm (pseudocode)">
+            IMMAGINI
+
+            Only write the number of how many snapshots you want to generate (numCaptures), and then click play.
+        </app-page-section>
+
+        <!-- TODO code section -->
+
+        <app-page-section sectionSubsubtitle="When you launch the program, you're gonna see something like this...">
+            VIDEO
+        </app-page-section>
+    </section>
+
+    <!-- Development -->
+    <section>
+        <app-page-section sectionTitle="Development"></app-page-section>
+
+        <app-page-section sectionSubtitle="Classes"></app-page-section>
+
+        <app-page-section sectionSubsubtitle="SpawnPoint">
+            Abstract class for the spawning points with the method <label class="label-strong">OnDrawGizmos()</label> to be defined in the subclasses
+            IMMAGINI DIDASCALIE        
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="ConcertElement">
+            Abstract class for any kind of element that appear and the scene (Musicians, Dancers, Objects, Places, Smokes) and that can be randomized. It contains the method <label class="label-strong">Randomize()</label>.      
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="ConcertObject">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="LightObject">
+            Randomize():
+            <ul>
+                <li>color</li>
+                <li>intensity</li>
+                <li>spot angle</li>
+                <li>range</li>
+            </ul>
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="MusicalInstrument">
+            Randomize():
+            <ul>
+                <li>colors/materials</li>
+            </ul>
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Person">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Dancer">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Musician">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Place">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="SkyConcert">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="SmokeConcert">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="Configuration">
+            tabella
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="DB">
+            Loads and save in lists all the places, dancers, musicians, objects, skies, human textures, to speed up the process of generating the images
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="SegmentationObject">
+            To set the label for each gameobject.
+        </app-page-section>
+
+        <app-page-section sectionSubsubtitle="SemanticLabeler">
+            TakeSnapshot():
+            <ol>
+                <li>Saves in the folder \images the camera rendering in a .png file
+                </li>
+                <li>Substitutes the materials of all the objects with the label materials
+                </li>
+                <li>Saves in the folder \labels the camera rendering in a .png file
+                </li>
+                <li>Restore the original materials of all the objects
+                </li>
+            </ol>
+
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Animation generation">
+            IMMAGINI
+        </app-page-section>
+    </section>
+
+    <!-- Testing -->
+    <section>
+        <app-page-section sectionTitle="Testing"></app-page-section>
+
+        <app-page-section sectionSubtitle="Generated data">
+            IMMAGINE
+            10.000 images with the correspondent labeled ones
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Data preparation">
+            TABELLA
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Network used">
+            USED
+
+            <ul>
+                <li>Deeplab v3+: convolutional neural network (CNN) designed for semantic image segmentation
+                </li>
+                <li>Resnet-18: pre-trained network that initializes the weights for Deeplab v3+
+                </li>
+            </ul>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Results">
+            With only 200 images:
+            IMMAGINE
+
+            Test the network on one image:
+            IMMAGINE
+
+            The green and magenta regions highlight areas where the segmentation results differ from the expected ground truth
+        </app-page-section>
+    </section>

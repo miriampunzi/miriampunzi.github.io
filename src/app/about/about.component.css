@@ -24,13 +24,9 @@ section {
   padding-bottom: 15px;
 }
 
-#aboutContainer {
+/* #aboutContainer {
   padding: 0px;
-}
-
-#aboutContainer section:nth-child(odd) {
-  background-color: #eaf3ff; 
-}
+} */
 
 .about-language-row {
   margin: 10px 0px 15px 0px;

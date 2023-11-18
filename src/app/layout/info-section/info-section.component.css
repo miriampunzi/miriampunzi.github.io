@@ -1,5 +1,5 @@
 .page-info-row {
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 20px 0px;
 }
 
 .page-info-card {
@@ -7,13 +7,7 @@
 }
 
 ul {
-    list-style-type: square;
-}
-
-li {
-    padding-bottom: 10px;
-}
-
-label {
-    font-weight: 800;
+    margin-left: 0px;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
 }
