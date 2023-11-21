@@ -3,16 +3,18 @@
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  position: relative;
-  padding: 50px 0px 50px 0px;
+  padding: 100px 0px 50px 0px;
 
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 
+  position: relative;
+  z-index: 1;
 }
 
-.header-content {
-  
+.home-container {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header-name {
@@ -69,4 +71,10 @@
   .header-name {
       font-size: 4vw;
   }
+}
+
+.section-title {
+  background: #eaf3ff;
+  color: #023e73;
+  padding: 30px;
 }

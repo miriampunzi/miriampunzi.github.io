@@ -1,8 +1,6 @@
-<app-navbar></app-navbar>
-
 <header class="header-maincover text-white">
-  <div class="container">
-    <div class="header-content">
+  <div class="home-container">
+    <div class="container">
       <div class="header-name-div">
         <h1 class="header-name">Hello,</h1>
         <h1 class="header-name">I'm Miriam!</h1>
@@ -26,11 +24,13 @@
   </div>
 </div>
 
-<div class="container fluid" id="scroll">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" style="margin-top: 10px; margin-bottom: 50px;">
-    <div *ngFor="let cover of coverProjects; index as i">
-      <div class="col">
-        <app-project-card [index]="i"></app-project-card>
+<div class="home-container" id="scroll">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" style="margin-top: 10px; margin-bottom: 50px;">
+      <div *ngFor="let cover of coverProjects; index as i">
+        <div class="col">
+          <app-project-card [index]="i"></app-project-card>
+        </div>
       </div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, booleanAttribute } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,25 +7,50 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class NavbarComponent implements OnInit {
-  isNavbarVisible: boolean = false;
+  isNavbarVisible: boolean = false
+  isCollapsed: boolean = false
+
+  navbar : any
 
   ngOnInit() {
-    const navbar = document.querySelector('.navbar');
+    if (!this.navbar)
+      this.navbar = document.querySelector('.navbar');
 
     window.addEventListener('scroll', () => {
+      if (!this.isCollapsed) {
       if (window.scrollY > 0) {
         if (!this.isNavbarVisible) {
-          navbar?.classList.remove('navbar-invisible');
-          navbar?.classList.add('navbar-visible');
+          this.Show()
           this.isNavbarVisible = true;
         }
       } else {
         if (this.isNavbarVisible) {
-          navbar?.classList.remove('navbar-visible');
-          navbar?.classList.add('navbar-invisible');
+          this.Hide()
           this.isNavbarVisible = false;
         }
       }
-    });
+    }
+    }); 
+  }
+
+  OnClick() {
+    this.isCollapsed = !this.isCollapsed
+
+    if (this.isCollapsed) {
+      this.Show()
+    }
+  }
+
+  Hide() {
+    console.log("Hide");
+    
+    this.navbar?.classList.remove('navbar-visible');
+    this.navbar?.classList.add('navbar-invisible');
+  }
+
+  Show() {
+    console.log("Show");
+    this.navbar?.classList.remove('navbar-invisible');
+    this.navbar?.classList.add('navbar-visible');
   }
 }

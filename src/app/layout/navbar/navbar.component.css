@@ -1,5 +1,13 @@
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    transition: background-color 0.2s;
+}
+
 .navbar-invisible {
-    background: #023e73;
+    background: transparent;
 }
 
 .navbar-visible {
@@ -14,4 +22,10 @@ ul {
 
 li {
     padding-bottom: 0px;
+}
+
+@media (max-width: 991.98px) { 
+    li {
+        margin-left: 20px;
+    }
 }

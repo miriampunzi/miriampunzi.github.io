@@ -25,7 +25,7 @@ export class ProjectCardComponent {
 
     {
       title: "Situated Memories",
-      description: "Unity application that generates images to train a neural network for semantic segmentation applied to concert photos",
+      description: "Mobile app that allows people to attach and retrieve digital media onto real objects using Augmented Reality.",
       cover: "../../assets/images/project-covers/Cover SituatedMemories.jpg",
       link: "situated-memories",
     },
