@@ -5,6 +5,10 @@
   background-size: cover;
   position: relative;
   padding: 50px 0px 50px 0px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+
 }
 
 .header-content {
