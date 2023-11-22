@@ -2,3 +2,220 @@
 </app-project-cover>
 
 <app-info-section projectName="situatedmemories"></app-info-section>
+
+VIDEO
+
+<div class="container-fluid containerSections">
+    <!-- Design Concept -->
+    <section>
+        <app-page-section sectionTitle="Design Concept">
+            <div class="col-6">
+                <h6>Memories situated in physical objects</h6>
+                Users can save memories directly on the surface of physical objects.
+                Memories: pictures, videos, audios, drawings, or writing annotations.
+                Objects: whatever! From a little ring to the Eiffel Tower.
+            </div>
+            <div class="col-6">
+                <h6>Floating bubbles</h6>
+                The memories are floating around the object like little bubbles.
+                We use Augmented Reality technology.
+            </div>
+            <div class="col-6">
+                <h6>Save or retrieve your memories</h6>
+                First, the user has to detect the object on which the memories are saved.
+                Then, they can record a video, or take a photo, to save to the detected object, or they can tap on a bubble to open a past memory.
+            </div>
+            <div class="col-6">
+                <h6>Be nostalgic!</h6>
+                Feel the nostalgia! Be emotional and take care of your special memories with your special object.
+                We believe in this way memories will become more special.
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Motivations -->
+    <section>
+        <app-page-section sectionTitle="Motivations">
+            <div class="col-6">
+                Amplify users emotions attached to an object 
+            </div>
+            <div class="col-6">
+                Reduce consumerism! People are more likely to take care of objects with memories
+            </div>
+            <div class="col-6">
+                Get to know about the past history of second-hand items
+            </div>
+            <div class="col-6">
+                Objects with memories could be placed in museums and can help in teaching
+            </div>
+            <div class="col-6">
+                Objects could acquire a historical relevance
+            </div>
+            <div class="col-6">
+                Have a backup of memories
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Prototype -->
+    <section>
+        <app-page-section sectionTitle="Prototype">
+            IMMAGINE
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Navigation Map">
+            IMMAGINE
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Crazy scenarios">
+            You receive as a present the ring engagement of your grand grand grand grand grand mother (this year is exchanged between generations) and you can see the marriage proposal of your grand grand grand grand grand mother associated with the ring.
+            You find a ring on a street, and you decide to scan it with the app. You find out it was first created in ancient Egypt, then smuggled through the mediterranean sea, then stolen by nazis from a museum in France, then returned at the end of the 2nd World War and gifted as an engagement ring.You return it to the woman it belongs to that lives in a retiring room just near the street!
+            In the year 3000, an archeologist finds a pen, without knowing what that tool was for. So, the archeologist scans it with the app, and WOW! They discover it was for writing!
+            Aliens go to Earth and find an unknown object. They scan it and...
+        </app-page-section> 
+
+        <app-page-section sectionSubtitle="Screens with a scenario">
+            IMMAGINE
+
+            <ol>
+                <li>You scan your marriage ring</li>
+                <li>After the scanning, the + button appears to upload a new memory to the object                </li>
+            
+                IMMAGINE
+
+                <li>You click on the + button and you upload a photo of the proposal day
+                </li>
+                <li>After saving, a bubble appears around the object
+                </li>
+                <li>Clicking on a bubble opens the correspondent memory saved
+                </li>
+
+                IMMAGINE
+
+                <li>60 years later, your granddaughter is using your special ring
+                </li>
+                <li>She scans it and retrieves all the stories uploaded during these years
+                </li>
+                <li>She decides to upload a video and an audio related to the ring
+                </li>
+
+                IMMAGINE
+
+                <li>The new bubble of the granddaughter appears
+                </li>
+                <li>The new story is ready to be shared between generations of exchange of the ring!
+                </li>
+            </ol>
+        </app-page-section>
+    </section>
+
+    <!-- Development -->
+    <section>
+        <app-page-section sectionTitle="Development"></app-page-section>
+
+        <app-page-section sectionSubtitle="Tools">
+            <div class="col-6">
+                IMMAGINE
+                Unity
+            </div>
+            <div class="col-6">
+                IMMAGINE
+                Vuforia Object Scanner App
+            </div>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Object scanning and saving">
+            <div class="col-6">
+                IMMAGINE
+                The scanner of 3D objects is not integrated in our interface: we used the one of Vuforia.
+            </div>
+            <div class="col-6">
+                IMMAGINE
+                The database of the 3D objects is the one of Vuforia. The extra information related to memories are initialized at runtime in the code.
+            </div>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Screens">
+            <div class="col-6">
+                IMMAGINE
+                Top Menu
+                Hamburger button: for basic settings (top left).
+                Profile button: for user settings (top right). 
+            </div>
+            <div class="col-6">
+                IMMAGINE
+                Scanning
+                Scan button: to scan a new object (not present in the database).
+            </div>
+            <div class="col-6">
+                IMMAGINE
+                Adding a memory
+                Plus button: it appears when the app recognizes a previously scanned object, together with the bubbles.
+                Once the user clicks the plus button, they can see the file browser to upload a media file.            </div>
+            <div class="col-6">
+                IMMAGINE
+                Bubbles & Memory retrieval 
+                When a previously scanned object is detected, saved memories will be shown as colored spheres.Tapping on them will show the correspondent memory.
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Challenges -->
+    <section>
+        <app-page-section sectionTitle="Challenges">
+            <h6>What to do with different objects that look the same?
+            </h6>
+            Almost all the objects in the world are present in multiple copies.
+            If all the memories are shown to all of these objects...
+            <ul>
+                <li>Feature! In shops, for example, people can see how to use the object.
+                </li>
+                <li>Problem! It can be annoying and it can affect negatively the attachment to the object.
+                </li>
+            </ul>
+            Solutions:
+            <ul>
+                <li>Save and retrieve stories using a code, which has to be passed with the object.
+                </li>
+                <li>Put a marker on the object.
+                </li>
+                <li>Make objects react with the context. For example, according to their location or to who is holding it, it shows different memories and can highlight a particular stories.
+                </li>
+            </ul>
+
+            <h6>What to do when an object’s appearance changes as time goes by?
+            </h6>
+            Objects change over time (they become older or break).
+            <ul>
+                <li>People would be careful about their objects since they inherit the memories they input.
+                </li>
+                <li>The concept of memories saved in old objects could be lost.
+                </li>
+            </ul>
+            Does the memory fade away as the object decays?
+            <ul>
+                <li>Keep the digital data in case the user wants to access it in another way. But then the design concept of memories situated in objects fells.
+                </li>
+                <li>Delete the digital data from the database.
+                </li>
+            </ul>
+
+            <h6>Do we have to moderate the content? By whom?
+            </h6>
+            Crowdsourced moderation: some users analyze the content of stories and decide if they are appropriate.
+
+            <h6>Who can see what memories? Privacy issues, data osnwership
+            </h6>
+            Users may want to keep the stories only for themselves or for a few intimates. 
+            Solutions:
+            <ul>
+                <li>Code to access memories.
+                </li>
+                <li>
+                    Indicate the people to whom share the memory (like in social networks).
+                </li>
+            </ul>
+
+        </app-page-section>
+    </section>
+</div>
