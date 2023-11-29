@@ -1,3 +1,8 @@
 img {
     margin-bottom: 10px;
 }
+
+.project-link {
+    color: var(--text);
+    text-decoration: none;
+}

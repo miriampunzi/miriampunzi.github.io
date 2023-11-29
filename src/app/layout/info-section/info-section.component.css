@@ -3,7 +3,8 @@
 }
 
 .page-info-card {
-    background-color: #f4f4f4;
+    background-color: var(--info);
+    color: black;
 }
 
 ul {

@@ -11,7 +11,7 @@ nav {
 }
 
 .navbar-visible {
-    background: #011126;
+    background: var(--navbar);
 }
 
 ul {

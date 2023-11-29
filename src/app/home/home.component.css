@@ -74,7 +74,7 @@
 }
 
 .section-title {
-  background: #eaf3ff;
-  color: #023e73;
+  background: var(--section);
+  color: var(--textTitle);
   padding: 30px;
 }

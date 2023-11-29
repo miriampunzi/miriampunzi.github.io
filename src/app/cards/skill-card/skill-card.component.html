@@ -2,7 +2,7 @@
   <div class="col-6 col-lg-4 col-xl-3 list-unstyled" *ngFor="let e of skills[i].content, index as j">
     <span>{{skills[i].content[j].name}}</span>
     <div class="progress">
-      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ width: skills[i].content[j].percentage }"></div>
+      <div class="progress-bar progress-bar-striped progress-bar-animated skill-progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ width: skills[i].content[j].percentage }"></div>
     </div>
   </div>
 </div>

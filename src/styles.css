@@ -3,10 +3,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
 
+:root {
+    --background: #FFFFFF;
+    --section: #eaf3ff;
+    --navbar: #011126;
+    --footer: #023e73;
+    --info: #f4f4f4;
+
+    --text: black;
+    --textTitle: #023e73;
+    --textSubtitle: #023e73;
+    --textCaption: #f4f4f4;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 1rem;
+
+    background-color: var(--background);
+    color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .containerSections section:nth-child(odd) {
-    background-color: #eaf3ff;
+    background-color: var(--section)
 }
 
 section {
@@ -31,7 +47,7 @@ section {
     display: contents;
 }
 
-ul {
+/* ul {
     padding-top: 5px;
     list-style-type: square;
     margin-left: 10px;
@@ -44,7 +60,7 @@ ol {
 
 li {
     padding-bottom: 10px;
-}
+} */
 
 .col-page-section {
     padding-left: 0px;
