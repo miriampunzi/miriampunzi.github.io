@@ -1,10 +1,10 @@
 .page-info-row {
-    padding: 30px 0px 20px 0px;
+    /* padding: 30px 0px 20px 0px; */
 }
 
 .page-info-card {
-    background-color: var(--info);
-    color: black;
+    /* background-color: var(--info);
+    color: black; */
 }
 
 ul {

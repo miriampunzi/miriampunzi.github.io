@@ -1,6 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
 @import '~bootstrap-icons/font/bootstrap-icons.css';
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
 
 :root {
@@ -21,8 +19,11 @@ body {
     font-weight: 300;
     font-size: 1rem;
 
-    background-color: var(--background);
-    color: var(--text);
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,33 +35,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
 }
 
-.containerSections section:nth-child(odd) {
-    background-color: var(--section)
-}
-
 section {
-    padding-bottom: 30px;
+    background-color: var(--background);
+	margin: 30px 10%;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
 }
 
 .label-strong {
     font-weight: 800;
     display: contents;
 }
-
-/* ul {
-    padding-top: 5px;
-    list-style-type: square;
-    margin-left: 10px;
-}
-
-ol {
-    padding-top: 5px;
-    margin-left: 10px;
-}
-
-li {
-    padding-bottom: 10px;
-} */
 
 .col-page-section {
     padding-left: 0px;
