@@ -1,8 +1,10 @@
 <div class="container">
-    <div class="row page-section-row">
-        <h1 class="page-section-title">{{sectionTitle}}</h1>
-        <h4 class="page-section-subtitle">{{sectionSubtitle}}</h4>
-        <h6 class="page-section-subsubtitle">{{sectionSubsubtitle}}</h6>
-        <ng-content></ng-content>
+    <div class="row">
+        <h1 *ngIf="sectionTitle" class="page-section-title">{{sectionTitle}}</h1>
+        <h4 *ngIf="sectionSubtitle" class="page-section-subtitle">{{sectionSubtitle}}</h4>
+        <h6 *ngIf="sectionSubsubtitle" class="page-section-subsubtitle">{{sectionSubsubtitle}}</h6>
+        <p>
+            <ng-content></ng-content>
+        </p>
     </div>
 </div>

@@ -1,14 +1,73 @@
 .page-info-row {
-    /* padding: 30px 0px 20px 0px; */
+    background-color: var(--background);
+    margin-top: 30px;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
 }
 
-.page-info-card {
-    /* background-color: var(--info);
-    color: black; */
+.page-info-extra {
+    background-color: #f7f7f7;
+	padding: 20px;
+	border-radius: 20px;
+	color: #6b6b6b;
+	margin: 0px 20px 0px 20px;
 }
 
-ul {
-    margin-left: 0px;
+.info-icon {
+    margin-right: 10px;
+  }
+
+  .info-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .info-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .info-list li:last-child {
     margin-bottom: 0px !important;
-    padding-top: 0px !important;
-}
+  }
+  
+  .info-list li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Bootstrap Icons as bullet points */
+  .info-list-what::before {
+    content: '\F8FE' !important;
+    font-family: "bootstrap-icons"; /* Bootstrap Icons font family */
+    font-size: 18px; /* Adjust the icon size */
+  }
+  
+  .info-list-where:before {
+    content: '\F64B' !important;
+    font-family: "bootstrap-icons";
+    font-size: 18px;
+  }
+  
+  .info-list-duration:before {
+    content: '\F291' !important;
+    font-family: "bootstrap-icons";
+    font-size: 18px;
+  }
+  
+  .info-list-publication:before {
+    content: '\F444' !important;
+    font-family: "bootstrap-icons";
+    font-size: 18px;
+  }
+  
+  .info-list-tools:before {
+    content: '\F5DB' !important;
+    font-family: "bootstrap-icons";
+    font-size: 18px;
+  }
+  

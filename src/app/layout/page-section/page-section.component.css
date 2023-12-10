@@ -1,14 +1,11 @@
 .page-section-title {
     color: var(--textTitle);
-    padding: 0px !important;
 }
 
 .page-section-subtitle {
     color: var(--textSubtitle);
-    padding: 0px !important;
 }
 
 .page-section-subsubtitle {
     color: var(--text);
-    padding: 0px !important;
 }

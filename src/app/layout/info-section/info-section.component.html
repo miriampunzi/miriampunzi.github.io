@@ -1,22 +1,27 @@
-<div class="container page-info-card page-info-row">
-    <div class="row ">
-        <ul>
-            <li>
-                <label class="label-strong">About</label>:<br>
+<section>
+    <div class="row">
+        <div class="col-12 col-lg-8">
+            <app-page-section sectionTitle="About">
                 {{project[0].about}}
-            </li>
-            <li>
-                <label class="label-strong">What</label>:
-                {{project[0].what}}
-            </li>
-            <li>
-                <label class="label-strong">Where</label>: <a href="https://www.event-lab.org/" target="_blank">{{project[0].where}}</a>
-                
-            </li>
-            <li>
-                <label class="label-strong">Duration</label>: {{project[0].duration}}    
-            </li>
+            </app-page-section>
+        </div>
+        <div class="col page-info-extra">
+            <ul class="info-list">
+                <li class="info-list-what">{{project[0].what}}</li>
+                <li class="info-list-where"><a href="https://www.event-lab.org/" target="_blank">{{project[0].where}}</a></li>
+                <li class="info-list-duration">{{project[0].duration}}</li>
+                <li class="info-list-publication">publication</li>
+                <li class="info-list-tools">tools</li>
+            </ul>
 
-        </ul>
+            <!-- <p><i class="bi bi-suitcase-lg-fill info-icon"></i>{{project[0].what}}</p>
+            <p><i class="bi bi-pin-map-fill info-icon"></i><a href="https://www.event-lab.org/" target="_blank">{{project[0].where}}</a></p>
+            <p><i class="bi bi-clock-fill info-icon"></i>{{project[0].duration}}</p>
+            <p><i class="bi bi-journal-text info-icon"></i>publication</p>
+            <p><i class="bi bi-tools info-icon"></i>tools</p> -->
+        </div>
     </div>
-</div>
+    <!-- <div >
+        video
+    </div> -->
+</section>
