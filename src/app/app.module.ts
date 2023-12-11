@@ -24,6 +24,7 @@ import { PearlyComponent } from './projects/pearly/pearly.component';
 import { BookflixComponent } from './projects/bookflix/bookflix.component';
 import { ProjectCoverComponent } from './layout/project-cover/project-cover.component';
 import { InfoSectionComponent } from './layout/info-section/info-section.component';
+import { ArrowImagesComponent } from './layout/arrow-images/arrow-images.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { InfoSectionComponent } from './layout/info-section/info-section.compone
     BookflixComponent,
     ProjectCoverComponent,
     InfoSectionComponent,
+    ArrowImagesComponent,
   ],
   imports: [
     BrowserModule,
