@@ -4,13 +4,13 @@
 :root {
     --background: #FFFFFF;
     --section: #eaf3ff;
-    --navbar: #011126;
-    --footer: #023e73;
+    --navbar: #0A2342;
+    --footer: #0A2342;
     --info: #f4f4f4;
 
     --text: black;
-    --textTitle: #023e73;
-    --textSubtitle: #023e73;
+    --textTitle: #0A2342;
+    --textSubtitle: #0A2342;
     --textCaption: #f4f4f4;
 }
 
@@ -20,7 +20,7 @@ body {
     font-size: 1rem;
 
 	background: rgb(0,0,0);
-	background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+	background: linear-gradient(0deg, #EE0979 0%, #ff6a00 100%);
 
 	background-size: 100%;
 	background-repeat: no-repeat;

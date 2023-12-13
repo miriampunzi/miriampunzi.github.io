@@ -1,10 +1,11 @@
-<header class="about-cover text-white">
-  <div class="container">
+<div class="container-fluid containerSections">
+  <section class="about-cover">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+      <div class="col-12 col-lg-4">
         <img class="about-cover-image" src="/assets/images/graduation-photos/master-social-distance.jpg">
       </div>
-      <div class="col-12 col-md-6 col-lg-7 col-xl-8">
+
+      <div class="col">
         <h1>Hi, I'm Miriam Punzi!</h1>
         <p>
           Born and raised in Mantova (Italy), I have been interested in technology since I was a child.
@@ -30,10 +31,8 @@
         </p>
       </div>
     </div>
-  </div>
-</header>
-
-<div class="container-fluid containerSections" id="aboutContainer">
+  </section>
+  
   <!--education -->
   <section>
   <app-page-section sectionTitle="Education">
@@ -57,7 +56,7 @@
   <!--experience -->
   <section>
     <app-page-section sectionTitle="Experience">
-      <ul class="list-unstyled" *ngFor="let e of experience; index as i">
+      <ul class="about-list" *ngFor="let e of experience; index as i">
         <app-experience-card [index]="i"></app-experience-card>
       </ul>
     </app-page-section>
@@ -77,15 +76,15 @@
     </app-page-section>
 
     <app-page-section sectionSubsubtitle="While I was studying around Europe, I had the occasion to">
-      <ul class="list-unstyled">
-        <li class="about-language-row">
-          <img class="about-language-image" src="assets/images/languages/english.png"> Improve my English communication skills!
+      <ul class="about-list">
+        <li class="about-language-icon about-language-english">
+          <img>Improve my English communication skills!
         </li>
-        <li class="about-language-row">
-          <img class="about-language-image" src="assets/images/languages/spanish.png"> ¡Aprender a hablar fluidamente español!
+        <li class="about-language-icon about-language-spanish">
+          ¡Aprender a hablar fluidamente español!
         </li>
-        <li class="about-language-row">
-          <img class="about-language-image" src="assets/images/languages/french.png"> Commencer à parler un peu de français !
+        <li class="about-language-icon about-language-french">
+          Commencer à parler un peu de français !
         </li>
       </ul>
     </app-page-section>

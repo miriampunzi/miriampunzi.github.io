@@ -2,10 +2,14 @@
     border: none;
 }
 
-.experience-logo-div {
-    /* padding: 0px !important; */
-    
-}
+.experience-icon {
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position-y: 5px;
+    background-size: 60px;
+    margin-bottom: 8px;
+  }
 
 .experience-logo {
     width: 60px;
