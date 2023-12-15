@@ -1,3 +1,7 @@
+.about-left-section {
+  margin-right: 0px !important;
+}
+
 .education-card {
     border: none;
     background-color: transparent;
@@ -42,8 +46,8 @@
     z-index: -1;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+/* @media screen and (min-width: 1200px) and (max-width: 1400px) {
     .education-card-row {
       height: 250px;
     }
-  }
+  } */

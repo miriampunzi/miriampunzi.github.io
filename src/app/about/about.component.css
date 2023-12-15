@@ -1,11 +1,91 @@
-.about-cover {
-  margin-top: 70px;
+.about-education-timeline {
+  list-style-type: none;
+  position: relative;
 }
 
-.about-cover-image {
-  width: 100%;
+.about-education-timeline:before {
+  content: " ";
+  background: var(--textTitle);
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  width: 3px;
   height: 100%;
-  object-fit: contain;
+  z-index: 400;
+}
+
+.about-education-point {
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+.about-education-point:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--textTitle);
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  z-index: 400;
+}
+
+.about-education-point-ups {
+  margin-top: 10px;
+}
+
+.about-education-point-itis {
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.about-education-point-ups:before {
+  background-image: url("/assets/images/graduation-photos/ups.jpg");
+}
+
+.about-education-point-upm:before {
+  background-image: url("/assets/images/graduation-photos/upm.jpg");
+}
+
+.about-education-point-unitn:before {
+  background-image: url("/assets/images/graduation-photos/unitn.jpg");
+}
+
+.about-education-point-itis:before {
+  background-image: url("/assets/images/graduation-photos/itis.jpg");
+}
+
+@media (max-width: 575.98px) { 
+  .about-education-point:before {
+    width: 100px;
+    height: 100px;
+    position: unset;
+  }
+
+  .about-education-timeline:before {
+    content: none;
+  }
+
+  .about-education-point {
+    padding-left: 0px;
+    padding-bottom: 30px;
+  }
+
+  .about-education-timeline {
+    padding-left: 0px;
+  }
+
+  .about-education-point-itis {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.about-container {
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .about-list {

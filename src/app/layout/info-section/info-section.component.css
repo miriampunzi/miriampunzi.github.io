@@ -40,11 +40,10 @@
     left: 0;
   }
   
-  /* Bootstrap Icons as bullet points */
   .info-list-what::before {
     content: '\F8FE' !important;
-    font-family: "bootstrap-icons"; /* Bootstrap Icons font family */
-    font-size: 18px; /* Adjust the icon size */
+    font-family: "bootstrap-icons";
+    font-size: 18px;
   }
   
   .info-list-where:before {

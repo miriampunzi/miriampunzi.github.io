@@ -1,5 +1,7 @@
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
 
 :root {
     --background: #FFFFFF;
@@ -7,6 +9,7 @@
     --navbar: #0A2342;
     --footer: #0A2342;
     --info: #f4f4f4;
+    --grey: rgb(163, 171, 181);
 
     --text: black;
     --textTitle: #0A2342;
@@ -43,9 +46,32 @@ h1, h2, h3, h4, h5, h6 {
 section {
     background-color: var(--background);
 	margin: 30px 8%;
-	padding: 20px;
+	padding: 30px;
 	border-radius: 20px;
 	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+}
+
+.left-section {
+    margin-right: 6px !important;
+}
+
+.right-section {
+    margin-left: 6px !important;
+}
+
+@media (max-width: 768px) { 
+    .right-section {
+        margin-right: 0px !important;
+        margin-top: 0px;
+    }
+
+    .right-section {
+        margin-left: 0px !important;
+    }
+
+    section {
+        margin: 8% 0px;
+    }
 }
 
 .label-strong {

@@ -1,21 +1,3 @@
-<li>
-  <div class="card education-card">
-    <div class="row education-card-row">
-      <div class="about-timeline col-4 col-md-3 col-xxl-2">
-        <div class="about-education-timeline" style="padding-bottom: 20px;">
-          <img class="img-fluid graduation-picture" [src]="education[index].graduationPhoto" alt="...">
-        </div>
-      </div>
-      <div class="col">
-        <div class="education-card-body">
-          <h5><span class="badge education-card-year">{{education[index].years}}</span></h5>
-          <h5>{{education[index].studyTitle}}</h5>
-          <p><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</li>
-
-
-  
+<small class="float-end">{{education[index].years}}</small>
+<h6>{{education[index].studyTitle}}</h6>
+<p style="margin-bottom: 0px;"><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
