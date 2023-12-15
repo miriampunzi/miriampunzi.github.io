@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
     background-color: var(--background);
-	margin: 30px 8%;
+	margin-top: 30px;
 	padding: 30px;
 	border-radius: 20px;
 	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);

@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ExperienceService } from '../services/experience.service';
+import { EducationService } from '../services/education.service';
+import { SkillsService } from '../services/skills.service';
 
 @Component({
   selector: 'app-home',
@@ -15,4 +18,10 @@ export class HomeComponent {
     'assets/images/Home/Cover Pearly.jpg',
     'assets/images/Home/Cover Bookflix.jpg',
   ]
+
+  constructor(private experienceService: ExperienceService, private educationService: EducationService, private skillsService: SkillsService) { }
+
+  experience = this.experienceService.experience
+  education = this.educationService.education
+  skills = this.skillsService.skills
 }
