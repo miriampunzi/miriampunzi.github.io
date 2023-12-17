@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ImmersivePageComponent } from './immersive-page/immersive-page.component';
-import { AboutComponent } from './about/about.component';
 import { ConcertRandomizationComponent } from './projects/concert-randomization/concert-randomization.component';
 import { NonverbalBehaviourComponent } from './projects/nonverbal-behaviour/nonverbal-behaviour.component';
 import { SituatedMemoriesComponent } from './projects/situated-memories/situated-memories.component';
@@ -13,7 +12,7 @@ import { BookflixComponent } from './projects/bookflix/bookflix.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'about', component: AboutComponent},
+  {path: 'home', component: HomeComponent},
   {path: 'aframe', component: ImmersivePageComponent},
   {path: 'concert-randomization', component: ConcertRandomizationComponent},
   {path: 'nonverbal-behaviour', component: NonverbalBehaviourComponent},

@@ -1,6 +1,240 @@
 <app-project-cover title="PopupBreak" image="assets/images/project-covers/Cover PopupBreak.jpg">
 </app-project-cover>
 
-<div class="container-fluid containerSections">
+<div class="container containerSections">
     <app-info-section projectName="popupbreak"></app-info-section>
+
+    <!-- Problem -->
+    <section>
+        <app-page-section sectionTitle="Problem">
+            <p>Stationary work and study settings may lead to harmful consequences to people's physical and emotional health. Many people start to realize their problems and intend to make a change, but they still need reminders and guidance.</p>
+            We did 9 interviews among students and sedentary workers, investigating their lifestyles. The common problems we found are:
+            <ul>
+                <li>Forgetting to take a pause, especially when fully focused on the work.</li>
+                <li>Forgetting drinking water or don't drink enough during the day.</li>
+                <li>Eyesight problems due to long screen time.</li>
+                <li>Back pain due to bad posture.</li>
+                <li>Sleep insomnia due to too much blue light exposure.</li>
+                <li>Stress and tension during the week.</li>
+            </ul>
+        </app-page-section>
+    </section>
+
+    <!-- Interview -->
+    <section>
+        <app-page-section sectionTitle="Interviews">
+            METTERE NUMERONE
+
+            <p>Routine: occupation, computer usage, sleeping, eating, drinking habits.</p>
+            <ul>
+                <li>What is your occupation?</li>
+                <li>Could you tell us about your routine everyday?</li>
+                <li>How many hours do you work/study in front of the computer everyday?</li>
+                <li>How structured is your routine? Do you have a fixed schedule or are you more flexible with times?</li>
+                <li>Can you tell me about the last time you had trouble falling asleep? Why do you think that happened? </li>
+                <li>How often do you eat something while working?</li>
+                <li>How much water do you drink every day? (# glasses, # water bottles) </li>
+                <li>How would you qualify your eyesight? Do you think work affects it much? </li>
+            </ul>
+
+            <p>Physical habits: posture and view, problems, exercises.</p>
+            <ul>
+                <li>How often do you exercise? For how long? Are you satisfied with it?</li>
+                <li>Could you tell me the story of the last time you had some sort of pain after working? Why do you think that was? (e.g. back pain, stiffness, …) </li>
+                <li>Follow up: Was it due to working long hours on your laptop and how did it affect you? Did you have to go to a doctor? What were his recommendations? </li>
+                <li>How would you qualify your posture? How do you keep straight? </li>
+                <li>Are you familiar with active pauses? Do you do them? Why not?</li>
+            </ul>
+
+            <p>Breaks: frequence, duration, descriptions</p>
+            <ul>
+                <li>What is the longest you have worked without taking a pause? </li>
+                <li>How often do you do breaks while working? And how long are they?</li>
+                <li>Are the breaks predefined? Or do you do them voluntarily at will?</li>
+            </ul>
+
+            <p>Distractions: frequence, motivations, causes.</p>
+            <ul>
+                <li>Do you easily distract yourself using the phone while working? Why? What do you do when you are distracted?</li>
+                <li>Can you tell me which kind of notifications you do NOT ignore? What is it about them that makes you wanna stop and pay attention to them?</li>
+                <li>Can you tell me about the last time you were interrupted while working and you didn’t like it? Can you tell me about another time where you had no problem being interrupted? What was the difference?  (tolerance)</li>
+            </ul>
+        </app-page-section>
+    </section>
+
+    <!-- Target Users -->
+    <section>
+        <app-page-section sectionTitle="Target Users">
+            <div class="row">
+                <div class="col-3">
+                    <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Students"></app-hobby-card>
+                </div>
+                <div class="col-3">
+                    <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Sedentary workers"></app-hobby-card>
+                </div>
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Design -->
+    <section>
+        <app-page-section sectionTitle="Design"></app-page-section>
+
+        <app-page-section sectionSubtitle="Alternative designs">
+            <ul>
+                <li><h6>Mobile Version</h6>
+                    <p>Distractions come from that</p>
+                    <p>Can't use phone while working sometimes</p></li>
+                <li><h6>Desktop App</h6>
+                    <p>People have already PC open</p>
+                    <p>Users that don’t use PC while working are not going to use our system probably</p></li>
+            </ul>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Features of the system">
+            <ul>
+                <li>Virtual Coach (VC): working as a "ghost friend" to encourage users in applying good practices. It pop-ups on the screen.</li>
+                <li>Don't disturb mode: customize the level of intrusiveness, healthy interruptions, and alerting.</li>
+                <li>Customize reminders: customize frequency and reminders. The user can create new ones (e.g. "Remember to take this medicine").</li>
+                <li>Good practices section: to encourage awareness. People can start planning their routine considering them.</li>
+                <li>Habit tracker: summarize activities' data (e.g.: work times, number of breaks, liters of water drunk) daily, weekly, monthly. </li>
+                <li>Positive reinforcement: the system shows the impact on the user's health of what has been done.</li>
+                <li>Gamification: the system could reward the user according to the application of the good practices.</li>
+                <li>Calendar synchronization: to bear in mind the other things to do. VC don't pop-up during calls and meetings.</li>
+            </ul>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Virtual Coach">
+            Reminders:
+            <ul>
+                <li>Do active breaks from the work, with stretching</li>
+                <li>Do eye exercises and eye breaks from the screens</li>
+                <li>Drink water</li>
+                <li>Eat a healthy snack</li>
+                <li>Keep a good posture</li>
+                <li>Mindfulness: deep breathing, mind spaces at beginning and end of the journey</li>
+            </ul>
+
+            Extra features:
+            <ul>
+                <li>It shows emotions and facial expressions to encourage the user</li>
+                <li>It shows the exercise to perform and tip that you need to do right now</li>
+                <li>It does things alongside the user if wanted (e.g. it does eye exercises at the same time with the user)</li>
+            </ul>
+
+            <div class="row row-cols-3 row-cols-md-4 row-cols-xl-6 g-4">
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Happiness"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Courageous"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Surprise"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Sadness"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Anger"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Disappointment"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Neutral"></app-hobby-card>
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Prototype -->
+    <section>
+        <app-page-section sectionTitle="Prototype">
+            <div class="row row-cols-md-1 row-cols-xl-2 g-4">
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Welcome screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Pop-up"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Excercise screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Drink reminder"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Learn more screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Information screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Statistics screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Achievement screen"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Customization of reminders screen"></app-hobby-card>    
+            </div>
+        </app-page-section>
+    </section>
+
+    <!-- Usability Testing -->
+    <section>
+        <app-page-section sectionTitle="Usability Testing"></app-page-section>
+
+        <app-page-section sectionSubtitle="Illustrative Scenario">
+            IMMAGINE
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Video Demo">
+            VIDEO
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="From user thought to feature">
+            <table>
+                <tbody>
+                  <tr>
+                    <td>"I don't want to invest so much time in setting up everything. I don't want to think, too many configurations"</td>
+                    <td><i class="bi bi-arrow-right"></i></td>
+                    <td>
+                        <ul>
+                            <li>Include default settings.</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>"I could be embarrassed in doing exercise in front of my colleagues"</td>
+                    <td><i class="bi bi-arrow-right"></i></td>
+                    <td>
+                        <ul>
+                            <li>Customize exercises, include some that are not so visible (like just move the neck, contract some muscles).</li>
+                            <li>Create profiles of reminders (e.g. "Work at office", "Work at home").</li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>"I wouldn't care a lot about the emotions of the Virtual Coach. How do you keep the users engaged and motivated?"</td>
+                    <td><i class="bi bi-arrow-right"></i></td>
+                    <td>
+                        <ul>
+                            <li>Show videos of people that feel great about these new habits.</li>
+                            <li>Include motivational messages and reviews from other users.</li>
+                            <li>Add music according to the type of exercise or break to do.</li>
+                        </ul>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+        </app-page-section>
+    </section>
+
+    <!-- Development -->
+    <section>
+        <app-page-section sectionTitle="Development"></app-page-section>
+
+        <app-page-section sectionSubtitle="Tools">
+            <div class="row row-cols-md-2 row-cols-xl-3 g-4">
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="MARC"></app-hobby-card>
+                <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Java Swing"></app-hobby-card>    
+            </div>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="Architecture of the system">
+            IMMAGINE
+
+            <div class="row row-cols-sm-1 row-cols-md-2">
+                <div class="col">
+                    <h6>MARC framework</h6>
+                    <ul>
+                        <li>Generates in rea-time the facial animation for the given emotion.</li>
+                        <li>Maps the emotions to a set of AUs combinations from our predefined library.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>PopUpBreak app</h6>
+                    <ul>
+                        <li>Takes that rendered animation and embeds it into our system in the respective screen it corresponds. </li>
+                        <li>Changes screens depending on the user interaction or if there is a time for a scheduled break.</li>
+                    </ul>
+                </div>
+            </div>
+        </app-page-section>
+
+        <app-page-section sectionSubtitle="State Machine">
+            IMMAGINI
+        </app-page-section>
+    </section>
 </div>

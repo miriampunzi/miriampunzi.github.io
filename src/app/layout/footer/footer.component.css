@@ -1,5 +1,6 @@
 .footer-background {
     background-color: var(--footer) !important;
+    margin-top: 90px;
 }
 
 .footer-upperdiv {

@@ -4,35 +4,46 @@
 
 
 :root {
-    --background: #FFFFFF;
-    --section: #eaf3ff;
-    --navbar: #0A2342;
-    --footer: #0A2342;
-    --info: #f4f4f4;
-    --grey: rgb(163, 171, 181);
+    --background: black;
+    --section: #111111;
+    --navbar: #111111;
+    --footer: #111111;
+    --info: #222222;
 
-    --text: black;
-    --textTitle: #0A2342;
-    --textSubtitle: #0A2342;
+    --text: white;
+    --textTitle: #0086FF;
+    --textSubtitle: #0086FF;
     --textCaption: #f4f4f4;
+    --textLink: #80C3FF;
 }
 
 body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    font-size: 1rem;
 
-	background: rgb(0,0,0);
-	background: linear-gradient(0deg, #EE0979 0%, #ff6a00 100%);
-
-	background-size: 100%;
+	background: var(--background);
 	background-repeat: no-repeat;
+
+    color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+
+a {
+    color: var(--textLink);
+}
+
+a:hover {
+    color: var(--textTitle);
+}
+
+::selection {
+    background-color: var(--textLink);
+    color: var(--background);
+  }
 
 .containerSections {
     padding: 0px;
@@ -44,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-    background-color: var(--background);
+    background-color: var(--section);
 	margin-top: 30px;
 	padding: 30px;
 	border-radius: 20px;
