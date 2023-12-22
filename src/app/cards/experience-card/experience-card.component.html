@@ -1,6 +1,12 @@
-<li class="experience-icon" [ngStyle]="{ 'background-image': 'url(&quot;' + experience[index].icon + '&quot;)' }">
-  <h5>{{experience[index].jobTitle}} @ <a [href]="experience[index].url" target="_blank">{{experience[index].company}}</a></h5>
-  <h6>{{experience[index].period}}</h6> 
-</li>
-
-<p class="card-text">{{experience[index].description}}</p>
+<div class="row experience-card">
+  <div class="experience-title">
+    <div class="experience-icon" [ngStyle]="{ 'background-image': 'url(&quot;' + experience[index].icon + '&quot;)' }"></div>
+    <div>
+      <h5>{{experience[index].jobTitle}} @ <a [href]="experience[index].url" target="_blank">{{experience[index].company}}</a></h5>
+      <small>{{experience[index].period}}</small> 
+    </div>
+  </div>
+  <div>
+    <p class="card-text">{{experience[index].description}}</p>
+  </div>
+</div>

@@ -1,53 +1,37 @@
-.about-left-section {
-  margin-right: 0px !important;
+.education-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.education-card {
-    border: none;
-    background-color: transparent;
+.education-row-last {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
 }
 
-.education-card-row {
-    margin-bottom: 0px;
-    height: 180px;
-}
-
-.education-card-year {
-    background-color: var(--textTitle) !important;
-}
-
-.education-card-body {
-    margin-left: 10px;
-}
-
-.graduation-picture {
-    border-radius: 50%;
-    border: 5px solid var(--textTitle);
-}
-
-.about-timeline {
-    position: relative;
+@media (max-width: 575.98px) {
+  .education-row {
+    flex-direction: column;
   }
 
-  .about-education-timeline {
-    position: absolute;
-    height: 100%;
-    z-index: 100;
+  .education-image {
+    margin-bottom: 30px;
+    margin-right: 0px !important;
   }
 
-.about-education-timeline::before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 5px;
-    content: "";
-    background-color: var(--textTitle);
-    z-index: -1;
+  .education-text {
+    text-align: center;
+  }
 }
 
-/* @media screen and (min-width: 1200px) and (max-width: 1400px) {
-    .education-card-row {
-      height: 250px;
-    }
-  } */
+.education-image {
+  flex: none;
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 3px solid var(--textCaption);
+  position: relative;
+  z-index: 500;
+}

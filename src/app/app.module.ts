@@ -24,6 +24,7 @@ import { BookflixComponent } from './projects/bookflix/bookflix.component';
 import { ProjectCoverComponent } from './layout/project-cover/project-cover.component';
 import { InfoSectionComponent } from './layout/info-section/info-section.component';
 import { ArrowImagesComponent } from './layout/arrow-images/arrow-images.component';
+import { LanguageCardComponent } from './cards/language-card/language-card.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ArrowImagesComponent } from './layout/arrow-images/arrow-images.compone
     ProjectCoverComponent,
     InfoSectionComponent,
     ArrowImagesComponent,
+    LanguageCardComponent,
   ],
   imports: [
     BrowserModule,

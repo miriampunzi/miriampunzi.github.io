@@ -1,29 +1,37 @@
 .experience-card {
-    border: none;
+    margin-bottom: 10px;
+}
+
+.experience-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
 }
 
 .experience-icon {
+    flex: none;
     height: 60px;
-    padding-left: 70px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-position-y: 5px;
-    background-size: 50px;
-    margin-bottom: 8px;
-  }
-
-.experience-logo {
     width: 60px;
+
+    background-color: white;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    margin-right: 15px;
+
     object-fit: cover;
     border: 1px solid rgb(182, 182, 182);
     border-radius: 5px;
     padding: 5px;
-}
+  }
 
 @media (max-width: 575.98px) { 
     .experience-icon {
-        background-image: unset !important;
-        padding-left: 0px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
+    }
+
+    .experience-title {
+        display: unset;
     }
 }

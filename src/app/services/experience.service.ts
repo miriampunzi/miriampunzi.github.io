@@ -29,7 +29,7 @@ export class ExperienceService {
     {
       company: "LISN",
       icon: "assets/images/experience-logos/lisn.png",
-      jobTitle: "UX Researcher & VR Programmer",
+      jobTitle: "UX, VR, AI Researcher",
       url: "https://www.lisn.upsaclay.fr/",
       period: "Apr 2021 - Sept 2021",
       location: "Paris, France",

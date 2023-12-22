@@ -1,3 +1,19 @@
-<small class="float-end">{{education[index].years}}</small>
-<h6>{{education[index].studyTitle}}</h6>
-<p style="margin-bottom: 0px;"><a [href]="education[index].url" target="_blank">{{education[index].university}}</a></p>
+<div class="row">
+  <div
+    class="education-row"
+    [ngClass]="{ 'education-row-last': index === education.length - 1 }"
+  >
+    <div>
+      <img class="education-image" [src]="education[index].graduationPhoto" />
+    </div>
+    <div class="education-text">
+      <h5>{{ education[index].studyTitle }}</h5>
+      <p>
+        <a [href]="education[index].url" target="_blank">{{
+          education[index].university
+        }}</a>
+      </p>
+      <small>{{ education[index].years }}</small>
+    </div>
+  </div>
+</div>
