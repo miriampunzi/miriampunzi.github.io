@@ -24,6 +24,10 @@ li {
     padding-bottom: 0px;
 }
 
+a {
+    color: white;
+}
+
 @media (max-width: 991.98px) { 
     li {
         margin-left: 20px;

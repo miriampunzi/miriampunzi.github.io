@@ -8,6 +8,9 @@
 }
 
 .footer-copyright {
-    font-size: 10px;
     color: var(--textCaption);
+}
+
+.footer-text {
+    font-size: 0.85rem;
 }

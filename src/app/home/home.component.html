@@ -1,84 +1,72 @@
-<div class="home-cover text-white">
+<div class="home-cover text-white d-flex align-items-center">
   <div class="container">
-    <h1 class="project-name">Hello,</h1>
-    <h1>I'm Miriam!</h1>
+    <div class="row p-4">
+      <h1 class="header-name">Hello,</h1>
+      <h1 class="header-name">I'm Miriam!</h1>
+      <span>XR Software Engineer, graduated in Computer Science & UX Design</span>
+    </div>
   </div>
 </div>
 
 <div class="container">
   <!--about -->
   <section>
-    <div class="row" style="margin: 0px">
+    <div class="row m-0">
       <div class="col-12 col-lg-4 col-xl-3 page-info-extra">
-        <div class="page-info-profile">
-          <img
-            class="img-fluid page-info-picture"
-            src="/assets/images/profile.jpeg"
-          />
+        <div class="row">
+          <div class="col-md-5 col-lg-12 page-info-profile">
+            <img class="img-fluid page-info-picture" src="/assets/images/profile.jpeg" />
+          </div>
+          <div class="col d-flex align-items-center">
+            <ul class="info-list">
+              <li class="info-list-job">XR Software Engineer</li>
+              <li class="info-list-company">
+                <a href="https://www.txtgroup.com/" target="_blank">TXT E-Tech</a>
+              </li>
+              <li class="info-list-where">Milan (Italy)</li>
+              <li class="info-list-email">
+                <a href="mailto:mpunzi97@gmail.com" target="_blank">mpunzi97@gmail.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul class="info-list">
-          <li class="info-list-job">XR Software Engineer</li>
-          <li class="info-list-company">
-            <a href="https://www.txtgroup.com/" target="_blank">TXT E-Tech</a>
-          </li>
-          <li class="info-list-where">Milan (Italy)</li>
-          <li class="info-list-email">
-            <a href="mailto:mpunzi97@gmail.com" target="_blank"
-              >mpunzi97@gmail.com</a
-            >
-          </li>
-        </ul>
       </div>
-      <div class="col">
-        <app-page-section sectionTitle="About Me">
-          <p>
-            Born and raised in Mantova (Italy), I have been interested in
-            technology since I was a child. For deepening my knowledge in that
-            area, I chose a
-            <a href="https://www.fermimn.edu.it/" target="_blank"
-              >High School in Computer Science</a
-            >, where I learned how to develop software. I really enjoyed that,
-            so I continued my studies in Computer Science at the
-            <a
-              href="https://offertaformativa.unitn.it/it/l/informatica"
-              target="_blank"
-              >University of Trento</a
-            >.
-          </p>
-          <p>
-            At the same time, I like to challenge myself with creative
-            activities. So, I applied to a master's in Human-Computer
-            Interaction and Design, in which I learned how to design interactive
-            systems placing the user at the center of the process. Specifically,
-            I applied to the
-            <a
-              href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design"
-              target="_blank"
-              >EIT Digital Master School</a
-            >, a double-degree program performed in two different cities in
-            Europe. I did my first year in Madrid (<a
-              href="https://www.fi.upm.es/?pagina=2235"
-              target="_blank"
-              >Politécnica de Madrid</a
-            >) and my second in Paris (<a
-              href="https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction"
-              target="_blank"
-              >Université Paris-Saclay</a
-            >).
-          </p>
-          <p>
-            I chose to study abroad because I wanted to expand my horizons and
-            test myself in different contexts, with different languages. This
-            experience has inspired me to always be curious and enthusiastic
-            about meeting new people and exploring new cultures.
-          </p>
-          <p>
-            In the last few years, I've been interested in immersive
-            environments. Thanks to the internship for my master thesis, in
-            which I designed, developed, and tested the usability of a VR game,
-            I realized that I want to continue in this field.
-          </p>
-        </app-page-section>
+      <div class="col about-text">
+        <h3 class="about-text about-title">About Me</h3>
+        <p class="about-text">
+          Born and raised in Mantova (Italy), I have been interested in
+          technology since I was a child. For deepening my knowledge in that
+          area, I chose a
+          <a href="https://www.fermimn.edu.it/" target="_blank">High School in Computer Science</a>, where I learned
+          how to develop software. I really enjoyed that,
+          so I continued my studies in Computer Science at the
+          <a href="https://offertaformativa.unitn.it/it/l/informatica" target="_blank">University of Trento</a>.
+        </p>
+        <p>
+          At the same time, I like to challenge myself with creative
+          activities. So, I applied to a master's in Human-Computer
+          Interaction and Design, in which I learned how to design interactive
+          systems placing the user at the center of the process. Specifically,
+          I applied to the
+          <a href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design" target="_blank">EIT
+            Digital Master School</a>, a double-degree program performed in two different cities in
+          Europe. I did my first year in Madrid (<a href="https://www.fi.upm.es/?pagina=2235"
+            target="_blank">Politécnica de Madrid</a>) and my second in Paris (<a
+            href="https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction"
+            target="_blank">Université Paris-Saclay</a>).
+        </p>
+        <p>
+          I chose to study abroad because I wanted to expand my horizons and
+          test myself in different contexts, with different languages. This
+          experience has inspired me to always be curious and enthusiastic
+          about meeting new people and exploring new cultures.
+        </p>
+        <p class="mb-0">
+          In the last few years, I've been interested in immersive
+          environments. Thanks to the internship for my master thesis, in
+          which I designed, developed, and tested the usability of a VR game,
+          I realized that I want to continue in this field.
+        </p>
       </div>
     </div>
   </section>
@@ -88,10 +76,7 @@
       <!--education -->
       <section class="left-section">
         <app-page-section sectionTitle="Education">
-          <div
-            class="education-timeline"
-            *ngFor="let e of education; index as i"
-          >
+          <div class="education-timeline" *ngFor="let e of education; index as i">
             <app-education-card [index]="i"></app-education-card>
           </div>
         </app-page-section>
@@ -112,11 +97,8 @@
       <section class="right-section">
         <app-page-section sectionTitle="Skills"></app-page-section>
 
-        <div
-          class="skill-row"
-          *ngFor="let s of skills; index as i"
-          [ngClass]="{ 'skill-row-last': i === skills.length - 1 }"
-        >
+        <div class="skill-row" *ngFor="let s of skills; index as i"
+          [ngClass]="{ 'skill-row-last': i === skills.length - 1 }">
           <h6>{{ s.category }}</h6>
           <app-skill-card [i]="i"></app-skill-card>
         </div>
@@ -127,27 +109,17 @@
         <app-page-section sectionTitle="Languages"> </app-page-section>
 
         <app-page-section sectionSubsubtitle="My mother tongue is">
-          <app-language-card class="language-card"
-            imagePath="assets/images/languages/italian.png"
-            description="Italian"
-          ></app-language-card>
+          <app-language-card class="language-card" imagePath="assets/images/languages/italian.png"
+            description="Italian"></app-language-card>
         </app-page-section>
 
-        <app-page-section
-          sectionSubsubtitle="While I was studying around Europe, I had the occasion to"
-        >
-          <app-language-card class="language-card"
-            imagePath="assets/images/languages/english.png"
-            description="Improve my English communication skills!"
-          ></app-language-card>
-          <app-language-card class="language-card"
-            imagePath="assets/images/languages/spanish.png"
-            description="¡Aprender a hablar fluidamente español!"
-          ></app-language-card>
-          <app-language-card
-            imagePath="assets/images/languages/french.png"
-            description="Commencer à parler un peu de français&nbsp;!"
-          ></app-language-card>
+        <app-page-section sectionSubsubtitle="While I was studying around Europe, I had the occasion to">
+          <app-language-card class="language-card" imagePath="assets/images/languages/english.png"
+            description="Improve my English communication skills!"></app-language-card>
+          <app-language-card class="language-card" imagePath="assets/images/languages/spanish.png"
+            description="¡Aprender a hablar fluidamente español!"></app-language-card>
+          <app-language-card imagePath="assets/images/languages/french.png"
+            description="Commencer à parler un peu de français&nbsp;!"></app-language-card>
         </app-page-section>
       </section>
 
@@ -155,22 +127,11 @@
       <section class="right-section">
         <app-page-section sectionTitle="Hobbies"></app-page-section>
 
-        <app-page-section
-          sectionSubsubtitle="When I'm not in front of a computer, I..."
-        >
+        <app-page-section sectionSubsubtitle="When I'm not in front of a computer, I...">
           <div class="row row-cols-2 row-cols-lg-3 row-cols-xl-4">
-            <app-hobby-card
-              imagePath="assets/images/hobbies/piano.jpg"
-              description="Play piano"
-            ></app-hobby-card>
-            <app-hobby-card
-              imagePath="assets/images/hobbies/cooking.jpg"
-              description="Cook"
-            ></app-hobby-card>
-            <app-hobby-card
-              imagePath="assets/images/hobbies/travel.jpg"
-              description="Travel"
-            ></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Play piano"></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/cooking.jpg" description="Cook"></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/travel.jpg" description="Travel"></app-hobby-card>
           </div>
         </app-page-section>
       </section>
@@ -189,10 +150,7 @@
 </div>
 
 <div class="container">
-  <div
-    class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4"
-    style="margin-top: 10px; margin-bottom: 50px"
-  >
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" style="margin-top: 10px; margin-bottom: 50px">
     <div *ngFor="let cover of coverProjects; index as i">
       <div class="col">
         <app-project-card [index]="i"></app-project-card>

@@ -1,9 +1,8 @@
 /* COVER */
-
 .home-cover {
   background-image: url('../../assets/images/project-covers/Cover Main.jpg');
   background-position: bottom center;
-  height: 100vh;
+  height: 60vh;
 
   background-attachment: fixed;
   background-size: cover;
@@ -16,8 +15,36 @@
   z-index: 1;
 }
 
+.home-projects-cover {
+  height: 50vh;
+}
+
 .header-name {
-  text-align: left;
+  font-size: 3rem;
+}
+
+@media (min-width: 576px) { 
+  .header-name {
+    font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-name {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-name {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) { 
 }
 
 .header-name-div {
@@ -34,51 +61,18 @@
   padding: 30px;
 }
 
-/* EDUCATION */
-.education-timeline {
-  position: relative;
+/* ABOUT ME */
+.about-title {
+  color: var(--textSubtitle);
 }
 
-.education-timeline:before {
-  content: " ";
-  background: var(--textCaption);
-  display: inline-block;
-  position: absolute;
-  left: 85px;
-  width: 3px;
-  height: 100%;
-  z-index: 400;
-}
-
-@media (max-width: 575.98px) {
-  .education-timeline:before {
-    content: none;
+@media (max-width: 991.98px) {
+  .about-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-}
-
-/* SKILLS */
-.skill-row {
-  margin-bottom: 30px;
-}
-
-.skill-row-last {
-  margin-bottom: 0px;
-}
-
-.about-container {
-  margin-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.about-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-/* LANGUAGES */
-.language-card {
-  margin-bottom: 15px;
 }
 
 .page-info-row {
@@ -91,17 +85,10 @@
 
 .page-info-extra {
   background-color: var(--info);
-  height: 420px;
   padding: 20px;
   border-radius: 20px;
   color: var(--textCaption);
   margin-bottom: 30px;
-}
-
-@media (min-width: 992px) {
-  .page-info-extra {
-    margin-right: 20px;
-  }
 }
 
 .page-info-profile {
@@ -165,4 +152,65 @@
   content: '\F32C' !important;
   font-family: "bootstrap-icons";
   font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .page-info-extra {
+    margin-right: 20px;
+    height: 410px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .page-info-profile {
+    margin-bottom: 0px;
+    justify-content: flex-start;
+  }
+}
+
+/* EDUCATION */
+.education-timeline {
+  position: relative;
+}
+
+.education-timeline:before {
+  content: " ";
+  background: var(--textCaption);
+  display: inline-block;
+  position: absolute;
+  left: 85px;
+  width: 3px;
+  height: 100%;
+  z-index: 400;
+}
+
+@media (max-width: 575.98px) {
+  .education-timeline:before {
+    content: none;
+  }
+}
+
+/* SKILLS */
+.skill-row {
+  margin-bottom: 30px;
+}
+
+.skill-row-last {
+  margin-bottom: 0px;
+}
+
+.about-container {
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* LANGUAGES */
+.language-card {
+  margin-bottom: 15px;
 }

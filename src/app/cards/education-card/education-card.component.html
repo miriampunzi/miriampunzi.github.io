@@ -1,8 +1,5 @@
 <div class="row">
-  <div
-    class="education-row"
-    [ngClass]="{ 'education-row-last': index === education.length - 1 }"
-  >
+  <div class="education-row" [ngClass]="{ 'education-row-last': index === education.length - 1 }">
     <div>
       <img class="education-image" [src]="education[index].graduationPhoto" />
     </div>
@@ -11,9 +8,12 @@
       <p>
         <a [href]="education[index].url" target="_blank">{{
           education[index].university
-        }}</a>
+          }}</a>
+
+        <br />
+
+        <small>{{ education[index].years }}</small>
       </p>
-      <small>{{ education[index].years }}</small>
     </div>
   </div>
 </div>
