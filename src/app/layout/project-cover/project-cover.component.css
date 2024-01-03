@@ -11,43 +11,26 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 }
-  
+
 .project-name {
     text-align: center;
+    font-size: 2rem;
 }
 
-@media (min-width: 0px) { 
+@media (min-width: 576px) {
     .project-name {
-        font-size: 10vw;
+        font-size: 2.2rem;
     }
- }
+}
 
-@media (min-width: 576px) { 
+@media (min-width: 768px) {
     .project-name {
-        font-size: 8vw;
+        font-size: 3rem;
     }
- }
+}
 
-@media (min-width: 768px) { 
+@media (min-width: 992px) {
     .project-name {
-        font-size: 7vw;
+        font-size: 3.5rem;
     }
- }
-
-@media (min-width: 992px) { 
-    .project-name {
-        font-size: 6vw;
-    }
- }
-
-@media (min-width: 1200px) { 
-    .project-name {
-        font-size: 5vw;
-    }
- }
-
-@media (min-width: 1400px) { 
-    .project-name {
-        font-size: 4vw;
-    }
- }
+}

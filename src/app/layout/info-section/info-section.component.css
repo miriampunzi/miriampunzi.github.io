@@ -1,72 +1,86 @@
 .page-info-row {
   background-color: var(--background);
   margin-top: 30px;
-	padding: 20px;
-	border-radius: 20px;
-	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
 }
 
 .page-info-extra {
   background-color: var(--info);
-	padding: 20px;
-	border-radius: 20px;
-	color: var(--textCaption);
-	margin: 0px 20px 0px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--textCaption);
+  margin: 0px 20px 0px 20px;
 }
 
 .info-icon {
-    margin-right: 10px;
-  }
+  margin-right: 10px;
+}
 
-  .info-list {
-    list-style: none;
-    padding-left: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .info-list li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-  }
+.info-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
 
-  .info-list li:last-child {
-    margin-bottom: 0px !important;
-  }
-  
-  .info-list li:before {
-    content: '';
-    position: absolute;
-    left: 0;
-  }
-  
-  .info-list-what::before {
-    content: '\F8FE' !important;
-    font-family: "bootstrap-icons";
-    font-size: 18px;
-  }
-  
-  .info-list-where:before {
-    content: '\F64B' !important;
-    font-family: "bootstrap-icons";
-    font-size: 18px;
-  }
-  
-  .info-list-duration:before {
-    content: '\F291' !important;
-    font-family: "bootstrap-icons";
-    font-size: 18px;
-  }
-  
-  .info-list-publication:before {
-    content: '\F444' !important;
-    font-family: "bootstrap-icons";
-    font-size: 18px;
-  }
-  
-  .info-list-tools:before {
-    content: '\F5DB' !important;
-    font-family: "bootstrap-icons";
-    font-size: 18px;
-  }
-  
+.info-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.info-list li:last-child {
+  margin-bottom: 0px !important;
+}
+
+.info-list li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.info-list-what::before {
+  content: '\F8FE' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+.info-list-where:before {
+  content: '\F64B' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+.info-list-duration:before {
+  content: '\F291' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+.info-list-publication:before {
+  content: '\F444' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+.info-list-tools:before {
+  content: '\F5DB' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+
+.embed-responsive-16by9 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.embed-responsive-16by9 iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

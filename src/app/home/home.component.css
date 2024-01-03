@@ -15,10 +15,6 @@
   z-index: 1;
 }
 
-.home-projects-cover {
-  height: 50vh;
-}
-
 .header-name {
   font-size: 3rem;
 }
@@ -41,12 +37,6 @@
   }
 }
 
-@media (min-width: 1200px) {
-}
-
-@media (min-width: 1400px) { 
-}
-
 .header-name-div {
   margin-bottom: 100px;
 }
@@ -55,10 +45,17 @@
   margin-right: 10px;
 }
 
-.section-title {
-  background: var(--section);
-  color: var(--textTitle);
-  padding: 30px;
+/* PROJECTS */
+.projects-cover {
+  background-image: url('../../assets/images/projects-background.jpg');
+  background-position: bottom center;
+  height: 30vh;
+
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 /* ABOUT ME */

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
-
 :root {
     --background: black;
     --section: #111111;
@@ -21,13 +20,18 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
 
-	background: var(--background);
-	background-repeat: no-repeat;
+    background: var(--background);
+    background-repeat: no-repeat;
 
     color: var(--text);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -44,10 +48,6 @@ a:hover {
 ::selection {
     background-color: var(--textLink);
     color: var(--background);
-  }
-
-.containerSections {
-    padding: 0px;
 }
 
 .list-no-margin {
@@ -57,10 +57,10 @@ a:hover {
 
 section {
     background-color: var(--section);
-	margin-top: 30px;
-	padding: 30px;
-	border-radius: 20px;
-	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
 }
 
 .left-section {
@@ -71,7 +71,7 @@ section {
     margin-left: 6px !important;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .right-section {
         margin-right: 0px !important;
         margin-top: 0px;
@@ -89,8 +89,4 @@ section {
 .label-strong {
     font-weight: 800;
     display: contents;
-}
-
-.col-page-section {
-    padding-left: 0px;
 }

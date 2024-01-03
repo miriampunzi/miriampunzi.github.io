@@ -2,20 +2,27 @@
     <div class="row">
         <div class="col-12 col-lg-8">
             <app-page-section sectionTitle="About">
-                {{project[0].about}}
+                <p>
+                    {{project[0].about}}
+                </p>
             </app-page-section>
         </div>
         <div class="col page-info-extra">
             <ul class="info-list">
-                <li class="info-list-what">{{project[0].what}}</li>
-                <li class="info-list-where"><a href="https://www.event-lab.org/" target="_blank">{{project[0].where}}</a></li>
-                <li class="info-list-duration">{{project[0].duration}}</li>
-                <li class="info-list-publication">publication</li>
-                <li class="info-list-tools">tools</li>
+                <li *ngIf="project[0].what" class="info-list-what">{{project[0].what}}</li>
+                <li *ngIf="project[0].where" class="info-list-where"><a [href]="project[0].url"
+                        target="_blank">{{project[0].where}}</a></li>
+                <li *ngIf="project[0].duration" class="info-list-duration">{{project[0].duration}}</li>
+                <li *ngIf="project[0].publication" class="info-list-publication">{{project[0].publication}}</li>
+                <li *ngIf="project[0].tools" class="info-list-tools">{{project[0].tools}}</li>
             </ul>
         </div>
     </div>
-    <!-- <div >
-        video
-    </div> -->
+    <div *ngIf="project[0].video" div class="row mt-4">
+        <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" [src]="getSafeVideoUrl(project[0].video)" allowfullscreen></iframe>
+              </div>
+        </div>
+    </div>
 </section>
