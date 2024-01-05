@@ -1,0 +1,28 @@
+.square-element {
+    display: flex;
+    margin-top: 5px;
+}
+
+.square {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.square-musician {
+    background-color: #0000ff;
+}
+
+.square-dancer {
+    background-color: #00ff00;
+}
+
+.square-object {
+    background-color: #ff0000;
+}
+
+.square-smoke {
+    background-color: #00e1ff;
+}
