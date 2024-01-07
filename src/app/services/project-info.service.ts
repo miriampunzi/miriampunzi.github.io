@@ -61,7 +61,9 @@ export class ProjectInfoService {
       what: "Master thesis",
       where: "LISN Lab @ Université Paris-Saclay",
       url: "https://www.lisn.upsaclay.fr/",
-      duration: "April 2021 - August 2021"
+      duration: "April 2021 - August 2021",
+      publicationUrl: "https://dl.acm.org/doi/10.1145/3490100.3516475",
+      publication: "DOI: 10.1145/3490100.3516475",
     },
 
     {

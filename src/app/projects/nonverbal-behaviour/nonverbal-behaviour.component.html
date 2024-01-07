@@ -1,193 +1,266 @@
-<app-project-cover title="Non-verbal Behaviour Reinfocement in Virtual Reality" image="assets/images/project-covers/Cover NonverbalBehaviour.jpg">
+<app-project-cover title="Non-verbal Behaviour Reinfocement in Virtual Reality"
+    image="assets/images/project-covers/Cover NonverbalBehaviour.jpg">
 </app-project-cover>
 
 <div class="container">
     <app-info-section projectName="nonverbalbehaviour"></app-info-section>
 
-        METTERE PUBLICATION
-
     <!-- Problem -->
     <section>
-    <app-page-section sectionTitle="Problem">
-        Humans don't communicate only through words: the effectiveness of communication depends also on the nonverbal behavior content. Embodied Conversational Agents (ECAs) deserve the same: they can't just look like real humans, they also have to behave like them, communicating verbally and nonverbally, to enhance a good user experience. However, designing proper nonverbal behavior is challenging because of the risk of falling into the uncanny valley. So far, to generate nonverbal behavior is through interpolation of keyframes or through motion capture using a body-tracking suit. However, these approaches lack adaptability, because they require either professional actors, particular technologies, too much data, or processing time.
-    </app-page-section>
+        <app-page-section sectionTitle="Problem">
+            <p>
+                Humans don't communicate only through words: the effectiveness of communication depends also on the
+                nonverbal behavior content. Embodied Conversational Agents (ECAs) deserve the same: they can't just look
+                like real humans, they also have to behave like them, communicating verbally and nonverbally, to enhance
+                a
+                good user experience. However, designing proper nonverbal behavior is challenging because of the risk of
+                falling into the uncanny valley.
+            </p>
+            <p>
+                So far, to generate nonverbal behavior is through interpolation of
+                keyframes or through motion capture using a body-tracking suit. However, these approaches lack
+                adaptability,
+                because they require either professional actors, particular technologies, too much data, or processing
+                time.
+            </p>
+        </app-page-section>
     </section>
 
     <!-- Solution -->
     <section>
         <app-page-section sectionTitle="Solution">
-            We want to explore a new approach for teaching nonverbal behavior to ECAs by creating a VR game, in which we gamify the process of the Human-in-the-Loop framework with human preferences.
+            We want to explore a new approach for teaching nonverbal behavior to ECAs by creating a VR game, in which we
+            gamify the process of the Human-in-the-Loop framework with human preferences.
         </app-page-section>
 
-        <app-page-section sectionSubtitle="Concepts"></app-page-section>
-
-        <app-page-section sectionSubsubtitle="VR Systems">
-            The idea of sharing the same space with the learning agent leads to more effective training of the agent.
-            An immersive system provides the trainers with a means of visualization and improves the trainer experience.
-        </app-page-section>
-
-        <app-page-section sectionSubsubtitle="Human-in-the-Loop with human preferences">
-            It learns a reward function from the human feedback, instead of using the human feedback directly as a reward function.
-            Users have just to express their preferences between different behavior performed by different agents (no demonstrations).
-            The amount of feedback from the human and the hours of experience required are reduced.
-            Comparisons are easier and faster to provide rather than giving an absolute numerical score.
-        </app-page-section>
-
-        <app-page-section sectionSubsubtitle="Gamification and Adaptive gameplay">
-            We gamify the Human-in-the-Loop framework, placing the training of ECAs in a game scenario and creating a story around the learning task. 
-            The AI is trained inside the game through the feedback of the player. They improve time by time, giving us the opportunity to create an adaptable game scenario according to the abilities of the user.
+        <app-page-section sectionSubtitle="Concepts" sectionSubsubtitle="">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h6>VR Systems</h6>
+                    <p>The idea of sharing the same space with the learning agent leads to more effective training of
+                        the agent.
+                    </p>
+                    <p>An immersive system provides the trainers with a means of visualization and improves the trainer
+                        experience.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Human-in-the-Loop with human preferences</h6>
+                    <p>It learns a reward function from the human feedback, instead of using the human feedback directly
+                        as a reward function.</p>
+                    <p>Users have just to express their preferences between different behavior performed by different
+                        agents (no demonstrations).</p>
+                    <p>The amount of feedback from the human and the hours of experience required are reduced.</p>
+                    <p>Comparisons are easier and faster to provide rather than giving an absolute numerical score.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h6>Gamification and Adaptive gameplay</h6>
+                    <p>We gamify the Human-in-the-Loop framework, placing the training of ECAs in a game scenario and
+                        creating a story around the learning task.</p>
+                    <p>The AI is trained inside the game through the feedback of the player. They improve time by time,
+                        giving us the opportunity to create an adaptable game scenario according to the abilities of the
+                        user.
+                    </p>
+                </div>
+            </div>
         </app-page-section>
     </section>
 
     <!-- Design -->
     <section>
-        <app-page-section title="Design"></app-page-section>
-    
-        <app-page-section sectionSubtitle="Research questions">
-            <div class="col-6">
-                METTERE NUMERONE
+        <app-page-section sectionTitle="Design" sectionSubtitle="Research questions">
+            <div class="row g-4">
+                <div class="col-2 col-md-1 big-number">
+                    01
+                </div>
+                <div class="col-10 col-md-5">
+                    <h6>How a game interaction can help in keeping engaged the users in performing the learning task?
+                    </h6>
 
-                <h6>How a game interaction can help in keeping engaged the users in performing the learning task?
-                </h6>
+                    Solving the machine learning problem of teaching nonverbal behavior is out of the scope of our work
+                    as we focus on the design of the human-system interaction.
+                </div>
+                <div class="col-2 col-md-1 big-number">
+                    02
+                </div>
+                <div class="col-10 col-md-5">
+                    <h6>How users should interact with the framework in real-time applications?
+                    </h6>
 
-                Solving the machine learning problem of teaching nonverbal behavior is out of the scope of our work as we focus on the design of the human-system interaction.
-            </div>
-
-            <div class="col-6">
-                METTERE NUMERONE
-
-                <h6>How users should interact with the framework in real-time applications?
-                </h6>
-
-                <ul>
-                    <li>
-                        How the player should give feedback to the agents.
-                    </li>
-                    <li>
-                        How the agent should observe the received feedback and the state of the environment to make a decision.
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            How the player should give feedback to the agents.
+                        </li>
+                        <li>
+                            How the agent should observe the received feedback and the state of the environment to make
+                            a
+                            decision.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Users">
-            <div class="col-6">
-                IMMAGINE
-                <h6>Virtual Reality Gamers</h6>
-                They couldn't have knowledge of ML
+            <div class="row g-4">
+                <div class="col-6 col-lg-4 d-flex flex-column justify-content-center">
+                    <img class="img-fluid mb-2" src="assets/images/Projects/nonverbal-behaviour/user-01.jpg">
+                    <h6 class="text-center">Virtual Reality Gamers</h6>
+                </div>
+                <div class="col-6 col-lg-4 d-flex flex-column justify-content-center">
+                    <img class="img-fluid mb-2" style="width: 100%;"
+                        src="assets/images/Projects/nonverbal-behaviour/user-02.jpg">
+                    <h6 class="text-center">Avatar Designers</h6>
+                </div>
             </div>
-            <div class="col-6">
-                IMMAGINE
-                <h6>Virtual Characters Designers</h6>
-            </div>
-        </app-page-section>
-
-        <app-page-section sectionSubtitle="Constraints">
-            <ul>
-                <li>
-                    To avoid the difficulties related to multi-agent collaborative systems, which are out of scope, we design the system to be one-player only.
-                </li>
-                <li>
-                    The player may not be familiar with the task performed, so there could be some bias in judging. For example: if the task is to cook something, but the player does not have any experience with it, the judgment could be useless. So, the task to perform is an emotion.
-                </li>
-                <li>
-                    We are not equipped with technology to detect facial expressions while wearing a headset, so we are not considering them. Moreover, we are not considering the walk of virtual entities, because it could bias the judgment of the player.In the end, since we removed facial expressions and leg movements, we consider only the upper-body language for expressing the emotions.
-                </li>
-                <li>
-                    We thought that the player's judgment could be not accurate if they have to look at more performances at the same time. So, the users see only one performance at a time, in order to have the full focus.
-                </li>
-            </ul>
         </app-page-section>
     </section>
 
     <!-- Game Idea: Casting for a Movie -->
     <section>
         <app-page-section sectionTitle="Game Idea: Casting for a Movie">
-            The player takes the role of a movie director, who is looking for an actor for a masked character in a silent movie. Due to these particular constraints, the director has to hire an actor who better performs an emotion with the upper part of the body, without considering the facial expressions and speech.
-            Some aspiring actors go to the auditions for this part, but not all of them are professionals. The role of the director is to get rid of the bad actors who try to invade his audition through different rounds of the game.
+            <p>
+                The player takes the role of a movie director, who is looking for an actor for a masked character in a
+                silent movie. Due to these particular constraints, the director has to hire an actor who better performs
+                an
+                emotion with the upper part of the body, without considering the facial expressions and speech.
+            </p>
+            <p>
+                Some aspiring actors go to the auditions for this part, but not all of them are professionals. The role
+                of
+                the director is to get rid of the bad actors who try to invade his audition through different rounds of
+                the
+                game.
+            </p>
         </app-page-section>
 
-        <app-page-section subtitle="Characters">
+        <app-page-section sectionSubtitle="Characters">
             Between the actors, some are driven by real humans and others are virtual agents.
+            <div class="row g-4 mt-1">
+                <div class="col-3 col-lg-2">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/character-01.jpg">
+                </div>
+                <div class="col-9 col-lg-4">
+                    <h6>Virtual Actor</h6>
+                    <p>
+                        Their performance is generated by the ML algorithm, in real-time.
+                    </p>
+                    <p>
+                        Throughout their learning, the game becomes more and more difficult, because they become better
+                        at
+                        performing the emotions.
+                    </p>
+                </div>
+
+                <div class="col-3 col-lg-2">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/character-02.jpg">
+                </div>
+                <div class="col-9 col-lg-4">
+                    <h6>Human Actor</h6>
+                    <p>
+                        Their performance is pre-recorded by human actors.
+                    </p>
+                </div>
+
+                <div class="col-3 col-lg-2">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/character-03.jpg">
+                </div>
+                <div class="col-9 col-lg-4">
+                    <h6>Player</h6>
+                    <p>
+                        Takes the role of the movie director.
+                    </p>
+                    <p>
+                        Doesn't know who between the actors is a “human” or a “virtual” agent.
+                    </p>
+                    <p>
+                        Task: choose the best actor following their own personal taste.
+                    </p>
+                </div>
+            </div>
         </app-page-section>
 
-        <app-page-section>
-            IMMAGINE
-            <h6>Virtual Actor</h6>
-            Their performance is generated by the ML algorithm, in real-time.
-            Throughout their learning, the game becomes more and more difficult, because they become better at performing the emotions.
-        </app-page-section>
-
-        <app-page-section>
-            IMMAGINE
-            <h6>Human Actor</h6>
-            Their performance is pre-recorded by human actors.
-        </app-page-section>
-
-        <app-page-section>
-            IMMAGINE NCU
-            <h6>Player</h6>
-            Takes the role of the movie director.
-            Doesn't know who between the actors is a “human” or a “virtual” agent.
-            Task: choose the best actor following their own personal taste.
-        </app-page-section>
-
-        <app-page-section sectionSubtitle="Environment"></app-page-section>
-
-        <app-page-section sectionSubsubtitle="Movie director's part">
-            IMMAGINE
-            Where the player sits looking at the actors' performances.
-            Composed of some scenographical objects related to the cinema, to immerse the user more in the context of cinema auditions, and decoration objects, to make the user feel more relaxed. 
-            The user interacts with the system through a smart table.
-        </app-page-section>
-
-        <app-page-section sectionSubsubtitle="Actor's part">
-            IMMAGINE
-            Where the actors perform the emotion of joy.
-            Actors appear through a lifting platform from inside the trapdoor, and they disappear falling inside the trapdoor when they have finished the performance.
-            The trapdoors are useful to hide actors' walks, because the latter could lead to biased judgments, even if they would be the same for every actor.
+        <app-page-section sectionSubtitle="Environment">
+            <div class="row g-4">
+                <div class="col d-flex flex-column justify-content-center">
+                    <img class="img-fluid mb-2" src="assets/images/Projects/nonverbal-behaviour/environment-01.jpg">
+                    <h6 class="text-center">Movie director's part</h6>
+                </div>
+                <div class="col d-flex flex-column justify-content-center">
+                    <img class="img-fluid mb-2" style="width: 100%;"
+                        src="assets/images/Projects/nonverbal-behaviour/environment-02.jpg">
+                    <h6 class="text-center">Actor's part</h6>
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Sequence of events">
-            IMMAGINE
+            <div class="row g-4">
+                <div class="col-6 col-lg-4">
+                    <img class="img-fluid" style="width: 100%;"
+                        src="assets/images/Projects/nonverbal-behaviour/events.jpg">
+                </div>
+                <div class="col-12 col-lg-8">
+                    <ol>
+                        <li>
+                            The player performs an example of the emotion with only the upper part of the body. This
+                            motion is
+                            recorded to provide new data to the neural networks for the generation of the emotion.
+                        </li>
+                        <li>
+                            One by one, all the actors appear in the audition room through the trapdoor to perform their
+                            emotion. After every performance, the director can ask for a replay.
+                        </li>
+                        <li>
+                            The director, if needed, can call back an actor and ask for a replay of the previous
+                            performance.
+                            This phase can be skipped.
+                        </li>
+                        <li>
+                            All the actors are called back in the room, appearing through the trapdoors. The director
+                            votes for
+                            the one who won the round.
+                        </li>
+                    </ol>
+                    <p> At the end of every round, the player could decide to do another one.</p>
+                </div>
+            </div>
 
-            <ol>
-                <li>
-                    The player performs an example of the emotion with only the upper part of the body. This motion is recorded to provide new data to the neural networks for the generation of the emotion.
-                </li>
-                <li>
-                    One by one, all the actors appear in the audition room through the trapdoor to perform their emotion. After every performance, the director can ask for a replay.
-                </li>
-                <li>
-                    The director, if needed, can call back an actor and ask for a replay of the previous performance. This phase can be skipped.
-                </li>
-                <li>
-                    All the actors are called back in the room, appearing through the trapdoors. The director votes for the one who won the round.
-                </li>
-            </ol>
-
-            At the end of every round, the player could decide to do another one.
-
-            VIDEO YOUTUBE
-
-            On the left, the virtual characters are training their ML models in the “underground”. On the right, the user view with an actor on a trapdoor.
+            <div class="row mt-2">
+                <div class="col-lg-8">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/fDzpI3Kcvt4?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <p>On the left, the virtual characters are training their ML models in the “underground”.</p>
+                    <p>On the right, the user view with an actor on a trapdoor.</p>
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Game interaction">
-            IMMAGINE
+            <div class="row mb-4">
+                <div class="col-lg-8">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/interaction.jpg">
+                </div>
+            </div>
 
-            The game experience is Seated VR.
+            <p>The game experience is Seated VR.</p>
             The interaction is situated in a smart table, where there are the following elements:
-        
+
             <ul>
                 <li>
-                    A screen that guides the user in the round, prompting statements and questions. For example “Now it's the turn of the actor number 3. Are you ready?”, “Do you want to see a replay of the performance?”, “Now it's time to vote!”.
+                    A screen that guides the user in the round, prompting statements and questions. For example “Now
+                    it's the turn of the actor number 3. Are you ready?”, “Do you want to see a replay of the
+                    performance?”, “Now it's time to vote!”.
                 </li>
                 <li>
-                    A “YES” and a “NO” buttons, to answer the questions shown on the screen and proceed with the game round.
+                    A “YES” and a “NO” buttons, to answer the questions shown on the screen and proceed with the game
+                    round.
                 </li>
                 <li>
-                    Some numbered buttons, that correspond to the actors, to vote for the best actor or to ask for a replay of a specific actor.
+                    Some numbered buttons, that correspond to the actors, to vote for the best actor or to ask for a
+                    replay of a specific actor.
                 </li>
             </ul>
         </app-page-section>
@@ -195,59 +268,157 @@
 
     <!-- Development -->
     <section>
-        <app-page-section sectionTitle="Development"></app-page-section>
+        <app-page-section sectionTitle="Development" sectionSubtitle="Architecture of the system">
+            <div class="row mb-4">
+                <div class="col-lg-8">
+                    <img class="img-fluid" style="background-color: white;"
+                        src="assets/images/Projects/nonverbal-behaviour/architecture.jpg">
+                </div>
+            </div>
 
-        <app-page-section sectionSubtitle="Architecture of the system">
-            IMMAGINE
-
-            The Human Actors are prerecorded-driven virtual characters, which reproduce an emotion selected from a database. The database was filled with animations directly playable in Unity, which were generated through a motion capture system using Optitrack Motive.
-            The Virtual Actors are the learning agents, with the 3 "brains". The ML-Agent Plugin gets as input the recorded emotion and the vote from the player, and the emotion-expressed gestures from the Virtual Actors. The Python side of the ML-Agent plugin is to execute the reinforcement learning algorithm for training the Virtual Actors.
-            The Player interacts with the system through an HMD, HTC Vive controllers, and VIVE Tracker with Belt Strap. Their gestures are mapped onto a representing invisible avatar through Final Inverse Kinematics (Final IK).
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <p>The Human Actors are prerecorded-driven virtual characters, which reproduce an emotion selected
+                        from a
+                        database. The database was filled with animations directly playable in Unity, which were
+                        generated through a
+                        motion capture system using Optitrack Motive.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p>
+                        The Virtual Actors are the learning agents, with the 3 "brains". The ML-Agent Plugin gets as
+                        input the
+                        recorded emotion and the vote from the player, and the emotion-expressed gestures from the
+                        Virtual Actors.
+                        The Python side of the ML-Agent plugin is to execute the reinforcement learning algorithm for
+                        training the
+                        Virtual Actors.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p>
+                        The Player interacts with the system through an HMD, HTC Vive controllers, and VIVE Tracker with
+                        Belt Strap.
+                        Their gestures are mapped onto a representing invisible avatar through Final Inverse Kinematics
+                        (Final IK).
+                    </p>
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="The environment">
-            IDE: Unity & Visual Studio Code
-            Tools: Unity ML-Agents Toolkit. Unfortunately, it doesn't provide a mechanism to learn a reward function from the human feedbacks, in order to be able to implement the Human-in-the-loop framework with human preferences. We implemented a temporary solution in which the agents only try to imitate the player movement recorded at the beginning. With this approach, it is possible to implement a reward function manually, but the feedback of the player is ignored.
-            Technology: HMD, HTC Vive controllers, and VIVE Tracker with Belt Strap to track users' chest movements.
+            <p>Tools: Unity ML-Agents Toolkit. Unfortunately, it doesn't provide a mechanism to learn a reward function
+                from the human feedbacks, in order to be able to implement the Human-in-the-loop framework with human
+                preferences. We implemented a temporary solution in which the agents only try to imitate the player
+                movement
+                recorded at the beginning. With this approach, it is possible to implement a reward function manually,
+                but
+                the feedback of the player is ignored.</p>
+
+            <p>Technology: HMD, HTC Vive controllers, and VIVE Tracker with Belt Strap to track users' chest movements.
+            </p>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Player motions recording">
-            VIDEO YOUTUBE
-            There is an invisible character representing the real-time position of the player through Final IK and RootMotion. During the recording phase, all the rotations of the upper-body bones performed by this avatar are saved in CSV files.
+            <div class="row mt-2">
+                <div class="col-lg-8">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/e1_8-f_k7m4?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    There is an invisible character representing the real-time position of the player through Final IK
+                    and
+                    RootMotion. During the recording phase, all the rotations of the upper-body bones performed by this
+                    avatar
+                    are saved in CSV files.
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Motions generation for virtual actors">
-            IMMAGINE
+            <div class="row mb-4">
+                <div class="col-lg-8">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/ik.jpg">
+                </div>
+            </div>
+
             Goal of the agent: imitate the user motion recorded at the beginning.
-            The arms, head, and chest of the characters are moved using the Inverse Kinematic (IK) approach. Every character has 4 cubes used as targets for the IK: one for the left hand, one for the right hand, one for the head, and one for the chest.
-            To imitate the player movement, every character has 3 neural networks learning in parallel: one for the left arm, one for the right arm, and one for the head and chest. Every neural network learns how to move the correspondent body part.
+            The arms, head, and chest of the characters are moved using the Inverse Kinematic (IK) approach. Every
+            character has 4 cubes used as targets for the IK: one for the left hand, one for the right hand, one for the
+            head, and one for the chest.
+            To imitate the player movement, every character has 3 neural networks learning in parallel: one for the left
+            arm, one for the right arm, and one for the head and chest. Every neural network learns how to move the
+            correspondent body part.
             Goal of the algorithm: predict the positions and rotations of the cubes used as targets for the IK.
         </app-page-section>
 
         <app-page-section sectionSubtitle="Motions recording for human actors">
-            IMMAGINE
-            This is me performing some joyful motions while wearing the motion-tracking bodysuit.
-        
-            Tool used: OptiTrack Motion Capture System.
-            We captured several human motions of different expressions of joy, directly playable in Unity. 
-            We created a database of 20 different performances of joy (10 made by a female interpreter and 10 by a male interpreter) to have different motions to apply on female and male avatars. 
+            <div class="row g-4">
+                <div class="col-6 col-lg-4">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/recording-01.jpg">
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img class="img-fluid mb-4" src="assets/images/Projects/nonverbal-behaviour/recording-02.jpg">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/recording-03.jpg">
+                </div>
+                <div class="col-12 col-lg-4">
+                    This is me performing some joyful motions while wearing the motion-tracking bodysuit.
+
+                    Tool used: OptiTrack Motion Capture System.
+                    We captured several human motions of different expressions of joy, directly playable in Unity.
+                    We created a database of 20 different performances of joy (10 made by a female interpreter and 10 by
+                    a male
+                    interpreter) to have different motions to apply on female and male avatars.
+                </div>
+            </div>
+
+
         </app-page-section>
     </section>
 
     <!-- Experiment Design -->
     <section>
         <app-page-section sectionTitle="Experiment Design">
-            IMMAGINE
-            Goal: investigate how game mechanisms can help in maintaining people engaged in an interactive learning task.
-            HT: people in the gamified environment should remain engaged in the task for a longer time period and have a better user experience.
-            How: we created another system that accomplishes the same objective of the main system, without having a game story built around it.
-            The participants were divided equally into 2 groups: the first started testing the Game system and then switched to the other system, while the second did the opposite.
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="assets/images/Projects/nonverbal-behaviour/experiment.jpg">
+                </div>
+                <div class="col">
+                    Goal: investigate how game mechanisms can help in maintaining people engaged in an interactive
+                    learning
+                    task.
+                    HT: people in the gamified environment should remain engaged in the task for a longer time period
+                    and have a
+                    better user experience.
+                    How: we created another system that accomplishes the same objective of the main system, without
+                    having a
+                    game story built around it.
+                    The participants were divided equally into 2 groups: the first started testing the Game system and
+                    then
+                    switched to the other system, while the second did the opposite.
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Tasks">
-            IMMAGINE
-            For the Game system: “Imagine you are a movie director who organized a casting for an important role. This character wears a mask on his face for the entire movie and is always sitting. At the casting, 5 actors will show up. You have to vote for the one who best interprets the emotion of joy with the upper part of the body.”
-            For the No Game system: “Select the avatar who best performs the emotion of joy with the upper part of the body.”
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    For the Game system: “Imagine you are a movie director who organized a casting for an important
+                    role. This
+                    character wears a mask on his face for the entire movie and is always sitting. At the casting, 5
+                    actors will
+                    show up. You have to vote for the one who best interprets the emotion of joy with the upper part of
+                    the
+                    body.”
+                </div>
+                <div class="col-12 col-md-6">
+                    For the No Game system: “Select the avatar who best performs the emotion of joy with the upper part
+                    of the
+                    body.”
+                </div>
+            </div>
         </app-page-section>
 
         <app-page-section sectionSubtitle="Evaluation methods">
@@ -265,7 +436,8 @@
                             Why did you decide to stop at that time?
                         </li>
                         <li>
-                            Do you think the system accomplishes the goal of teaching avatars how to perform joy with upper-body language?
+                            Do you think the system accomplishes the goal of teaching avatars how to perform joy with
+                            upper-body language?
                         </li>
                         <li>
                             (FOR GAME SYSTEM) Which was your favorite part of the game?
@@ -306,16 +478,30 @@
     <!-- Results -->
     <section>
         <app-page-section sectionTitle="Results">
-            Our research question “How can a game interaction help in keeping the users engaged in performing the learning task?” seems to be confirmed, since the data collected from all the evaluation methods show more positive outcomes in the Game one.
-            The fact that some participants started testing System A and others the System B did not affect at all the user experience. Most of the comments were in common between all the users.
-            Because of restrictions imposed by the COVID-19 crisis, it was possible to perform the experiments only with colleagues of the laboratory. So, the information collected through the experiments is biased due to the experience the test subjects have in Virtual Reality programming or Machine Learning techniques. We managed to find only 6 available participants.
-            What affected the user experience the most was the effectiveness of the system. The temporary solution for generating the agents' nonverbal behavior impacted the involvement in the game, sometimes decreasing the satisfaction factor.
+            <p>
+                Our research question “How can a game interaction help in keeping the users engaged in performing the
+                learning task?” seems to be confirmed, since the data collected from all the evaluation methods show
+                more
+                positive outcomes in the Game one.
+            </p>
+            <p>The fact that some participants started testing System A and others the System B did not affect at all
+                the
+                user experience. Most of the comments were in common between all the users.</p>
+            <p>Because of restrictions imposed by the COVID-19 crisis, it was possible to perform the experiments only
+                with
+                colleagues of the laboratory. So, the information collected through the experiments is biased due to the
+                experience the test subjects have in Virtual Reality programming or Machine Learning techniques. We
+                managed
+                to find only 6 available participants.</p>
+            <p>What affected the user experience the most was the effectiveness of the system. The temporary solution
+                for
+                generating the agents' nonverbal behavior impacted the involvement in the game, sometimes decreasing the
+                satisfaction factor.</p>
         </app-page-section>
 
-        <app-page-section sectionSubtitle="Common"></app-page-section>
-
-        <app-page-section sectionSubsubtitle="Actor performances">
-            Users laughing or scared, especially with impossible movements to perform in reality or weird positions of avatars.
+        <app-page-section sectionSubtitle="Common" sectionSubsubtitle="Actor performances">
+            Users laughing or scared, especially with impossible movements to perform in reality or weird positions of
+            avatars.
             Some users noticed that the virtual characters were improving round by round.
         </app-page-section>
 
@@ -327,40 +513,21 @@
 
         <app-page-section sectionSubsubtitle="Recording of emotion">
             Part that created more troubles!
-            Some participants did not remember what that part was for, or they were not expecting that the actors were going to imitate the movement.
+            Some participants did not remember what that part was for, or they were not expecting that the actors were
+            going to imitate the movement.
             Activity was found to be not intuitive enough.
-        </app-page-section>
-
-        <app-page-section sectionSubtitle="Comparison">
-            <div class="col-6">
-                <h6>Game system</h6>
-                Cool context idea (casting auditions),nice design of scene (trapdoors)
-                Enjoyed the presence of 5 actors(more unpredictability, more fun)
-                2/6 users think is more effective:people are more likely to use it for a longer time because it's more fun
-                SUS score: 70.42 (Good)
-                GodSpeed questionnaire:negative perception of agents
-                Presence questionnaire:good degree of immersion,bad interface quality
-            </div>
-            <div class="col-6">
-                <h6>No Game system</h6>
-
-                Boring system,but less pressings with a shorter story
-                1 user preferred this because they found it easier to use (only 2 actors to consider)
-                4/6 users think is more effective:faster and more efficient (they can focus only on 1 character's improvements)
-                SUS score: 65.83 (Poor)
-                GodSpeed questionnaire:negative perception of agents
-                Presence questionnaire:good degree of immersion,bad interface quality
-            </div>
         </app-page-section>
 
         <app-page-section>
             The number of actors influenced the user experience
             <ul>
                 <li>
-                    2/6 users preferred to have more actors, because it implies more unpredictability due to the various performances, leading to a more fun experience.
+                    2/6 users preferred to have more actors, because it implies more unpredictability due to the various
+                    performances, leading to a more fun experience.
                 </li>
                 <li>
-                    4/6 users preferred to have only 2 actors, because it is easier to keep the focus and it is easier to remember the performances. 
+                    4/6 users preferred to have only 2 actors, because it is easier to keep the focus and it is easier
+                    to remember the performances.
                 </li>
             </ul>
         </app-page-section>
@@ -369,31 +536,37 @@
     <!-- Future Work -->
     <section>
         <app-page-section sectionTitle="Future Work">
-            <div class="col-4">
-                <h6>Improve ML algorithm</h6>
-                Validate the player's decision.
-                Avoid impossible movements with the body by learning agents.
-            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6>Improve ML algorithm</h6>
+                    Validate the player's decision.
+                    Avoid impossible movements with the body by learning agents.
+                </div>
 
-            <div class="col-4">
-                <h6>Reduce bias in testing population</h6>
-                Include the other users we focused on: virtual reality gamers without knowledge in machine learning.
-            </div>
-            
-            <div class="col-4">
-                <h6>Redesign recording of emotion</h6>
-                Try to increase the feeling of immersion without impacting the spontaneity of the movement.
-            </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6>Reduce bias in testing population</h6>
+                    Include the other users we focused on: virtual reality gamers without knowledge in machine learning.
+                </div>
 
-            <div class="col-4">
-                <h6>Improve test design</h6>
-                Both systems should have the same number of performing actors since we discovered that it influences the user experience.
-            </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6>Redesign recording of emotion</h6>
+                    Try to increase the feeling of immersion without impacting the spontaneity of the movement.
+                </div>
 
-            <div class="col-4">
-                <h6>Explore new interactions</h6>
-                Include the navigation in the environment, where the player can go closer to virtual agents.
-                Investigate the perception of the agents from a closer perspective and how this impacts the quality of the nonverbal behavior generated.
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6>Improve test design</h6>
+                    Both systems should have the same number of performing actors since we discovered that it influences
+                    the
+                    user experience.
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6>Explore new interactions</h6>
+                    Include the navigation in the environment, where the player can go closer to virtual agents.
+                    Investigate the perception of the agents from a closer perspective and how this impacts the quality
+                    of
+                    the nonverbal behavior generated.
+                </div>
             </div>
         </app-page-section>
     </section>

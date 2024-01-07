@@ -4,10 +4,10 @@
 
 :root {
     --background: black;
-    --section: #111111;
-    --navbar: #111111;
-    --footer: #111111;
-    --info: #222222;
+    --section: #222222;
+    --navbar: #222222;
+    --footer: #222222;
+    --info: #444444;
 
     --text: white;
     --textTitle: #0086FF;
@@ -89,4 +89,11 @@ section {
 .label-strong {
     font-weight: 800;
     display: contents;
+}
+
+.big-number {
+    font-family: 'impact';
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
 }

@@ -13,7 +13,9 @@
                 <li *ngIf="project[0].where" class="info-list-where"><a [href]="project[0].url"
                         target="_blank">{{project[0].where}}</a></li>
                 <li *ngIf="project[0].duration" class="info-list-duration">{{project[0].duration}}</li>
-                <li *ngIf="project[0].publication" class="info-list-publication">{{project[0].publication}}</li>
+                <li *ngIf="project[0].publication" class="info-list-publication">
+                    <a class="text-truncate" [href]="project[0].publicationUrl" target="_blank"><small>{{project[0].publication}}</small></a>
+                </li>
                 <li *ngIf="project[0].tools" class="info-list-tools">{{project[0].tools}}</li>
             </ul>
         </div>
@@ -21,8 +23,9 @@
     <div *ngIf="project[0].video" div class="row mt-4">
         <div class="col-12">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" [src]="getSafeVideoUrl(project[0].video)" allowfullscreen></iframe>
-              </div>
+                <iframe class="embed-responsive-item" [src]="getSafeVideoUrl(project[0].video)"
+                    allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </section>
