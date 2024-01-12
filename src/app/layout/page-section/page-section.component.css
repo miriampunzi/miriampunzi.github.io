@@ -9,3 +9,7 @@
 .page-section-subsubtitle {
     color: var(--text);
 }
+
+.row-section {
+    padding-bottom: 30px;
+}

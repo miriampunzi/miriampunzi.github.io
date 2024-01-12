@@ -1,24 +1,29 @@
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 :root {
-    --background: black;
-    --section: #222222;
-    --navbar: #222222;
-    --footer: #222222;
-    --info: #444444;
+    --background: #000000;
+    --section: #1A1A2E;
+    --navbar: #1A1A2E;
+    --footer: #1A1A2E;
+    --info: #202031;
 
     --text: white;
-    --textTitle: #0086FF;
-    --textSubtitle: #0086FF;
+    --textTitle: #86B6F6;
+    --textSubtitle: #86B6F6;
     --textCaption: #f4f4f4;
-    --textLink: #80C3FF;
+    --textLink: #86B6F6;
+    --highlight: #A6FF96;
 }
 
 body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
 
     background: var(--background);
     background-repeat: no-repeat;
@@ -32,8 +37,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: square;
 }
 
 a {
@@ -46,8 +55,12 @@ a:hover {
 }
 
 ::selection {
-    background-color: var(--textLink);
+    background-color: var(--highlight);
     color: var(--background);
+}
+
+img {
+    border-radius: 5px;
 }
 
 .list-no-margin {
@@ -58,31 +71,33 @@ a:hover {
 section {
     background-color: var(--section);
     margin-top: 30px;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     border-radius: 20px;
     box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
 }
 
+.big-title {
+    font-family: 'DM Serif Display', serif;
+}
+
 .left-section {
-    margin-right: 6px !important;
+    /* margin-right: 6px !important; */
 }
 
 .right-section {
-    margin-left: 6px !important;
+    /* margin-left: 6px !important; */
 }
 
 @media (max-width: 768px) {
     .right-section {
         margin-right: 0px !important;
         margin-top: 0px;
-    }
-
-    .right-section {
         margin-left: 0px !important;
+        margin-bottom: 30px;
     }
 
-    section {
-        margin: 8% 0px;
+    .left-section {
+        margin-bottom: 30px;
     }
 }
 

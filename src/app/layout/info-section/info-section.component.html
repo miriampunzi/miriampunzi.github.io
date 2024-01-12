@@ -1,4 +1,4 @@
-<section>
+<section style="padding-bottom: 30px;">
     <div class="row">
         <div class="col-12 col-lg-8">
             <app-page-section sectionTitle="About">
@@ -14,7 +14,11 @@
                         target="_blank">{{project[0].where}}</a></li>
                 <li *ngIf="project[0].duration" class="info-list-duration">{{project[0].duration}}</li>
                 <li *ngIf="project[0].publication" class="info-list-publication">
-                    <a class="text-truncate" [href]="project[0].publicationUrl" target="_blank"><small>{{project[0].publication}}</small></a>
+                    <a class="text-truncate" [href]="project[0].publicationUrl"
+                        target="_blank"><small>{{project[0].publication}}</small></a>
+                </li>
+                <li *ngIf="project[0].github" class="info-list-github">
+                    <a [href]="project[0].github" target="_blank">View on GitHub</a>
                 </li>
                 <li *ngIf="project[0].tools" class="info-list-tools">{{project[0].tools}}</li>
             </ul>

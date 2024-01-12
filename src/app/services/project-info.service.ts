@@ -23,7 +23,8 @@ export class ProjectInfoService {
       what: "Group project",
       where: "Universidad Politécnica de Madrid",
       url: "https://www.fi.upm.es/?pagina=2235",
-      duration: "February 2020 - June 2020"
+      duration: "February 2020 - June 2020",
+      github: "https://github.com/miriampunzi/Pearly"
     },
 
     {
@@ -33,7 +34,8 @@ export class ProjectInfoService {
       where: "Université Paris-Saclay",
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "September 2020 - October 2020",
-      video: "https://www.youtube.com/embed/iKftsyKDiDo?rel=0"
+      video: "https://www.youtube.com/embed/iKftsyKDiDo?rel=0",
+      github: "https://github.com/miriampunzi/WithoutHearing"
     },
 
     {
@@ -42,7 +44,8 @@ export class ProjectInfoService {
       what: "Group project",
       where: "Université Paris-Saclay",
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
-      duration: "November 2020 - December 2020"
+      duration: "November 2020 - December 2020",
+      github: "https://github.com/mariacamilarg/popupbreak"
     },
 
     {
@@ -64,6 +67,7 @@ export class ProjectInfoService {
       duration: "April 2021 - August 2021",
       publicationUrl: "https://dl.acm.org/doi/10.1145/3490100.3516475",
       publication: "DOI: 10.1145/3490100.3516475",
+      github: "https://github.com/miriampunzi/AuditionRoom"
     },
 
     {
