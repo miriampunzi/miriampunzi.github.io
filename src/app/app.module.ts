@@ -25,6 +25,7 @@ import { ProjectCoverComponent } from './layout/project-cover/project-cover.comp
 import { InfoSectionComponent } from './layout/info-section/info-section.component';
 import { ArrowImagesComponent } from './layout/arrow-images/arrow-images.component';
 import { LanguageCardComponent } from './cards/language-card/language-card.component';
+import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { LanguageCardComponent } from './cards/language-card/language-card.compo
     InfoSectionComponent,
     ArrowImagesComponent,
     LanguageCardComponent,
+    RacoombaComponent,
   ],
   imports: [
     BrowserModule,

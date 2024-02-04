@@ -77,6 +77,17 @@ export class ProjectInfoService {
       where: "EventLab",
       url: "https://www.event-lab.org/",
       duration: "April 2022 - September 2022"
-    }
+    },
+
+    {
+      name: "racoomba",
+      about: "Get ready for a wild and wacky adventure in Racoomba! Join a mischievous trio of little chubby racoon thieves as they embark on a mission to swipe snacks and treasures from a house where the owners are away while evading the evil and relentless pursuit of robotic guardians! Navigate the house in search of treasure while avoiding a simple hoovering robot, or its counterparts armed with a circular saw, some dynamite or a shocking taser. Delay them by destroying furniture and throwing objects. Grab your treasure and bring them out of the house! Can you lead this band of little chubby furry thieves to victory or will the robots catch them in the act? ",
+      what: "Game of my Global Game Jam 2024",
+      duration: "27-28 January 2024 (48h)",
+      publicationUrl: "https://globalgamejam.org/games/2024/raccoon-project-3",
+      publication: "GGJ24 dashboard",
+      github: "https://github.com/TheL94/GGJ24",
+      video: "https://www.youtube.com/embed/3uZRMXiv-Rw",
+    },
   ]
 }

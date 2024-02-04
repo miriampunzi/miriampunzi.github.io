@@ -10,6 +10,13 @@ export class ProjectCardComponent {
 
   projects = [
     {
+      title: "Racoomba!",
+      description: "Unity game developed during the Global Game Jam 2024",
+      cover: "../../assets/images/project-covers/Cover Racoomba.png",
+      link: "racoomba",
+    },
+
+    {
       title: "Concert Randomization",
       description: "Unity application that generates images to train a neural network for semantic segmentation applied to concert photos",
       cover: "../../assets/images/project-covers/Cover ConcertRandomization.jpg",

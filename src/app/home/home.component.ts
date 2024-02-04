@@ -17,6 +17,7 @@ export class HomeComponent {
     'assets/images/Home/Cover PopupBreak.jpg',
     'assets/images/Home/Cover Pearly.jpg',
     'assets/images/Home/Cover Bookflix.jpg',
+    'assets/images/Home/Cover Racoomba.png',
   ]
 
   constructor(private experienceService: ExperienceService, private educationService: EducationService, private skillsService: SkillsService) { }

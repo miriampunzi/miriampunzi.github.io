@@ -9,6 +9,7 @@ import { PopupBreakComponent } from './projects/popup-break/popup-break.componen
 import { InsignumComponent } from './projects/insignum/insignum.component';
 import { PearlyComponent } from './projects/pearly/pearly.component';
 import { BookflixComponent } from './projects/bookflix/bookflix.component';
+import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'insignum', component: InsignumComponent},
   {path: 'pearly', component: PearlyComponent},
   {path: 'bookflix', component: BookflixComponent},
+  {path: 'racoomba', component: RacoombaComponent}
   
 ];
 
