@@ -11,7 +11,7 @@ export class ProjectCardComponent {
   projects = [
     {
       title: "Racoomba!",
-      description: "Unity game developed during the Global Game Jam 2024",
+      description: "Global Game Jam 2024: 3D game in Unity starring 3 raccoons who have to scrape items from a house, taking care to avoid the Roomba killers",
       cover: "../../assets/images/project-covers/Cover Racoomba.png",
       link: "racoomba",
     },

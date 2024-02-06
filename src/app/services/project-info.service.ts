@@ -14,7 +14,8 @@ export class ProjectInfoService {
       what: "Group project",
       where: "Universidad Politécnica de Madrid",
       url: "https://www.fi.upm.es/?pagina=2235",
-      duration: "September 2019 - June 2020"
+      duration: "September 2019 - June 2020",
+      tools: ["Figma", "User-Centered Design", "Interviews", "Usability Testing", "SUS", "UEQ"],
     },
 
     {
@@ -24,7 +25,8 @@ export class ProjectInfoService {
       where: "Universidad Politécnica de Madrid",
       url: "https://www.fi.upm.es/?pagina=2235",
       duration: "February 2020 - June 2020",
-      github: "https://github.com/miriampunzi/Pearly"
+      github: "https://github.com/miriampunzi/Pearly",
+      tools: ["Figma", "Android Studio", "User-Centered Design", "Interviews", "Ethnographical observations", "Usability Testing"],
     },
 
     {
@@ -35,7 +37,8 @@ export class ProjectInfoService {
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "September 2020 - October 2020",
       video: "https://www.youtube.com/embed/iKftsyKDiDo?rel=0",
-      github: "https://github.com/miriampunzi/WithoutHearing"
+      github: "https://github.com/miriampunzi/WithoutHearing",
+      tools: ["Android Studio", "Arduino", "User-Centered Design", "Interviews", "Paper Doll-House", "Smartwatch"],
     },
 
     {
@@ -45,7 +48,8 @@ export class ProjectInfoService {
       where: "Université Paris-Saclay",
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "November 2020 - December 2020",
-      github: "https://github.com/mariacamilarg/popupbreak"
+      github: "https://github.com/mariacamilarg/popupbreak",
+      tools: ["Figma", "Java Swing", "MARC", "User-Centered Design", "Interviews", "Emotion Design"],
     },
 
     {
@@ -56,6 +60,7 @@ export class ProjectInfoService {
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "January 2021 - February 2021",
       video: "https://www.youtube.com/embed/DLVnXWCYp-4?rel=0",
+      tools: ["AR", "Unity", "Figma", "Vuforia", "Mobile App"],
     },
 
     {
@@ -67,7 +72,8 @@ export class ProjectInfoService {
       duration: "April 2021 - August 2021",
       publicationUrl: "https://dl.acm.org/doi/10.1145/3490100.3516475",
       publication: "DOI: 10.1145/3490100.3516475",
-      github: "https://github.com/miriampunzi/AuditionRoom"
+      github: "https://github.com/miriampunzi/AuditionRoom",
+      tools: ["VR", "Unity", "Reinforcement Learning", "ML-Agents", "Gamification", "Optitrack Motion Capture", "Final IK", "Usability Testing"],
     },
 
     {
@@ -76,7 +82,8 @@ export class ProjectInfoService {
       what: "Work as Research Assistant",
       where: "EventLab",
       url: "https://www.event-lab.org/",
-      duration: "April 2022 - September 2022"
+      duration: "April 2022 - September 2022",
+      tools: ["Unity", "Semantic Segmentation", "SMPL Model", "Cinemachine", "Post-Processing", "Matlab"],
     },
 
     {
@@ -88,6 +95,7 @@ export class ProjectInfoService {
       publication: "GGJ24 dashboard",
       github: "https://github.com/TheL94/GGJ24",
       video: "https://www.youtube.com/embed/3uZRMXiv-Rw",
+      tools: ["Unity", "Game Design", "3D Modelling"],
     },
   ]
 }

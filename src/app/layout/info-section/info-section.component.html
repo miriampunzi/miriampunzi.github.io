@@ -20,7 +20,11 @@
                 <li *ngIf="project[0].github" class="info-list-github">
                     <a [href]="project[0].github" target="_blank">GitHub repo</a>
                 </li>
-                <li *ngIf="project[0].tools" class="info-list-tools">{{project[0].tools}}</li>
+                <li *ngIf="project[0].tools" class="info-list-tools">
+                    <div style="display: inline; margin-right: 3px;" *ngFor="let t of project[0].tools; index as i">
+                        <span class="badge bg-light text-dark">{{project[0].tools[i]}}</span>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
