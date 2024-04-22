@@ -7,7 +7,9 @@
 }
 
 .page-info-extra {
-  background-color: var(--info);
+  background: var(--light);
+  background: linear-gradient(225deg, var(--light), var(--info));
+
   padding: 20px;
   border-radius: 20px;
   color: var(--textCaption);

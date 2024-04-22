@@ -9,11 +9,14 @@ export class ExperienceService {
     {
       company: "TXT e-Tech",
       icon: "assets/images/experience-logos/txt.png",
-      jobTitle: "Software Engineer",
+      jobTitle: "XR Software Engineer",
       url: "https://www.txtgroup.com/",
       period: "Oct 2022 - current",
       location: "Milan, Italy",
-      description: "I am creating Augmented and Virtual Reality training procedures and simulations for the Aerospace & Defense division.",
+      description: 
+      "I am leading the design and development of a firefighting course in VR, " +
+      "developing new features for the Pacelab WEAVR XR training platform, " +
+      "creating Augmented and Virtual Reality training procedures and simulations for the Aerospace & Defense division.",
     },
 
     {

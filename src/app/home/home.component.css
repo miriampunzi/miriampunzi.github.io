@@ -19,7 +19,7 @@
   font-size: 3rem;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
   .header-name {
     font-size: 3.2rem;
   }
@@ -84,20 +84,21 @@
   background-color: var(--info);
   padding: 20px;
   border-radius: 20px;
-  color: var(--textCaption);
+  background: var(--light);
+  background: linear-gradient(225deg, var(--light), var(--info));
   margin-bottom: 30px;
 }
 
 .page-info-profile {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .page-info-picture {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-position: center center;
 }
 
@@ -154,7 +155,7 @@
 @media (min-width: 992px) {
   .page-info-extra {
     margin-right: 20px;
-    height: 420px;
+    height: 380px;
   }
 }
 

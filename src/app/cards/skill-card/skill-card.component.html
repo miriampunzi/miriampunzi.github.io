@@ -1,9 +1,11 @@
-<div class="row">
-  <div class="col-6" *ngFor="let e of skills[i].content, index as j">
-    <span>{{skills[i].content[j].name}}</span>
+<div>
+  <!-- <div class="col-6" *ngFor="let e of skills[i].content, index as j"> -->
+  <div style="display: inline; margin-right: 3px;" *ngFor="let e of skills[i].content, index as j">
+    <!-- <span>{{skills[i].content[j].name}}</span>
     <div class="progress skill-card">
       <div class="progress-bar progress-bar-striped progress-bar-animated skill-progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{ width: skills[i].content[j].percentage }"></div>
-    </div>
+    </div> -->
+
+    <span class="badge bg-light text-dark">{{skills[i].content[j].name}}</span>
   </div>
 </div>
-
