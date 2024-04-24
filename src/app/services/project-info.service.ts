@@ -30,6 +30,16 @@ export class ProjectInfoService {
     },
 
     {
+      name: "espoora",
+      about: "In this project, we designed and analyzed the business potential of Espoora, a platform facilitating event publication, management, and participation in Espoo. We aim to enhance tourists' travel organization and discovery of city offerings, while streamlining event organizers' tasks. Our platform benefits not only visitors and organizers but also local businesses seeking visibility to those exploring or unfamiliar with the city.",
+      what: "EIT Summer School: \"Design Thinking and Scaling Services for Cities\"",
+      where: "Aalto University",
+      url: "https://www.eiturbanmobility.eu/partners/aalto-university/",
+      duration: "2 August 2020 – 15 August 2020",
+      tools: ["Design Thinking", "Personas", "Scenarios", "Business Modelling", "SWOT Analysis", "Value Proposition Canvas", "Pitching"],
+    },
+
+    {
       name: "insignum",
       about: "InSignum is an interactive system to assist deaf people in their daily life at home. It consists of a smartwatch application and connected directional lights around the house, warning the user of the nature and the location of sounds at home. When something noisy is happening in the house, the smartwatch starts to vibrate, and the app displays what is happening. At the same time, the directional lights turn on guiding the user to the correct location of the sound. The color of the lights indicates the seriousness of the cause of the noise. The combination of the smartwatch app and the directional lights is to don't force users to always have the smartwatch and to have a backup system in case one of the two is not working properly. We tested the system by building a doll-house prototype with Arduino and emulating a smartwatch with Android Studio.",
       what: "Group project",

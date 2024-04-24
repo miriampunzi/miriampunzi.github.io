@@ -52,6 +52,13 @@ export class ProjectCardComponent {
     },
 
     {
+      title: "Espoora - Make your stay more eventful",
+      description: "Design and Business analysis of Espoora, a platform for publishing, managing, and joining events in Espoo.",
+      cover: "../../assets/images/project-covers/Cover Espoora.png",
+      link: "espoora",
+    },
+
+    {
       title: "Pearly",
       description: "Mobile app where people can play tabletop games and game creators can test their new games.",
       cover: "../../assets/images/project-covers/Cover Pearly.jpg",

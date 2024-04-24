@@ -10,6 +10,7 @@ import { InsignumComponent } from './projects/insignum/insignum.component';
 import { PearlyComponent } from './projects/pearly/pearly.component';
 import { BookflixComponent } from './projects/bookflix/bookflix.component';
 import { RacoombaComponent } from './projects/racoomba/racoomba.component';
+import { EspooraComponent } from './projects/espoora/espoora.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -22,8 +23,8 @@ const routes: Routes = [
   {path: 'insignum', component: InsignumComponent},
   {path: 'pearly', component: PearlyComponent},
   {path: 'bookflix', component: BookflixComponent},
-  {path: 'racoomba', component: RacoombaComponent}
-  
+  {path: 'racoomba', component: RacoombaComponent},
+  {path: 'espoora', component: EspooraComponent},
 ];
 
 @NgModule({
