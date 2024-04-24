@@ -14,7 +14,7 @@ export class ExperienceService {
       period: "Oct 2022 - current",
       location: "Milan, Italy",
       description: 
-      "I am leading the design and development of a firefighting course in VR, " +
+      "I am leading the design and development of a firefighting course in VR," +
       "developing new features for the Pacelab WEAVR XR training platform, " +
       "creating Augmented and Virtual Reality training procedures and simulations for the Aerospace & Defense division.",
     },
@@ -26,7 +26,7 @@ export class ExperienceService {
       url: "https://www.event-lab.org/",
       period: "Apr 2022 - Sept 2022",
       location: "Barcelona, Spain",
-      description: "I created by C# randomized concert scenarios with Unity & Visual Studio, and trained a neural network for Semantic Segmentation through Deep Learning",
+      description: "I created randomised concert scenarios with Unity & C#, and trained a neural network for Semantic Segmentation through Deep Learning. I also investigated how to improve the UX of a rock concert scenario focusing on audience plausibility",
     },
 
     {
