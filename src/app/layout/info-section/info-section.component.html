@@ -22,7 +22,7 @@
                 </li>
                 <li *ngIf="project[0].tools" class="info-list-tools">
                     <div style="display: inline; margin-right: 3px;" *ngFor="let t of project[0].tools; index as i">
-                        <span class="badge bg-light text-dark">{{project[0].tools[i]}}</span>
+                        <span class="badge tool-badge">{{project[0].tools[i]}}</span>
                     </div>
                 </li>
             </ul>

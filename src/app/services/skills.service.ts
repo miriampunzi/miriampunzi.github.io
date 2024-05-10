@@ -50,6 +50,19 @@ export class SkillsService {
       ]
     },
     {
+      category: "XR Technology",
+      content: [
+        { name: "Oculus Quest", percentage: "90%", },
+        { name: "VIVE XR", percentage: "80%", },
+        { name: "HTC VIVE", percentage: "70%", },
+        { name: "Hololens", percentage: "70%", },
+        { name: "Magic Leap", percentage: "70%", },
+        { name: "WEART haptic sensors", percentage: "70%", },
+        { name: "Motion capture suit", percentage: "70%", },
+        { name: "Tracking sensors", percentage: "70%", },
+      ]
+    },
+    {
       category: "Research",
       content: [
         { name: "Usability Testing", percentage: "90%", },

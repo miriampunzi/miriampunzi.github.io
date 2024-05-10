@@ -115,3 +115,8 @@ section {
     display: flex;
     justify-content: center;
 }
+
+.tool-badge {
+    background: linear-gradient(225deg, var(--text), #b0b0b4);
+    color: var(--dark);
+}
