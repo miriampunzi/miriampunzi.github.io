@@ -5,20 +5,20 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 :root {
-    --background: #000000;
-    --section: #1A1A2E;
-    --navbar: #1A1A2E;
-    --footer: #1A1A2E;
-    --info: #202031;
-    --light: #2F2F4C;
-    --dark: #15152b;
+    --background: #030b0e;
+    --section: #091F27;
+    --navbar: #091F27;
+    --footer: #091F27;
+    --info: #0E323F;
+    --light: #113B4B;
+    --dark: #0C2833;
 
     --text: white;
     --textTitle: #86B6F6;
     --textSubtitle: #86B6F6;
-    --textCaption: #f4f4f4;
+    --textCaption: #F5F4DE;
     --textLink: #86B6F6;
-    --highlight: #A6FF96;
+    --highlight: #FFA600;
 }
 
 body {
@@ -117,6 +117,6 @@ section {
 }
 
 .tool-badge {
-    background: linear-gradient(225deg, var(--text), #b0b0b4);
+    background: radial-gradient(#F5F4DE, #E1D3B3);
     color: var(--dark);
 }
