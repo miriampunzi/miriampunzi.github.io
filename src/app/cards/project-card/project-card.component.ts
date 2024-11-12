@@ -27,7 +27,7 @@ export class ProjectCardComponent {
 
     {
       title: "Nonverbal Behavior Reinforcement in VR",
-      description: "Virtual Reality game to teach nonverbal behavior to Agents.",
+      description: "Virtual Reality game to teach nonverbal behavior to Agents through Reinforcement Learning.",
       cover: "../../assets/images/project-covers/Cover NonverbalBehaviour.jpg",
       link: "nonverbal-behaviour",
       keywords: ["Unity", "C#", "VR", "Reinforcement Learning", "Gamification"],

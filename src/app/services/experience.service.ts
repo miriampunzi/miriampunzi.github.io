@@ -7,46 +7,56 @@ export class ExperienceService {
 
   experience = [
     {
+      company: "Vection Technologies",
+      icon: "assets/images/experience-logos/vection.png",
+      jobTitle: "UX/UI Designer & Unity Developer",
+      url: "https://vection-technologies.com/",
+      period: "Aug 2024 - current",
+      location: "Bologna, Italy",
+      description: "Improving UX/UI and developing new features on company products - Leading a small team of  UX/UI designers"
+    },
+
+    {
       company: "TXT e-Tech",
       icon: "assets/images/experience-logos/txt.png",
       jobTitle: "XR Software Engineer",
       url: "https://www.txtgroup.com/",
-      period: "Oct 2022 - current",
+      period: "Oct 2022 - Jul 2024",
       location: "Milan, Italy",
       description: 
-      "I am leading the design and development of a firefighting course in VR," +
-      "developing new features for the Pacelab WEAVR XR training platform, " +
-      "creating Augmented and Virtual Reality training procedures and simulations for the Aerospace & Defense division.",
+      "Lead the design and development of a firefighting course in VR - " +
+      "Developed new features for the Pacelab WEAVR XR training platform - " +
+      "Created AR/VR/MR training procedures and simulations",
     },
 
     {
       company: "EventLab",
       icon: "assets/images/experience-logos/eventlab.png",
-      jobTitle: "Research Assistant in VR",
+      jobTitle: "Research Assistant",
       url: "https://www.event-lab.org/",
       period: "Apr 2022 - Sept 2022",
       location: "Barcelona, Spain",
-      description: "I created randomised concert scenarios with Unity & C#, and trained a neural network for Semantic Segmentation through Deep Learning. I also investigated how to improve the UX of a rock concert scenario focusing on audience plausibility",
+      description: "Created randomised concert scenarios with Unity & C# to train a neural network for Semantic Segmentation through Deep Learning - Investigated how to improve the UX of a rock concert scenario focusing on audience plausibility",
     },
 
     {
       company: "LISN",
       icon: "assets/images/experience-logos/lisn.png",
-      jobTitle: "UX, VR, AI Researcher",
+      jobTitle: "UX Research Intern",
       url: "https://www.lisn.upsaclay.fr/",
       period: "Apr 2021 - Sept 2021",
       location: "Paris, France",
-      description: "I did the internship for my master thesis \"Nonverbal Behavior Reinforcement in Virtual Reality\"",
+      description: "Did the internship for my master thesis \"Nonverbal Behavior Reinforcement in Virtual Reality\"",
     },
 
     {
       company: "MadHCILab",
       icon: "assets/images/experience-logos/madhcilab.png",
-      jobTitle: "VR Programmer",
+      jobTitle: "Unity Developer",
       url: "https://madhcilab.es/",
       period: "Feb 2020 - Mar 2020",
       location: "Madrid, Spain",
-      description: "I participated in the development of a project for a driving school that simulates car accidents in VR in the context of distracted driving using Unity & Visual Studio",
+      description: "Participated in the development of a project for a driving school that simulates car accidents in VR in the context of distracted driving",
     },
 
     {
@@ -56,7 +66,7 @@ export class ExperienceService {
       url: "https://versalis.eni.com/it-IT/home.html",
       period: "Jun 2015",
       location: "Mantova, Italy",
-      description: "I programmed a web tool in HTML and Javascript for value conversion and pipe sizing for an industrial chemical plant",
+      description: "Programmed a web tool in HTML and Javascript for value conversion and pipe sizing for an industrial chemical plant",
     },
   ]
 
