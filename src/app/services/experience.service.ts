@@ -13,7 +13,7 @@ export class ExperienceService {
       url: "https://vection-technologies.com/",
       period: "Aug 2024 - current",
       location: "Bologna, Italy",
-      description: "Improving UX/UI and developing new features on company products - Leading a small team of  UX/UI designers"
+      description: "Enhancing UX/UI design and implementing new features in company products - Leading a small team of UX/UI designers"
     },
 
     {
@@ -24,9 +24,7 @@ export class ExperienceService {
       period: "Oct 2022 - Jul 2024",
       location: "Milan, Italy",
       description: 
-      "Lead the design and development of a firefighting course in VR - " +
-      "Developed new features for the Pacelab WEAVR XR training platform - " +
-      "Created AR/VR/MR training procedures and simulations",
+      "Directed the design of a firefighting course in VR - Improved the UX and implemented new features for the Pacelab WEAVR XR training platform - Developed AR/VR/MR training procedures and simulations",
     },
 
     {
@@ -36,7 +34,7 @@ export class ExperienceService {
       url: "https://www.event-lab.org/",
       period: "Apr 2022 - Sept 2022",
       location: "Barcelona, Spain",
-      description: "Created randomised concert scenarios with Unity & C# to train a neural network for Semantic Segmentation through Deep Learning - Investigated how to improve the UX of a rock concert scenario focusing on audience plausibility",
+      description: "Developed randomized concert scenarios using Unity and C#, and trained a neural network for semantic segmentation through deep learning techniques - Researched methods to enhance the UX of a rock concert scenario, with a focus on audience plausibility",
     },
 
     {
@@ -46,7 +44,7 @@ export class ExperienceService {
       url: "https://www.lisn.upsaclay.fr/",
       period: "Apr 2021 - Sept 2021",
       location: "Paris, France",
-      description: "Did the internship for my master thesis \"Nonverbal Behavior Reinforcement in Virtual Reality\"",
+      description: "Completed an internship as part of my master's thesis titled \"Nonverbal Behavior Reinforcement in Virtual Reality\"",
     },
 
     {
@@ -56,7 +54,7 @@ export class ExperienceService {
       url: "https://madhcilab.es/",
       period: "Feb 2020 - Mar 2020",
       location: "Madrid, Spain",
-      description: "Participated in the development of a project for a driving school that simulates car accidents in VR in the context of distracted driving",
+      description: "Contributed to the development of a VR project for a driving school, simulating car accidents caused by distracted driving",
     },
 
     {
@@ -66,7 +64,7 @@ export class ExperienceService {
       url: "https://versalis.eni.com/it-IT/home.html",
       period: "Jun 2015",
       location: "Mantova, Italy",
-      description: "Programmed a web tool in HTML and Javascript for value conversion and pipe sizing for an industrial chemical plant",
+      description: "Developed a web tool using HTML and JavaScript for value conversion and pipe sizing in an industrial chemical plant",
     },
   ]
 

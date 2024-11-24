@@ -117,6 +117,6 @@ section {
 }
 
 .tool-badge {
-    background: radial-gradient(#F5F4DE, #E1D3B3);
+    background: radial-gradient(var(--text), var(--textTitle));
     color: var(--dark);
 }
