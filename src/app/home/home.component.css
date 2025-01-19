@@ -84,8 +84,7 @@
   background-color: var(--info);
   padding: 20px;
   border-radius: 20px;
-  background: var(--light);
-  background: linear-gradient(225deg, var(--light), var(--info));
+  background: var(--info);
   margin-bottom: 30px;
 }
 
@@ -173,7 +172,7 @@
 
 .education-timeline:before {
   content: " ";
-  background: var(--textCaption);
+  background: var(--icon);
   display: inline-block;
   position: absolute;
   left: 74px;

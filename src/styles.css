@@ -5,20 +5,36 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 :root {
-    --background: #030b0e;
-    --section: #091F27;
-    --navbar: #091F27;
-    --footer: #091F27;
-    --info: #0E323F;
-    --light: #113B4B;
-    --dark: #0C2833;
+    --color-primary-50: #BCD2D6;
+    --color-primary-100: #A8C5CB;
+    --color-primary-200: #82ACB4;
+    --color-primary-300: #5B929C;
+    --color-primary-400: #357985;
+    --color-primary-500: #0E5F6E;
+    --color-primary-600: #0C505C;
+    --color-primary-700: #0A414B;
+    --color-primary-800: #073139;
+    --color-primary-900: #052228;
+    --color-primary-1000: #001013;
+
+    --color-secondary: #86B6F6;
+    --color-tertiary: #392334;
+    --color-accent: #FFA600;
+
+    --background: var(--color-primary-1000);
+    --section: linear-gradient(130deg, var(--color-primary-800) 0%, var(--color-tertiary) 100%);
+    --navbar: var(--color-primary-900);
+    --footer: var(--color-primary-900);
+    --info: var(--color-primary-600);
 
     --text: white;
-    --textTitle: #86B6F6;
-    --textSubtitle: #86B6F6;
-    --textCaption: #F5F4DE;
-    --textLink: #86B6F6;
-    --highlight: #FFA600;
+    --textTitle: var(--color-secondary);
+    --textSubtitle: var(--color-secondary);
+    --textChip: var(--color-primary-900);
+    --icon: white;
+    --border: var(--color-primary-50);
+    --textLink: var(--color-secondary);
+    --highlight: var(--color-accent);
 }
 
 body {
@@ -72,7 +88,10 @@ img {
 
 section {
     background: var(--section);
-    background: linear-gradient(225deg, var(--dark), var(--section));
+    border: 2px solid var(--border);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
     margin-top: 30px;
     padding: 30px 30px 0px 30px;
     border-radius: 20px;
@@ -118,5 +137,5 @@ section {
 
 .tool-badge {
     background: radial-gradient(var(--text), var(--textTitle));
-    color: var(--dark);
+    color: var(--textChip);
 }

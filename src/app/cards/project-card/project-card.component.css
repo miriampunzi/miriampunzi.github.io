@@ -1,6 +1,9 @@
 .project-card {
     background: var(--section);
-    background: linear-gradient(225deg, var(--dark), var(--section));
+    border: 2px solid var(--border);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
     height: 400px;
 	padding: 20px;
 	border-radius: 10px;

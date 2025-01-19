@@ -31,7 +31,7 @@
   width: 150px;
   margin-right: 20px;
   border-radius: 50%;
-  border: 3px solid var(--textCaption);
+  border: 3px solid var(--icon);
   position: relative;
   z-index: 500;
 }
