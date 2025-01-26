@@ -42,14 +42,11 @@ export class NavbarComponent implements OnInit {
   }
 
   Hide() {
-    console.log("Hide");
-    
     this.navbar?.classList.remove('navbar-visible');
     this.navbar?.classList.add('navbar-invisible');
   }
 
   Show() {
-    console.log("Show");
     this.navbar?.classList.remove('navbar-invisible');
     this.navbar?.classList.add('navbar-visible');
   }

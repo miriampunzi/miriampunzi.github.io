@@ -13,17 +13,18 @@
     --color-primary-500: #0E5F6E;
     --color-primary-600: #0C505C;
     --color-primary-700: #0A414B;
+    --color-primary-800-50: #073139a5;
     --color-primary-800: #073139;
     --color-primary-900: #052228;
     --color-primary-1000: #001013;
 
     --color-secondary: #86B6F6;
     --color-tertiary: #392334;
+    --color-tertiary-50: #392334ad;
     --color-accent: #FFA600;
 
     --background: var(--color-primary-1000);
-    --section: linear-gradient(130deg, var(--color-primary-800) 0%, var(--color-tertiary) 100%);
-    --navbar: var(--color-primary-900);
+    --section: linear-gradient(130deg, var(--color-primary-800-50) 0%, var(--color-tertiary-50) 100%);    --navbar: var(--color-primary-900);
     --footer: var(--color-primary-900);
     --info: var(--color-primary-600);
 

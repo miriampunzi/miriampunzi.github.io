@@ -1,9 +1,32 @@
-<a class="project-link" href={{projects[index].link}}>
-    <div class="project-card">
-        <img class="card-img-top" [src]="projects[index].cover" alt="..." style="border-radius: 5px;">
-        <div>
-            <h5>{{projects[index].title}}</h5>
-            <p>{{projects[index].description}}</p>
-        </div>
+<div class="project-card">
+  <div class="preview">
+    <div *ngIf="projects[index].video" class="video">
+      <iframe
+        #videoPlayer
+        [src]="projects[index].video"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allow="autoplay; fullscreen"
+      >
+      </iframe>
     </div>
-</a>
+
+    <div #imageCover class="image">
+      <img class="card-img-top" [src]="projects[index].cover" />
+    </div>
+
+    <div
+      *ngIf="projects[index].video && showImage"
+      class="play-button"
+      (click)="playVideo(projects[index].video != null)"
+    >
+      <i class="bi bi-play-fill"></i>
+    </div>
+  </div>
+  <a class="project-link" href="{{ projects[index].link }}">
+    <div>
+      <h5>{{ projects[index].title }}</h5>
+      <p>{{ projects[index].description }}</p>
+    </div>
+  </a>
+</div>
