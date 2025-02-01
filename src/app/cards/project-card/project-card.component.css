@@ -1,12 +1,59 @@
 .project-card {
-  height: 400px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.project-link {
-  color: var(--text);
-  text-decoration: none;
+@media (min-width: 576px) {
+  .project-card {
+    height: 520px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-card {
+    height: 480px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-card {
+    height: 520px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-card {
+    height: 470px;
+  }
+}
+
+.project-keyboards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.project-learnmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.learnmore {
+  margin-bottom: 0 !important;
 }
 
 .preview {
@@ -18,7 +65,7 @@
 
   position: relative;
 
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .play-button {
@@ -43,6 +90,8 @@
   order: 1;
   flex-grow: 0;
   z-index: 2;
+
+  cursor: pointer;
 }
 
 .video {
@@ -69,5 +118,5 @@ iframe,
 img {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
 }

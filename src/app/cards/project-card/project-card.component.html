@@ -23,10 +23,27 @@
       <i class="bi bi-play-fill"></i>
     </div>
   </div>
-  <a class="project-link" href="{{ projects[index].link }}">
-    <div>
+
+  <div class="card-body d-flex flex-column" style="width: 100%">
+    <div class="card-title">
       <h5>{{ projects[index].title }}</h5>
+    </div>
+
+    <div class="project-keyboards">
+      <div
+        style="display: inline"
+        *ngFor="let s of projects[index].keywords; index as i"
+      >
+        <span class="badge tool-badge">{{ projects[index].keywords[i] }}</span>
+      </div>
+    </div>
+
+    <div class="card-text flex-grow-1">
       <p>{{ projects[index].description }}</p>
     </div>
-  </a>
+
+    <a class="project-learnmore" href="{{ projects[index].link }}">
+      <h5 class="learnmore">LEARN MORE</h5>
+    </a>
+  </div>
 </div>
