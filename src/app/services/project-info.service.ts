@@ -1,11 +1,16 @@
 import { Injectable } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectInfoService {
 
-  constructor() { }
+  constructor(private sanitizer: DomSanitizer) {}
+
+  getSafeVideoUrl(url: any): SafeResourceUrl {
+      return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+    }
 
   projects = [
     {
@@ -46,7 +51,7 @@ export class ProjectInfoService {
       where: "Université Paris-Saclay",
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "September 2020 - October 2020",
-      video: "https://www.youtube.com/embed/iKftsyKDiDo?rel=0",
+      video: this.getSafeVideoUrl("https://www.youtube.com/embed/iKftsyKDiDo?rel=0"),
       github: "https://github.com/miriampunzi/WithoutHearing",
       tools: ["Android Studio", "Arduino", "User-Centered Design", "Interviews", "Paper Doll-House", "Smartwatch"],
     },
@@ -69,7 +74,7 @@ export class ProjectInfoService {
       where: "Université Paris-Saclay",
       url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
       duration: "January 2021 - February 2021",
-      video: "https://www.youtube.com/embed/DLVnXWCYp-4?rel=0",
+      video: this.getSafeVideoUrl("https://www.youtube.com/embed/DLVnXWCYp-4?rel=0"),
       tools: ["AR", "Unity", "Figma", "Vuforia", "Mobile App"],
     },
 
@@ -104,7 +109,7 @@ export class ProjectInfoService {
       publicationUrl: "https://globalgamejam.org/games/2024/raccoon-project-3",
       publication: "GGJ24 dashboard",
       github: "https://github.com/TheL94/GGJ24",
-      video: "https://www.youtube.com/embed/3uZRMXiv-Rw",
+      video: this.getSafeVideoUrl("https://www.youtube.com/embed/3uZRMXiv-Rw"),
       tools: ["Unity", "Game Design", "3D Modelling"],
     },
   ]

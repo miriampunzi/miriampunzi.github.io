@@ -1,9 +1,4 @@
 .project-card {
-  background: var(--section);
-  border: 2px solid var(--border);
-  backdrop-filter: blur(15px);
-  box-shadow: 0px 0px 2px var(--border);
-
   height: 400px;
   padding: 20px;
   border-radius: 10px;

@@ -10,131 +10,222 @@
 
 <div class="container">
   <!--about -->
-  <section>
-    <div class="row m-0">
-      <div class="col-12 col-lg-4 col-xl-3 page-info-extra">
-        <div class="row">
-          <div class="col-md-5 col-lg-12 page-info-profile">
-            <img class="img-fluid page-info-picture" src="/assets/images/profile.jpeg" />
+  <div class="row justify-content-center">
+    <div class="col">
+      <div class="portfolio-section portfolio-section-background">
+        <div class="row m-0">
+          <div class="col-12 col-lg-4 col-xl-3 page-info-extra">
+            <div class="row">
+              <div class="col-md-5 col-lg-12 page-info-profile">
+                <img
+                  class="img-fluid page-info-picture"
+                  src="/assets/images/profile.jpeg"
+                />
+              </div>
+              <div class="col d-flex align-items-center">
+                <ul class="info-list">
+                  <li class="info-list-job">
+                    UX/UI Designer & Unity Developer
+                  </li>
+                  <li class="info-list-company">
+                    <a href="https://vection-technologies.com/" target="_blank"
+                      >Vection Technologies</a
+                    >
+                  </li>
+                  <li class="info-list-where">Milan (Italy)</li>
+                  <li class="info-list-email">
+                    <a
+                      href="mailto:&#109;&#112;&#117;&#110;&#122;&#105;&#57;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+                      >&#109;&#112;&#117;&#110;&#122;&#105;&#57;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col d-flex align-items-center">
-            <ul class="info-list">
-              <li class="info-list-job">UX/UI Designer & Unity Developer</li>
-              <li class="info-list-company">
-                <a href="https://vection-technologies.com/" target="_blank">Vection Technologies</a>
-              </li>
-              <li class="info-list-where">Milan (Italy)</li>
-              <li class="info-list-email">
-                <a href="mailto:&#109;&#112;&#117;&#110;&#122;&#105;&#57;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#112;&#117;&#110;&#122;&#105;&#57;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
-              </li>
-            </ul>
+          <div class="col about-text mb-4">
+            <h3 class="about-text about-title">About Me</h3>
+            <p class="about-text">
+              Born and raised in Mantova, Italy, I have been passionate about
+              technology since childhood. To deepen my knowledge in this field,
+              I pursued a
+              <a href="https://www.fermimn.edu.it/" target="_blank"
+                >High School in Computer Science</a
+              >, where I discovered a strong interest in software development.
+              This passion led me to continue my studies in Computer Science at
+              the
+              <a
+                href="https://offertaformativa.unitn.it/it/l/informatica"
+                target="_blank"
+                >University of Trento</a
+              >.
+            </p>
+            <p>
+              At the same time, I enjoy challenging myself with creative
+              activities. I applied to a master's in Human-Computer Interaction
+              and Design, where I specialized in designing user-centered
+              interactive systems. I enrolled in the
+              <a
+                href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design"
+                target="_blank"
+                >EIT Digital Master School</a
+              >, a double-degree program held across two European cities. I
+              completed my first year at the
+              <a href="https://www.fi.upm.es/?pagina=2235" target="_blank"
+                >Politécnica de Madrid</a
+              >
+              and my second at
+              <a
+                href="https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction"
+                target="_blank"
+                >Université Paris-Saclay</a
+              >.
+            </p>
+            <p>
+              Studying abroad allowed me to broaden my horizons, immerse myself
+              in diverse environments, and adapt to different languages and
+              cultures. These experiences have inspired me to always be of
+              curious and enthusiastic for meeting new people and embracing new
+              perspectives.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col about-text mb-4">
-        <h3 class="about-text about-title">About Me</h3>
-        <p class="about-text">
-          Born and raised in Mantova, Italy, I have been passionate about technology since childhood.
-          To deepen my knowledge in this field, I pursued a
-          <a href="https://www.fermimn.edu.it/" target="_blank">High School in Computer Science</a>, where I discovered a strong interest in software development.
-          This passion led me to continue my studies in Computer Science at the
-          <a href="https://offertaformativa.unitn.it/it/l/informatica" target="_blank">University of Trento</a>.
-        </p>
-        <p>
-          At the same time, I enjoy challenging myself with creative activities.
-          I applied to a master's in Human-Computer Interaction and Design,
-          where I specialized in designing user-centered interactive systems.
-          I enrolled in the
-          <a href="https://masterschool.eitdigital.eu/human-computer-interaction-and-design" target="_blank">EIT
-            Digital Master School</a>, a double-degree program held across two European cities.
-            I completed my first year at the <a href="https://www.fi.upm.es/?pagina=2235"
-            target="_blank">Politécnica de Madrid</a> and my second at <a
-            href="https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction"
-            target="_blank">Université Paris-Saclay</a>.
-        </p>
-        <p>
-          Studying abroad allowed me to broaden my horizons, immerse myself in diverse environments,
-          and adapt to different languages and cultures.
-          These experiences have inspired me to always be of curious and enthusiastic
-           for meeting new people and embracing new perspectives.
-        </p>
-      </div>
     </div>
-  </section>
+  </div>
 
   <div class="row">
     <div class="col-lg-8 col-12">
       <!--education -->
-      <section class="left-section">
-        <app-page-section sectionTitle="Education">
-          <div class="education-timeline" *ngFor="let e of education; index as i">
-            <app-education-card [index]="i"></app-education-card>
+      <div class="row justify-content-center">
+        <div class="col left-section">
+          <div class="portfolio-section portfolio-section-background">
+            <app-page-section sectionTitle="Education">
+              <div
+                class="education-timeline"
+                *ngFor="let e of education; index as i"
+              >
+                <app-education-card [index]="i"></app-education-card>
+              </div>
+            </app-page-section>
           </div>
-        </app-page-section>
-      </section>
+        </div>
+      </div>
 
       <!--experience -->
-      <section class="left-section">
-        <app-page-section sectionTitle="Experience">
-          <div *ngFor="let e of experience; index as i">
-            <app-experience-card [index]="i"></app-experience-card>
+      <div class="row justify-content-center">
+        <div class="col left-section">
+          <div class="portfolio-section portfolio-section-background">
+            <app-page-section sectionTitle="Experience">
+              <div *ngFor="let e of experience; index as i">
+                <app-experience-card [index]="i"></app-experience-card>
+              </div>
+            </app-page-section>
           </div>
-        </app-page-section>
-      </section>
+        </div>
+      </div>
     </div>
 
     <div class="col">
       <!--skills -->
-      <section class="right-section">
-        <app-page-section sectionTitle="Skills">
-
-        <div class="skill-row" *ngFor="let s of skills; index as i"
-          [ngClass]="{ 'skill-row-last': i === skills.length - 1 }">
-          <h6>{{ s.category }}</h6>
-          <app-skill-card [i]="i"></app-skill-card>
+      <div class="row justify-content-center">
+        <div class="col right-section">
+          <div class="portfolio-section portfolio-section-background">
+            <app-page-section sectionTitle="Skills">
+              <div
+                class="skill-row"
+                *ngFor="let s of skills; index as i"
+                [ngClass]="{ 'skill-row-last': i === skills.length - 1 }"
+              >
+                <h6>{{ s.category }}</h6>
+                <app-skill-card [i]="i"></app-skill-card>
+              </div>
+            </app-page-section>
+          </div>
         </div>
-      </app-page-section>
-      </section>
+      </div>
 
       <!--language-->
-      <section class="right-section">
-        <app-page-section sectionTitle="Languages" sectionSubsubtitle="My mother tongue is">
-          <app-language-card class="language-card" imagePath="assets/images/languages/italian.png"
-            description="Italian"></app-language-card>
-        </app-page-section>
+      <div class="row justify-content-center">
+        <div class="col right-section">
+          <div class="portfolio-section portfolio-section-background">
+            <app-page-section
+              sectionTitle="Languages"
+              sectionSubsubtitle="My mother tongue is"
+            >
+              <app-language-card
+                class="language-card"
+                imagePath="assets/images/languages/italian.png"
+                description="Italian"
+              ></app-language-card>
+            </app-page-section>
 
-        <app-page-section sectionSubsubtitle="While I was studying around Europe, I had the occasion to">
-          <app-language-card class="language-card" imagePath="assets/images/languages/english.png"
-            description="Improve my English communication skills!"></app-language-card>
-          <app-language-card class="language-card" imagePath="assets/images/languages/spanish.png"
-            description="¡Aprender a hablar fluidamente español!"></app-language-card>
-          <app-language-card imagePath="assets/images/languages/french.png"
-            description="Commencer à parler un peu de français&nbsp;!"></app-language-card>
-        </app-page-section>
-      </section>
+            <app-page-section
+              sectionSubsubtitle="While I was studying around Europe, I had the occasion to"
+            >
+              <app-language-card
+                class="language-card"
+                imagePath="assets/images/languages/english.png"
+                description="Improve my English communication skills!"
+              ></app-language-card>
+              <app-language-card
+                class="language-card"
+                imagePath="assets/images/languages/spanish.png"
+                description="¡Aprender a hablar fluidamente español!"
+              ></app-language-card>
+              <app-language-card
+                imagePath="assets/images/languages/french.png"
+                description="Commencer à parler un peu de français&nbsp;!"
+              ></app-language-card>
+            </app-page-section>
+          </div>
+        </div>
+      </div>
 
       <!--hobby -->
-      <section class="right-section">
-        <app-page-section sectionTitle="Hobbies" sectionSubsubtitle="When I'm not in front of a computer, I...">
-          <div class="row row-cols-3 row-cols-lg-2">
-            <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Play piano"></app-hobby-card>
-            <app-hobby-card imagePath="assets/images/hobbies/cooking.jpg" description="Cook"></app-hobby-card>
-            <app-hobby-card imagePath="assets/images/hobbies/travel.jpg" description="Travel"></app-hobby-card>
+      <div class="row justify-content-center">
+        <div class="col right-section">
+          <div class="portfolio-section portfolio-section-background">
+            <app-page-section
+              sectionTitle="Hobbies"
+              sectionSubsubtitle="When I'm not in front of a computer, I..."
+            >
+              <div class="row row-cols-3 row-cols-lg-2">
+                <app-hobby-card
+                  imagePath="assets/images/hobbies/piano.jpg"
+                  description="Play piano"
+                ></app-hobby-card>
+                <app-hobby-card
+                  imagePath="assets/images/hobbies/cooking.jpg"
+                  description="Cook"
+                ></app-hobby-card>
+                <app-hobby-card
+                  imagePath="assets/images/hobbies/travel.jpg"
+                  description="Travel"
+                ></app-hobby-card>
+              </div>
+            </app-page-section>
           </div>
-        </app-page-section>
-      </section>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div id="projects" class="projects-cover text-white d-flex align-items-center mt-4 mb-4">
+<div
+  id="projects"
+  class="projects-cover text-white d-flex align-items-center mt-4 mb-4"
+>
   <div class="container p-4">
     <h1>Check out some of my work!</h1>
   </div>
 </div>
 
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" style="margin-top: 10px; margin-bottom: 50px">
+  <div
+    class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4"
+    style="margin-top: 10px; margin-bottom: 50px"
+  >
     <div *ngFor="let cover of coverProjects; index as i">
       <div class="col">
         <app-project-card [index]="i"></app-project-card>
