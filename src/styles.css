@@ -13,29 +13,37 @@
     --color-primary-500: #0E5F6E;
     --color-primary-600: #0C505C;
     --color-primary-700: #0A414B;
-    --color-primary-800-50: #073139a5;
     --color-primary-800: #073139;
+    --color-primary-800_08: rgba(7, 49, 57, 0.8);
     --color-primary-900: #052228;
     --color-primary-1000: #001013;
 
-    --color-secondary: #86B6F6;
-    --color-tertiary: #392334;
-    --color-tertiary-50: #392334ad;
-    --color-accent: #FFA600;
+    --color-secondary-50: #CBC4CA;
+    --color-secondary-100: #BDB3BA;
+    --color-secondary-500: #472B40;
+    --color-secondary-500_05: rgba(71, 43, 64, 0.5);
+    --color-secondary-800: #251621;
+    
+    --color-accent: #7CB8FB;
+    --color-highlight: #FFA600;
 
     --background: var(--color-primary-1000);
-    --section: linear-gradient(130deg, var(--color-primary-800-50) 0%, var(--color-tertiary-50) 100%);    --navbar: var(--color-primary-900);
+    --section: linear-gradient(130deg, var(--color-primary-800_08) 0%, var(--color-secondary-500_05) 100%);
+    --navbar: var(--color-primary-900);
     --footer: var(--color-primary-900);
     --info: var(--color-primary-600);
 
     --text: white;
-    --textTitle: var(--color-secondary);
-    --textSubtitle: var(--color-secondary);
+    --textTitle: var(--color-accent);
+    --textSubtitle: var(--color-accent);
     --textChip: var(--color-primary-900);
     --icon: white;
-    --border: var(--color-primary-50);
-    --textLink: var(--color-secondary);
-    --highlight: var(--color-accent);
+    --border: white;
+    --textLink: var(--color-accent);
+    --highlight: var(--color-highlight);
+
+    position: relative;
+    overflow-x: hidden;
 }
 
 body {
@@ -43,10 +51,6 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
-
-    background: var(--background);
-    background-repeat: no-repeat;
-
     color: var(--text);
 }
 
@@ -90,13 +94,12 @@ img {
 section {
     background: var(--section);
     border: 2px solid var(--border);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 2px var(--border);
 
     margin-top: 30px;
     padding: 30px 30px 0px 30px;
     border-radius: 20px;
-    box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
 }
 
 .big-title {

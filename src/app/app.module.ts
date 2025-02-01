@@ -27,6 +27,7 @@ import { ArrowImagesComponent } from './layout/arrow-images/arrow-images.compone
 import { LanguageCardComponent } from './cards/language-card/language-card.component';
 import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 import { EspooraComponent } from './projects/espoora/espoora.component';
+import { BackgroundComponent } from './layout/background/background.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { EspooraComponent } from './projects/espoora/espoora.component';
     LanguageCardComponent,
     RacoombaComponent,
     EspooraComponent,
+    BackgroundComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+<div #background class="background-container">
+    <div
+      *ngFor="let div of divs"
+      class="background-div"
+      [ngClass]="div.className"
+      [ngStyle]="{
+        top: div.top + 'px',
+        left: div.left + 'px',
+        width: div.size + 'px',
+        height: div.size + 'px'
+      }"
+    ></div>
+  </div>

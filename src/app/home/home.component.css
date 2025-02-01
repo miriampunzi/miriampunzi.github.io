@@ -172,7 +172,7 @@
 
 .education-timeline:before {
   content: " ";
-  background: var(--icon);
+  background: var(--border);
   display: inline-block;
   position: absolute;
   left: 74px;
