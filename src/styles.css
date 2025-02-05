@@ -1,139 +1,169 @@
-@import '~bootstrap-icons/font/bootstrap-icons.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 :root {
-    --color-primary-50: #BCD2D6;
-    --color-primary-100: #A8C5CB;
-    --color-primary-200: #82ACB4;
-    --color-primary-300: #5B929C;
-    --color-primary-400: #357985;
-    --color-primary-500: #0E5F6E;
-    --color-primary-600: #0C505C;
-    --color-primary-700: #0A414B;
-    --color-primary-800: #073139;
-    --color-primary-800_08: rgba(7, 49, 57, 0.8);
-    --color-primary-900: #052228;
-    --color-primary-1000: #001013;
+  --color-primary-light: #a8c5cb;
+  --color-primary: #0e5f6e;
+  --color-primary-dark: #073139;
+  --color-primary-dark-a80: rgba(7, 49, 57, 0.8);
 
-    --color-secondary-50: #CBC4CA;
-    --color-secondary-100: #BDB3BA;
-    --color-secondary-500: #472B40;
-    --color-secondary-500_05: rgba(71, 43, 64, 0.5);
-    --color-secondary-800: #251621;
-    
-    --color-accent: #7CB8FB;
-    --color-highlight: #FFA600;
+  --color-secondary-light: #bdb3ba;
+  --color-secondary: #472b40;
+  --color-secondary-a50: rgba(71, 43, 64, 0.5);
+  --color-secondary-dark: #251621;
 
-    --background: var(--color-primary-1000);
-    --section: linear-gradient(130deg, var(--color-primary-800_08) 0%, var(--color-secondary-500_05) 100%);
-    --navbar: var(--color-primary-900);
-    --footer: var(--color-primary-900);
-    --info: var(--color-primary-600);
+  --color-accent: #7cb8fb;
+  --color-highlight: #ffa600;
+  --color-background: #001013;
+  --color-text: white;
 
-    --text: white;
-    --textTitle: var(--color-accent);
-    --textSubtitle: var(--color-accent);
-    --textChip: var(--color-primary-900);
-    --icon: white;
-    --border: white;
-    --textLink: var(--color-accent);
-    --highlight: var(--color-highlight);
+  --section: linear-gradient(
+    130deg,
+    var(--color-primary-dark-a80) 0%,
+    var(--color-secondary-a50) 100%
+  );
+  --navbar: var(--color-primary-dark);
+  --footer: var(--color-primary-dark);
+  --info: var(--color-primary);
 
-    position: relative;
-    overflow-x: hidden;
+  --text: var(--color-text);
+  --icon: var(--color-text);
+  --border: var(--color-text);
+  --textTitle: var(--color-accent);
+  --textSubtitle: var(--color-accent);
+  --textChip: var(--color-primary-dark);
+  --textLink: var(--color-accent);
+  --highlight: var(--color-highlight);
+
+  --font-family-display: "DM Serif Display", serif;
+  --font-family-heading: "Cabin", sans-serif;
+  --font-family-base: "Inter", sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 72px;
+
+  --radius-sm: 5px;
+  --radius-md: 20px;
+  --radius-pill: 50%;
+
+  position: relative;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--text);
+  font-family: var(--font-family-base);
+  font-weight: 300;
+  font-size: var(--font-size-md);
+  line-height: 1.7;
+  color: var(--text);
 }
 
-h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 500;
+h4 {
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+}
+
+h1 {
+  font-family: var(--font-family-display);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+}
+
+h3 {
+  font-size: var(--font-size-lg);
+}
+
+h4 {
+  font-size: var(--font-size-md);
 }
 
 ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 a {
-    color: var(--textLink);
-    text-decoration: none;
+  color: var(--textLink);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--textTitle);
+  color: var(--textTitle);
 }
 
 ::selection {
-    background-color: var(--highlight);
-    color: var(--background);
+  background-color: var(--highlight);
+  color: var(--color-background);
 }
 
 img {
-    border-radius: 5px;
+  border-radius: var(--radius-sm);
 }
 
 .list-no-margin {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .portfolio-section {
-    margin-top: 30px;
-    padding: 30px 30px 0px 30px;
-    border-radius: 20px;
+  margin-top: 30px;
+  padding: 30px 30px 0px 30px;
+  border-radius: var(--radius-md);
 }
 
 .portfolio-section-background {
-    background: var(--section);
-    border: 2px solid var(--border);
-    backdrop-filter: blur(15px);
-    box-shadow: 0px 0px 2px var(--border);
-}
-
-.big-title {
-    font-family: 'DM Serif Display', serif;
+  background: var(--section);
+  border: 2px solid var(--border);
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 2px var(--border);
 }
 
 @media (max-width: 768px) {
-    .right-section {
-        margin-right: 0px !important;
-        margin-top: 0px;
-        margin-left: 0px !important;
-        margin-bottom: 30px;
-    }
+  .right-section {
+    margin-right: 0px !important;
+    margin-top: 0px;
+    margin-left: 0px !important;
+    margin-bottom: 30px;
+  }
 
-    .left-section {
-        margin-bottom: 30px;
-    }
+  .left-section {
+    margin-bottom: 30px;
+  }
 }
 
 .label-strong {
-    font-weight: 800;
-    display: contents;
+  font-weight: 800;
+  display: contents;
 }
 
 .big-number {
-    font-family: 'impact';
-    font-size: 38px;
-    display: flex;
-    justify-content: center;
+  font-family: "impact";
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
 }
 
 .tool-badge {
-    background: radial-gradient(var(--text), var(--textTitle));
-    color: var(--textChip);
+  background: radial-gradient(var(--text), var(--textTitle));
+  color: var(--textChip);
 }

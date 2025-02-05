@@ -7,27 +7,27 @@
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
-  background: var(--background);
+  background: var(--color-background);
 }
 
 .background-div {
   position: absolute;
-  border-radius: 50%;
+  border-radius: var(--radius-pill);
   opacity: 0.5;
 
   box-sizing: border-box;
   filter: blur(0.8px);
-  border-radius: 30px;
+  border-radius: var(--radius-md);
 }
 
 .primary {
-  background: var(--color-primary-800);
-  border: 1px solid var(--color-primary-100);
-  box-shadow: 0px 0px 3px var(--color-primary-50);
+  background: var(--color-primary-dark);
+  border: 1px solid var(--color-primary-light);
+  box-shadow: 0px 0px 3px var(--color-primary-light);
 }
 
 .secondary {
-  background: var(--color-secondary-800);
-  border: 1px solid var(--color-primary-100);
-  box-shadow: 0px 0px 3px var(--color-primary-50);
+  background: var(--color-secondary-dark);
+  border: 1px solid var(--color-secondary-light);
+  box-shadow: 0px 0px 3px var(--color-secondary-light);
 }

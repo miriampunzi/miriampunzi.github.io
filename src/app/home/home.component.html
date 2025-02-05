@@ -1,8 +1,8 @@
 <div class="home-cover text-white d-flex align-items-center">
   <div class="container">
     <div class="row p-4">
-      <h1 class="header-name big-title">Hello,</h1>
-      <h1 class="header-name big-title">I'm Miriam!</h1>
+      <h1 class="header-name">Hello,</h1>
+      <h1 class="header-name">I'm Miriam!</h1>
       <span>UX/UI Designer & Unity Developer</span>
     </div>
   </div>
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="col about-text mb-4">
-            <h3 class="about-text about-title">About Me</h3>
+            <h2 class="about-text about-title">About Me</h2>
             <p class="about-text">
               Born and raised in Mantova, Italy, I have been passionate about
               technology since childhood. To deepen my knowledge in this field,
@@ -137,7 +137,7 @@
                 *ngFor="let s of skills; index as i"
                 [ngClass]="{ 'skill-row-last': i === skills.length - 1 }"
               >
-                <h6>{{ s.category }}</h6>
+                <h4>{{ s.category }}</h4>
                 <app-skill-card [i]="i"></app-skill-card>
               </div>
             </app-page-section>

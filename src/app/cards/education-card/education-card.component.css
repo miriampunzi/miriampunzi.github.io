@@ -30,7 +30,7 @@
   height: 150px;
   width: 150px;
   margin-right: 20px;
-  border-radius: 50%;
+  border-radius: var(--radius-pill);
   border: 3px solid var(--border);
   position: relative;
   z-index: 500;

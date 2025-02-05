@@ -1,8 +1,8 @@
 .page-info-row {
-  background-color: var(--background);
+  background-color: var(--color-background);
   margin-top: 30px;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   box-shadow: 0 3px 26px 0 rgba(0, 0, 0, 0.20);
 }
 
@@ -10,7 +10,7 @@
   background: var(--info);
 
   padding: 20px;
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   color: var(--icon);
   margin: 0px 20px 0px 20px;
 }
