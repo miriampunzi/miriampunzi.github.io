@@ -37,10 +37,7 @@ export class ProjectCardComponent {
       title: 'Nonverbal Behavior Reinforcement in VR',
       description:
         'Master Thesis: UX study and demo development of a VR game to teach nonverbal behavior to virtual agents through Reinforcement Learning',
-      cover: "../../assets/images/project-covers/Cover NonverbalBehaviour.jpg",
-      video: this.getSafeVideoUrl(
-        'https://www.youtube.com/embed/fDzpI3Kcvt4?rel=0'
-      ),
+      cover: "../../assets/images/project-covers/Cover NonverbalBehaviour.gif",
       link: 'nonverbal-behaviour',
       keywords: ['Unity', 'C#', 'VR', 'Reinforcement Learning', 'Gamification'],
     },
@@ -102,10 +99,7 @@ export class ProjectCardComponent {
     {
       title: 'Bookflix',
       description: 'UX study of an application to find and to read books',
-      cover: "../../assets/images/project-covers/Cover Bookflix.jpg",
-      video: this.getSafeVideoUrl(
-        'https://www.youtube.com/embed/wjWDS0WioIE?rel=0'
-      ),
+      cover: "../../assets/images/project-covers/Cover Bookflix.gif",
       link: 'bookflix',
       keywords: ['Figma', 'User-Centered Design', 'Usability Testing'],
     },
