@@ -11,6 +11,7 @@ import { PearlyComponent } from './projects/pearly/pearly.component';
 import { BookflixComponent } from './projects/bookflix/bookflix.component';
 import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 import { EspooraComponent } from './projects/espoora/espoora.component';
+import { JeansComponent } from './projects/jeans/jeans.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'bookflix', component: BookflixComponent},
   {path: 'racoomba', component: RacoombaComponent},
   {path: 'espoora', component: EspooraComponent},
+  {path: 'jeans', component: JeansComponent},
 ];
 
 @NgModule({

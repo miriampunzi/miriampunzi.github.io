@@ -33,6 +33,9 @@
                 ><small>{{ project[0].publication }}</small></a
               >
             </li>
+            <li *ngIf="project[0].figma" class="info-list-figma">
+              <a [href]="project[0].figma" target="_blank">Figma project</a>
+            </li>
             <li *ngIf="project[0].github" class="info-list-github">
               <a [href]="project[0].github" target="_blank">GitHub repo</a>
             </li>

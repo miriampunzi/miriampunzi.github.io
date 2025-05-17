@@ -60,13 +60,19 @@
 }
 
 .info-list-publication:before {
-  content: '\F444' !important;
+  content: '\F38A' !important;
   font-family: "bootstrap-icons";
   font-size: 18px;
 }
 
 .info-list-github:before {
   content: '\F3ED' !important;
+  font-family: "bootstrap-icons";
+  font-size: 18px;
+}
+
+.info-list-figma:before {
+  content: '\F3C1' !important;
   font-family: "bootstrap-icons";
   font-size: 18px;
 }

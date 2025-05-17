@@ -15,6 +15,15 @@ export class ProjectCardComponent {
 
   projects = [
     {
+      title: 'Jeans',
+      description:
+        'Design of a mobile app to find well-fitting jeans through avatar visualization and body shape education.',
+      cover: "../../assets/images/project-covers/Cover Jeans.png",
+      link: 'jeans',
+      keywords: ["Figma", "Mobile Design","User Research"],
+    },
+
+    {
       title: 'Racoomba!',
       description:
         'Development of a Unity game about 3 racoons who have to scrape items from a house, taking care to avoid the Roomba killers',
