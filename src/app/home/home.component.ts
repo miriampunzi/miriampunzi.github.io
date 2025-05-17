@@ -19,6 +19,7 @@ export class HomeComponent {
     'assets/images/Home/Cover Bookflix.jpg',
     'assets/images/Home/Cover Racoomba.png',
     'assets/images/Home/Cover Espoora.png',
+    'assets/images/Home/Cover Portfolio.png',
     'assets/images/Home/Cover Jeans.png',
   ]
 

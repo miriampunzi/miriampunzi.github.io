@@ -11,6 +11,7 @@ import { PearlyComponent } from './projects/pearly/pearly.component';
 import { BookflixComponent } from './projects/bookflix/bookflix.component';
 import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 import { EspooraComponent } from './projects/espoora/espoora.component';
+import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { JeansComponent } from './projects/jeans/jeans.component';
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'bookflix', component: BookflixComponent},
   {path: 'racoomba', component: RacoombaComponent},
   {path: 'espoora', component: EspooraComponent},
+  {path: 'portfolio', component: PortfolioComponent},
   {path: 'jeans', component: JeansComponent},
 ];
 

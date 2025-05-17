@@ -114,6 +114,16 @@ export class ProjectInfoService {
     },
 
     {
+      name: "portfolio",
+      about: "This portfolio is more than a collection of work: it's an ongoing project itself. Over time, I’ve redesigned and refined it to reflect my evolving skills in UX design and web development. This section showcases that journey, highlighting key changes in structure and style. It’s a personal case study in continuous improvement, experimentation, and learning.",
+      what: "Portfolio website",
+      duration: "July 2022 - will it ever end?",
+      figma: "https://www.figma.com/design/0WC3tlaJbG4kEV27r2JjuL/Portfolio-Official?node-id=1-171&t=Lo8w40y3c7nnaLI4-1",
+      github: "https://github.com/miriampunzi/miriampunzi.github.io",
+      tools: ['Figma', 'Angular', 'HTML', 'CSS', 'TypeScript'],
+    },
+    
+    {
       name: "jeans",
       about: "Design of a mobile app that helps users find the right jeans online with greater confidence and accuracy. By using a personalized avatar, the app allows users to visualize how jeans will fit their body, creating a more realistic and reassuring shopping experience. It features jeans exclusively from providers who share exact garment measurements, increasing trust and reducing sizing guesswork. The app also acts as an educational platform, helping users learn about their body shape and which styles suit them best. Additionally, it creates space for image consultants to offer tailored advice in exchange for visibility, fostering a supportive and informative fashion community.",
       what: "Design Challenge \"Finding jeans that fit\"",

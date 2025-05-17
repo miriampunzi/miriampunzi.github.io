@@ -22,6 +22,15 @@ export class ProjectCardComponent {
       link: 'jeans',
       keywords: ["Figma", "Mobile Design","User Research"],
     },
+      
+    {
+      title: 'My humble Portfolio',
+      description:
+        'How this portfolio has evolved over the time?',
+      cover: "../../assets/images/project-covers/Cover Portfolio.png",
+      link: 'portfolio',
+      keywords: ['Figma', 'Angular', 'HTML', 'CSS', 'TypeScript'],
+    },
 
     {
       title: 'Racoomba!',

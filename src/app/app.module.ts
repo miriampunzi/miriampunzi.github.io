@@ -28,6 +28,7 @@ import { LanguageCardComponent } from './cards/language-card/language-card.compo
 import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 import { EspooraComponent } from './projects/espoora/espoora.component';
 import { BackgroundComponent } from './layout/background/background.component';
+import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { JeansComponent } from './projects/jeans/jeans.component';
 
 @NgModule({
@@ -57,6 +58,7 @@ import { JeansComponent } from './projects/jeans/jeans.component';
     RacoombaComponent,
     EspooraComponent,
     BackgroundComponent,
+    PortfolioComponent,
     JeansComponent,
   ],
   imports: [
