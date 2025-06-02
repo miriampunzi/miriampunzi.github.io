@@ -125,13 +125,13 @@ export class ProjectInfoService {
     
     {
       name: "jeans",
-      about: "Design of a mobile app that helps users find the right jeans online with greater confidence and accuracy. By using a personalized avatar, the app allows users to visualize how jeans will fit their body, creating a more realistic and reassuring shopping experience. It features jeans exclusively from providers who share exact garment measurements, increasing trust and reducing sizing guesswork. The app also acts as an educational platform, helping users learn about their body shape and which styles suit them best. Additionally, it creates space for image consultants to offer tailored advice in exchange for visibility, fostering a supportive and informative fashion community.",
+      about: "UX/UI Design of a mobile app that helps users find the right jeans online with more confidence. By using a personalized avatar, the app allows users to visualize how jeans will fit their body. It features jeans exclusively from providers who share the exact measurements. The app also acts as an educational platform, helping users learn about their body shape and which styles suit them best. Additionally, it creates space for image consultants to offer advices and get visibility.",
       what: "Design Challenge \"Finding jeans that fit\"",
       duration: "April 2025 - May 2025",
       where: "uxchallenge.co",
       url: "https://www.uxchallenge.co/",
       figma: "https://www.figma.com/design/RzIcWEkpXik6FnJfH0wDsv/Untitled?node-id=76-1065&t=B2lrEITn6u8zh3qT-1",
-      tools: ["Figma", "Mobile Design", "User Research"],
+      tools: ["Figma", "Mobile Design","Sketching"],
     }
   ]
 }

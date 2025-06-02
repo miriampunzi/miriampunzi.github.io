@@ -15,18 +15,18 @@ export class ProjectCardComponent {
 
   projects = [
     {
-      title: 'Jeans',
+      title: 'The Perfect Jeans',
       description:
-        'Design of a mobile app to find well-fitting jeans through avatar visualization and body shape education.',
+        'UX/UI design of a mobile app to find well-fitting jeans through avatar visualization and body shape education.',
       cover: "../../assets/images/project-covers/Cover Jeans.png",
       link: 'jeans',
-      keywords: ["Figma", "Mobile Design","User Research"],
+      keywords: ["Figma", "Mobile Design","Sketching"],
     },
       
     {
       title: 'My humble Portfolio',
       description:
-        'How this portfolio has evolved over the time?',
+        'How this portfolio has evolved over the time? A UX/UI study & development that never ends.',
       cover: "../../assets/images/project-covers/Cover Portfolio.png",
       link: 'portfolio',
       keywords: ['Figma', 'Angular', 'HTML', 'CSS', 'TypeScript'],
