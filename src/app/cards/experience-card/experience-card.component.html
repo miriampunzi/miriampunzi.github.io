@@ -1,12 +1,25 @@
 <div class="row experience-card">
   <div class="experience-title">
-    <div class="experience-icon" [ngStyle]="{ 'background-image': 'url(&quot;' + experience[index].icon + '&quot;)' }"></div>
+    <div
+      class="experience-icon"
+      [ngStyle]="{
+        'background-image': 'url(&quot;' + experience[index].icon + '&quot;)'
+      }"
+    ></div>
     <div>
-      <h3>{{experience[index].jobTitle}} - <a [href]="experience[index].url" target="_blank">{{experience[index].company}}</a></h3>
-      <small>{{experience[index].period}}</small> 
+      <h3>
+        {{ experience[index].jobTitle }} -
+        <a [href]="experience[index].url" target="_blank">{{
+          experience[index].company
+        }}</a>
+      </h3>
+      <small>{{ experience[index].period }}</small>
+
+      <ul class="experience-list">
+        <li *ngFor="let line of experience[index].description">
+          {{ line }}
+        </li>
+      </ul>
     </div>
-  </div>
-  <div>
-    <p class="card-text">{{experience[index].description}}</p>
   </div>
 </div>
