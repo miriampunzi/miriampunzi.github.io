@@ -21,6 +21,7 @@ export class HomeComponent {
     'assets/images/Home/Cover Espoora.png',
     'assets/images/Home/Cover Portfolio.png',
     'assets/images/Home/Cover Jeans.png',
+    'assets/images/Home/Cover Kepos.png',
   ]
 
   constructor(private experienceService: ExperienceService, private educationService: EducationService, private skillsService: SkillsService) { }

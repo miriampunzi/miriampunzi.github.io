@@ -13,6 +13,7 @@ import { RacoombaComponent } from './projects/racoomba/racoomba.component';
 import { EspooraComponent } from './projects/espoora/espoora.component';
 import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { JeansComponent } from './projects/jeans/jeans.component';
+import { KeposComponent } from './projects/kepos/kepos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path: 'espoora', component: EspooraComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'jeans', component: JeansComponent},
+  {path: 'kepos', component: KeposComponent},
 ];
 
 @NgModule({

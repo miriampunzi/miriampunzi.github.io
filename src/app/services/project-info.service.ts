@@ -132,6 +132,17 @@ export class ProjectInfoService {
       url: "https://www.uxchallenge.co/",
       figma: "https://www.figma.com/design/RzIcWEkpXik6FnJfH0wDsv/Untitled?node-id=76-1065&t=B2lrEITn6u8zh3qT-1",
       tools: ["Figma", "Mobile Design","Sketching"],
+    },
+
+    {
+      name: "kepos",
+      about: "UX/UI Design of a website for an association.",
+      what: "Design Challenge \"Finding jeans that fit\"",
+      duration: "April 2025 - May 2025",
+      where: "uxchallenge.co",
+      url: "https://www.uxchallenge.co/",
+      figma: "https://www.figma.com/design/RzIcWEkpXik6FnJfH0wDsv/Untitled?node-id=76-1065&t=B2lrEITn6u8zh3qT-1",
+      tools: ["Figma", "Mobile Design","Sketching"],
     }
   ]
 }

@@ -30,6 +30,7 @@ import { EspooraComponent } from './projects/espoora/espoora.component';
 import { BackgroundComponent } from './layout/background/background.component';
 import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { JeansComponent } from './projects/jeans/jeans.component';
+import { KeposComponent } from './projects/kepos/kepos.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { JeansComponent } from './projects/jeans/jeans.component';
     BackgroundComponent,
     PortfolioComponent,
     JeansComponent,
+    KeposComponent,
   ],
   imports: [
     BrowserModule,
