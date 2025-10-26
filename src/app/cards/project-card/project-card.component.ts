@@ -14,8 +14,9 @@ export class ProjectCardComponent {
 
   projects = [
     {
-      title: 'K\'epos Website Redesign',
-      description: 'Redesign of the K’epos website with user research and Figma prototypes to improve usability.',
+      title: "K'epos Website Redesign",
+      description:
+        'Redesign of the K’epos website with user research and Figma prototypes to improve usability.',
       cover: '../../assets/images/project-covers/Cover Kepos.png',
       link: 'kepos',
       keywords: ['Figma', 'Web Design', 'Interviews', 'Accessibility'],
@@ -138,10 +139,13 @@ export class ProjectCardComponent {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
-  playVideo(hasVideo: boolean) {
+  playVideo(hasVideo: boolean, event: MouseEvent) {
     if (!hasVideo) {
       return;
     }
+
+    event.stopPropagation(); 
+    event.preventDefault();
 
     const videoIframe = this.videoPlayer.nativeElement;
     const videoSrc = videoIframe.src;

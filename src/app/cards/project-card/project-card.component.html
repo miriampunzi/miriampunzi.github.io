@@ -1,49 +1,49 @@
-<div class="project-card portfolio-section-background">
-  <div class="preview">
-    <div *ngIf="projects[index].video" class="video">
-      <iframe
-        #videoPlayer
-        [src]="projects[index].video"
-        webkitallowfullscreen
-        mozallowfullscreen
-        allow="autoplay; fullscreen"
-      >
-      </iframe>
-    </div>
+<a class="text-decoration-none text-reset" href="{{ projects[index].link }}">
+  <div class="project-card portfolio-section-background">
+    <div class="preview">
+      <div *ngIf="projects[index].video" class="video">
+        <iframe
+          #videoPlayer
+          [src]="projects[index].video"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allow="autoplay; fullscreen"
+        >
+        </iframe>
+      </div>
 
-    <div #imageCover class="image">
-      <img class="card-img-top" [src]="projects[index].cover" />
-    </div>
+      <div #imageCover class="image">
+        <img class="card-img-top" [src]="projects[index].cover" />
+      </div>
 
-    <div
-      *ngIf="projects[index].video && showImage"
-      class="play-button"
-      (click)="playVideo(projects[index].video != null)"
-    >
-      <i class="bi bi-play-fill"></i>
-    </div>
-  </div>
-
-  <div class="card-body d-flex flex-column" style="width: 100%">
-    <div class="card-title">
-      <h3>{{ projects[index].title }}</h3>
-    </div>
-
-    <div class="project-keyboards">
       <div
-        style="display: inline"
-        *ngFor="let s of projects[index].keywords; index as i"
+        *ngIf="projects[index].video && showImage"
+        class="play-button"
+        (click)="playVideo(projects[index].video != null, $event)"
       >
-        <span class="badge tool-badge">{{ projects[index].keywords[i] }}</span>
+        <i class="bi bi-play-fill"></i>
       </div>
     </div>
 
-    <div class="card-text flex-grow-1">
-      <p>{{ projects[index].description }}</p>
-    </div>
+    <div class="card-body d-flex flex-column" style="width: 100%">
+      <div class="card-title">
+        <h3>{{ projects[index].title }}</h3>
+      </div>
 
-    <a class="project-learnmore" href="{{ projects[index].link }}">
-      <h3 class="learnmore">LEARN MORE</h3>
-    </a>
+      <div class="project-keyboards">
+        <div
+          style="display: inline"
+          *ngFor="let s of projects[index].keywords; index as i"
+        >
+          <span class="badge tool-badge">{{
+            projects[index].keywords[i]
+          }}</span>
+        </div>
+      </div>
+
+      <div class="card-text flex-grow-1">
+        <p>{{ projects[index].description }}</p>
+      </div>
+    </div>
   </div>
-</div>
+</a>

@@ -131,6 +131,7 @@ export class ProjectInfoService {
       where: "uxchallenge.co",
       url: "https://www.uxchallenge.co/",
       figma: "https://www.figma.com/design/RzIcWEkpXik6FnJfH0wDsv/Untitled?node-id=76-1065&t=B2lrEITn6u8zh3qT-1",
+      prototype_mobile: this.getSafeVideoUrl("https://embed.figma.com/proto/RzIcWEkpXik6FnJfH0wDsv/The-Perfect-Jeans?page-id=76%3A1065&node-id=48-586&p=f&viewport=664%2C-333%2C0.06&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=48%3A586&embed-host=share"),
       tools: ["Figma", "Mobile Design","Sketching"],
     },
 
@@ -142,6 +143,7 @@ export class ProjectInfoService {
       where: "www.associazionekepos.com",
       url: "https://www.associazionekepos.com/",
       figma: "https://www.figma.com/design/An11MkOwKVk5Te2YkN8uw9/K-epos?node-id=2-1953&t=wEIE8Rv4CLdsV55M-1",
+      prototype_web: this.getSafeVideoUrl("https://embed.figma.com/proto/An11MkOwKVk5Te2YkN8uw9/K-epos?page-id=2%3A1953&node-id=127-5916&p=f&viewport=-372%2C-586%2C0.08&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=127%3A5916&embed-host=share"),
       tools: ["Figma", "Web Design","Interviews", "Questionnaire", "Personas", "Prototyping", "Accessibility"],
     },
   ]

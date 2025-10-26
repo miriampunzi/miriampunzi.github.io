@@ -171,5 +171,45 @@ img {
 .prototype-container-website iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.prototype-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.prototype-container-mobile iframe {
+  aspect-ratio: 9 / 16;
+}
+
+@media (min-width: 400px) {
+  .prototype-container-mobile iframe {
+    width: 70%;
+  }
+}
+
+@media (min-width: 576px) {
+  .prototype-container-mobile iframe {
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .prototype-container-mobile iframe {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .prototype-container-mobile iframe{
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .prototype-container-mobile iframe{
+    width: 30%;
+  }
 }
