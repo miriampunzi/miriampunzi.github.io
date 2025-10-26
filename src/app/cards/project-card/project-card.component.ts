@@ -15,11 +15,10 @@ export class ProjectCardComponent {
   projects = [
     {
       title: 'K\'epos Website Redesign',
-      description:
-        'UX/UI design of a website for an association.',
+      description: 'Redesign of the K’epos website with user research and Figma prototypes to improve usability.',
       cover: '../../assets/images/project-covers/Cover Kepos.png',
       link: 'kepos',
-      keywords: ['Figma', 'Web Design', 'Interviews', 'Questionnaire'],
+      keywords: ['Figma', 'Web Design', 'Interviews', 'Accessibility'],
     },
 
     {

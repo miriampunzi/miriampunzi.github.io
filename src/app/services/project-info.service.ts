@@ -136,13 +136,13 @@ export class ProjectInfoService {
 
     {
       name: "kepos",
-      about: "UX/UI Design of a website for an association.",
-      what: "Design Challenge \"Finding jeans that fit\"",
-      duration: "April 2025 - May 2025",
-      where: "uxchallenge.co",
-      url: "https://www.uxchallenge.co/",
-      figma: "https://www.figma.com/design/RzIcWEkpXik6FnJfH0wDsv/Untitled?node-id=76-1065&t=B2lrEITn6u8zh3qT-1",
-      tools: ["Figma", "Mobile Design","Sketching"],
-    }
+      about: "UX/UI study & redesign of the K’epos website, a cultural association in Bergamo focused on classical studies and ancient culture. The project included user interviews, questionnaires, persona creation, and both low-fidelity and high-fidelity prototypes in Figma, aiming to improve navigation, usability, and content organization.",
+      what: "Redesign Challenge",
+      duration: "May 2025 - Oct 2025",
+      where: "www.associazionekepos.com",
+      url: "https://www.associazionekepos.com/",
+      figma: "https://www.figma.com/design/An11MkOwKVk5Te2YkN8uw9/K-epos?node-id=2-1953&t=wEIE8Rv4CLdsV55M-1",
+      tools: ["Figma", "Web Design","Interviews", "Questionnaire", "Personas", "Prototyping", "Accessibility"],
+    },
   ]
 }

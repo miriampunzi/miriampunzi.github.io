@@ -167,3 +167,9 @@ img {
   background: radial-gradient(var(--text), var(--textTitle));
   color: var(--textChip);
 }
+
+.prototype-container-website iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(0,0,0,0.1);
+}
